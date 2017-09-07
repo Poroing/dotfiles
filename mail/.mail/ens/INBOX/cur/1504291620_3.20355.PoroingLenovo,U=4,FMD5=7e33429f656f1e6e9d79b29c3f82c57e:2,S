@@ -1,0 +1,196 @@
+Return-Path: <tous.eleves-owner@listes.ens-rennes.fr>
+X-Original-To: jjouv422@eleves.ens-rennes.fr
+Delivered-To: jjouv422@eleves.ens-rennes.fr
+Received: from romarin.ens-rennes.fr (romarin.ens-rennes.fr [193.52.92.218])
+	by arum.ensr.local (Postfix) with ESMTP id 8B9D0A816B7;
+	Fri,  1 Sep 2017 14:45:11 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 5D7A41720BD0;
+	Fri,  1 Sep 2017 14:45:11 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from romarin.ens-rennes.fr ([127.0.0.1])
+	by localhost (romarin.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id TzdyEe6xZBk4; Fri,  1 Sep 2017 14:45:11 +0200 (CEST)
+Received: from atlas.ens-rennes.fr (atlas.ens-rennes.fr [193.52.92.36])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 25B6C1720BDE;
+	Fri,  1 Sep 2017 14:45:10 +0200 (CEST)
+Received: by atlas.ens-rennes.fr (Postfix, from userid 1001)
+	id 1FF7F122A39; Fri,  1 Sep 2017 14:45:13 +0200 (CEST)
+X-Original-To: tous.eleves@listes.ens-rennes.fr
+Delivered-To: tous.eleves@listes.ens-rennes.fr
+Received: from coucou.ens-rennes.fr (coucou.ens-rennes.fr [193.52.92.4])
+	by atlas.ens-rennes.fr (Postfix) with ESMTP id 78B4D122A38;
+	Fri,  1 Sep 2017 14:44:58 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 76BC785BF2;
+	Fri,  1 Sep 2017 14:44:58 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+X-Spam-Flag: NO
+X-Spam-Score: -0.486
+X-Spam-Level:
+X-Spam-Status: No, score=-0.486 required=4 tests=[BAYES_00=-1.9,
+	HTML_IMAGE_ONLY_28=1.404, HTML_MESSAGE=0.001, RP_MATCHES_RCVD=-0.001,
+	T_REMOTE_IMAGE=0.01] autolearn=no autolearn_force=no
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Bl3Z8HNjpMGH; Fri,  1 Sep 2017 14:44:58 +0200 (CEST)
+Received: from fermat.ens-rennes.fr (fermat.ens-rennes.fr [193.52.92.28])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 2099A7FED0;
+	Fri,  1 Sep 2017 14:44:58 +0200 (CEST)
+Received: from mbp-egautrin.local (unknown [10.35.6.229])
+	by fermat.ens-rennes.fr (Postfix) with ESMTPSA id 1BD9D20740;
+	Fri,  1 Sep 2017 14:44:58 +0200 (CEST)
+To: =?UTF-8?Q?Tous_=c3=a9l=c3=a8ves_ENS_Rennes?=
+ <tous.eleves@listes.ens-rennes.fr>, tous-ens@listes.ens-rennes.fr
+From: gautrin-ens <eric.gautrin@ens-rennes.fr>
+Message-ID: <e87eab2c-45e9-795e-a8a5-4a5dbf0d17e6@ens-rennes.fr>
+Date: Fri, 1 Sep 2017 14:44:57 +0200
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:45.0)
+ Gecko/20100101 Thunderbird/45.8.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------CA7B946CF18B1EEF30E3641A"
+Subject: [tous.eleves] Elections
+Reply-To: gautrin-ens <eric.gautrin@ens-rennes.fr>
+X-Loop: tous.eleves@listes.ens-rennes.fr
+X-Sequence: 1097
+Errors-to: tous.eleves-owner@listes.ens-rennes.fr
+Precedence: list
+Precedence: bulk
+Sender: tous.eleves-request@listes.ens-rennes.fr
+X-no-archive: yes
+List-Id: <tous.eleves.listes.ens-rennes.fr>
+List-Archive: <http://listes.ens-rennes.fr/sympa/arc/tous.eleves>
+List-Help: <mailto:sympa@listes.ens-rennes.fr?subject=help>
+List-Owner: <mailto:tous.eleves-request@listes.ens-rennes.fr>
+List-Post: <mailto:tous.eleves@listes.ens-rennes.fr>
+List-Subscribe: <mailto:sympa@listes.ens-rennes.fr?subject=subscribe%20tous.eleves>
+List-Unsubscribe: <mailto:sympa@listes.ens-rennes.fr?subject=unsubscribe%20tous.eleves>
+
+This is a multi-part message in MIME format.
+--------------CA7B946CF18B1EEF30E3641A
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+Bonjour,
+
+Pour information, vient d'être publiée sur le Pano 
+(http://www.pano.ens-rennes.fr/) une décision du président pour 
+l'ouverture d'un bureau de vote pour les élections des représentants des 
+usagers au conseil d'administration et au conseil scientifique.
+
+Les élections se dérouleront les 2 et 3 octobre 2017. De plus amples 
+informations prochainement seront envoyées aux élèves.
+
+Je vous invite d'ores et déjà à constituer des listes de candidats.
+
+Cordialement,
+
+Eric Gautrin
+
+
+-- 
+
+
+
+
+
+	
+
+*Éric Gautrin*
+Directeur général des services, responsable valorisation
+École normale supérieure de Rennes
+Campus de Ker Lann - Avenue Robert Schuman - 35170 BRUZ
+T : 02.99.05.93.04 - F : 02.99.05.93.29
+www.ens-rennes.fr <http://www.ens-rennes.fr>
+
+
+
+
+--------------CA7B946CF18B1EEF30E3641A
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <p><br>
+    </p>
+    <p>Bonjour,<br>
+    </p>
+    <p>Pour information, vient d'être publiée sur le Pano
+      (<a class="moz-txt-link-freetext" href="http://www.pano.ens-rennes.fr/">http://www.pano.ens-rennes.fr/</a>) une décision du président pour
+      l'ouverture d'un bureau de vote pour les élections des
+      représentants des usagers au conseil d'administration et au
+      conseil scientifique. <br>
+    </p>
+    <p>Les élections se dérouleront les 2 et 3 octobre 2017. De plus
+      amples informations prochainement seront envoyées aux élèves. <br>
+    </p>
+    <p>Je vous invite d'ores et déjà à constituer des listes de
+      candidats.</p>
+    <p>Cordialement,</p>
+    <p>Eric Gautrin<br>
+    </p>
+    <br>
+    <div class="moz-signature">-- <br>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <br>
+      <div class="moz-signature"><br>
+        <meta http-equiv="content-type" content="text/html;
+          charset=utf-8">
+        <title></title>
+        <br>
+        <div class="moz-forward-container">
+          <div class="moz-signature"> <br>
+            <style type="text/css">
+<!--
+body,td,th {
+	font-family: Helvetica, sans-serif;
+	color: #000;
+}
+.bleu {
+	color: #324C98;
+
+}
+}
+-->
+</style>
+            <table>
+              <tbody>
+                <tr>
+                  <td align="left" valign="middle"> <img
+                      moz-do-not-send="true"
+src="http://w3.bretagne.ens-cachan.fr//communication/Logo_ENS_signature_web.jpg"
+                      alt="" height="93" hspace="20" width="120"> <br>
+                  </td>
+                  <td valign="middle" width="500">
+                    <p><font face="Helvetica, Arial, sans-serif"
+                        size="-1"><b class="bleu"><font size="-1">É</font>ric
+                          Gautrin</b> <br>
+                        <span class="noir">Directeur général des
+                          services, responsable valorisation<br>
+                          École normale supérieure de Rennes <br>
+                          Campus de Ker Lann - Avenue Robert Schuman -
+                          35170 BRUZ <br>
+                          T : 02.99.05.93.04 - F : 02.99.05.93.29</span><br>
+                        <a moz-do-not-send="true"
+                          href="http://www.ens-rennes.fr" class="bleu">www.ens-rennes.fr</a></font></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br>
+        </div>
+        <br>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------CA7B946CF18B1EEF30E3641A--

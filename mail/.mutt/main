@@ -1,0 +1,13 @@
+# vim: ft=muttrc
+
+set folder = "~/.mail/main"
+
+set spoolfile = "+Inbox"
+set record = "+Sent\ Items"
+set postponed = "+Drafts"
+
+set sendmail = "/usr/bin/msmtp -a outlook"
+set realname = "Jouve Jean"
+set from = "jean-18-09@hotmail.fr"
+
+alias propriaitaire samuelpatricia.bricard@sfr.fr

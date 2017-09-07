@@ -1,0 +1,252 @@
+Received: from SN1NAM04HT117.eop-NAM04.prod.protection.outlook.com
+ (2603:10a6:7:29::39) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0110.EURPRD02.PROD.OUTLOOK.COM; Fri, 1 Sep 2017 07:47:41 +0000
+Received: from SN1NAM04FT060.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.59) by SN1NAM04HT117.eop-NAM04.prod.protection.outlook.com
+ (10.152.89.10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1385.11; Fri, 1
+ Sep 2017 07:47:40 +0000
+Authentication-Results: spf=pass (sender IP is 90.85.39.77)
+ smtp.mailfrom=maif.fr; hotmail.fr; dkim=pass (signature was verified)
+ header.d=maif.fr;hotmail.fr; dmarc=bestguesspass action=none
+ header.from=maif.fr;
+Received-SPF: Pass (protection.outlook.com: domain of maif.fr designates
+ 90.85.39.77 as permitted sender) receiver=protection.outlook.com;
+ client-ip=90.85.39.77; helo=asbsmtp.maif.fr;
+Received: from asbsmtp.maif.fr (90.85.39.77) by
+ SN1NAM04FT060.mail.protection.outlook.com (10.152.89.117) with Microsoft SMTP
+ Server id 15.1.1385.11 via Frontend Transport; Fri, 1 Sep 2017 07:47:39 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:BEFCE6B30086EFF460FAD06B4C486F3F1108F6869512DF81170B3718E6217576;UpperCasedChecksum:E5F44D6BC9E468DF12668A208835FB49F88295D75EAA9BF4DDE28CAED8C414DE;SizeAsReceived:1313;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=maif.fr; i=@maif.fr; q=dns/txt; s=dkim-maif;
+  t=1504252060; x=1535788060;
+  h=date:to:message-id:subject:mime-version:
+   content-transfer-encoding:from;
+  bh=DvywzQ1ySNWgCBxz3DJNwMLW23xutsJjQXARzisrTus=;
+  b=LPONSHYZOSHj99PX3QiZ2A7i4aEykS4jCXXkOQeTzwPDBm8On1TAoZgA
+   ytrfCVKwGh6zh0HqPf0zo19zvRBXQof/JFzPmjXrRqg5nryoILnSYictm
+   CYimYIZA3MQ+L872TO+egkP0oC7WDgQ1zHXUxo6b0ykU135y3WPRVxTri
+   M=;
+Authentication-Results-Original: asbsmtp.maif.fr; dkim=none (message not
+ signed) header.i=none
+X-IronPort-AV: E=Sophos;i="5.41,457,1498514400"; 
+   d="scan'208,217";a="56520962"
+from: assurance@maif.fr
+Received: from 242.16.16.172.rev.sfr.net (HELO promethium.maif.local) ([172.16.16.242])
+  by asbsmtp.maif.fr with ESMTP; 01 Sep 2017 09:47:39 +0200
+Received: from slapq078 ([172.20.30.26])
+          by hassium.maif.local
+          with ESMTP id 2017090109473904-153743 ;
+          Fri, 1 Sep 2017 09:47:39 +0200 
+Date: Fri, 1 Sep 2017 09:47:38 +0200 (CEST)
+To: jean-18-09@hotmail.fr
+Message-ID: <1407905147.2937.1504252058946.JavaMail.admtie@slapq078>
+Subject: =?UTF-8?Q?Cr=C3=A9ation_de_votre_espace_personnel_MAIF?=
+X-TNEFEvaluated: 1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+X-IncomingHeaderCount: 14
+Return-Path: assurance@maif.fr
+X-MS-Exchange-Organization-Network-Message-Id: 0bb05d3a-0847-41f4-2085-08d4f10db8bc
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04FT060;1:rV9mKJYeV6Gk/LyYHlZZvFVnA6lH0v2Z2Wdm1QBPLOVRMtKlBOeB5GKhdt7gxTCB81BWsN0qAJuiyx+fzErpQ8QOHUXZgewp9tAHgcSXODzE3+F4B8wFHCwyd+/UP0rj
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM04HT117;H:asbsmtp.maif.fr;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: SN1NAM04FT060.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-UserLastLogonTime: 9/1/2017 4:20:18 AM
+X-MS-Office365-Filtering-Correlation-Id: 0bb05d3a-0847-41f4-2085-08d4f10db8bc
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(23075)(300000502095)(300135100095)(5000083)(610149)(650150)(651001)(8291501071);SRVR:SN1NAM04HT117;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT117;3:pqy1QbjTflX4bQ/1wgTcDi3ytogSMZYG90cl5RRHFpz4PLiK1Znh5O2k30fFJ5lQmem+Y8mU/2PcrtUmlMcQ3HF2YE+GoUhXsqjTZN5qiV4uAgzzd80smbJowDJVU35/b+1b3U0ZG8Mz8kC+0bf9nlBCHJsXBFltMR2vsJISXv4zNbZev+uQTos6HEBpvN9doUXIJcALaCGOpYu4lkCNhILvWKk+iNhBvUzILtzMZvslQ3j1M+kj3NQXp6yifUwNeOU8mYCyHSaew/1UGyFM3WE++LMRvNyHYEWhV9fydRAyhjGhyBJFByWIt1eP1SqM;25:kveKBlRuAwzulR3ORUZ0tkd1866gIonKuGg3yD+r6W2aEAq8y5Yw5ulc1gzNSs25vYi7XtnaK8bgZkgH2fk0ZyIeGdRItjbaScr/IK9T2rJ1hsph0HxiHM0CtCbrOnIuA9f5BotiKdkCUOiQ2pC+N9VkE6yOrWL8mAHIcdJUVQ1vVAp9FR1GlRy3rKy+lmLmeJ3g+VAQAzj30reUer4kcdSLeLy9U3xVcmZ5xFDgXIAqeX4BAmWFd8h/BcndrkS/lAI19m0h/q/nvYxldvinfYFj55HVtXt2ZmZwqfxfftH0/qBTZgk/F1OfST6Ntkm6xLGAr9Ir38/XEOgLDMJ83Q==;31:dJFC050TKgo8LGnkO2xHtKZrVnHk9e1SCbilH9A8RYQRUijdeoUMIfx6mYtalBqBvk+iCSrCTSTO4o2ggQqnSfrAFSnqfjRsLksfzf2gRPbDI0PAAjgRuWrr84YW7wJag5D4GA6umSYgwOFIYvPxt+e7N0i2WZL/1QLqkjfsA1IlDu8chV1ES8elHHjFU+l9KG+qdkyE4gAtpk6rGjkm7w0DOTozwOzYIydJb+is2e8=
+X-MS-TrafficTypeDiagnostic: SN1NAM04HT117:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 90.85.39.77
+X-SID-PRA: ASSURANCE@MAIF.FR
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(251874665654222)(170290950945281);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(595095)(82015058);SRVR:SN1NAM04HT117;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:SN1NAM04HT117;
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT117;4:z1Jv2yLRux54Rrm2wxZBEd+3F/s5lwqB3Pt9yFdIbyKpfjTenjRsZaG5mFm2evHoZU7PocP+1RsmYGB0I2CEzOJPKb4D+MfB+KcDQh1i6geFq7ngvFboQ26yWecuIUeqvnKncVoGRzBLzeUWs19YryTq9HnteaCulrSpwoFKElASQuJYV+StVrAQaNmI6eUmXhao05tIpPJCXx283Hx6iS7rp+MFCrbdBXFaW+zndHGxI144BILb0QCF/Wmyv1wKt9Y4oiofYlpKJgPIpoV+r3Eq1V/jP0lzf6/08UWkoMxXgzgHJVYPbbpS6XZ+TUurLpCuQbNF8zsT2ENjVinBbA==;23:jHCpUEAX+IWR9oku0naNEOXW28Z5Ljw1z6NMgblTQF3Ivp+nqBP2MGuQl9/Xqi4nSjKaQgsQE1Jn4B+JCgiQZ6BRUQr+K67kq23nhmCkW619WWsrmqF6VfUJZ5Yto6oBD/Y7+3EpkKBeZfo+vNrww9gTwX2U1RDRS4CCNx820UM=;6:9I10/46bK31+5ONV3HcHUK27v8D8zWjkUxXIHbVRfF6pDa9Q9clP2JIR8fg2YOF7jdYwJZVvMNdOrY8M9fxq4qBGmpZH8nzAEIpHQ+jZfS7H/p17b+22fCY8tD0diM5jxUME2WiKoSmTPC2jhPmCu8RvJOWMIVlYG6uWIU2kzNa4P9+RpW5ZHjRoBO+Ia0TnCoAvLxciogl+nk13/ySIrvUKGTTJ4/z+dpmZCkh21aRcGQEi2HC86bNRKhqoP6RXz6CqB+ggsK4BtlFRnF3esaE2gNGbZX16zUIYbLT8rM07Ej0BJVEtea0QuLgxPTUnbK+8wON7jf4x+hEcC+94yA==
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;SN1NAM04HT117;5:Lv9HQHWJ5iGkI+roklKWaj3gmhtbRAlkzs0SGH5A/rAnZYGV4GEkc3SrpDV6JCGRh+6F6O7Pb/nv7KakrQcUT2H3d4REeN4dinSTs/Mr3tOLsPnnJiRmAYMhsYOadk5Usjo/bvXpZSSzqZOeBxxbMw==;24:Cjz6Slum+0xdRmlEgJZYz8Ce0g63ys+oczrGXr1+2gliW8kJNC0uzX0SHtTy7/lCJ9R1zzB8p2NvBcDT+sRw1CbfqIGgsDjAQUq3eUpUt4I=;7:3I2T4BjehPH34QUsQrikfiDnIuszkAXtvrWPfmsTv0aRSqjDtFqGX9jtYTEPL+9JbsTNvB7X6geXnSbFyou8KVFXsBS0BRhwHZ0+nMTziUrNEZ/tLrvzOekkZ5OeobVPZ8UcW3osY7duEmDqk9oKdFVLGLtKLVjPshrCm1/++c1UN6OHRzU+c7c91wSTIvxeQ7AKUxYOZVq4mqT5P7xf7YhmQIVqD3gicCBAa7eVCak=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Sep 2017 07:47:39.8517
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM04HT117
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3725193
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.1385.016
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:VBkPHdbn4AZUA6Rd6WSKJcVhAuLgPi8uy1p5ZfGqFC9g51627jLXI6H0b0GrhQ71SniG3njmrareutpR3TKd+7QHInSDpgfKrKvDkK1pcJeTwwT5XSDlFcOAPnBtST2l
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdfTwBQAbsKvuCBxTkxKgdPExw2u2v5Monf2Z/322/06z18UoTrB60+TQpPgj9VdFjnG42hY9eptkLKdThmjYNBeTcmhh4bMCfF3Sdzzz1bUMfFu99d26WG/ZKKg/Pvp/bXbciibttWhXQHKmSEHr05Wfid3HOYWmOSBHg9RhE3+lQo9+CE8czGav2U2iVzOYDXKX7rkxYi9rw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	ZmyWkzNGORrnK21EeVjZ+GZ7Yqf+wX2JSlNw0R3eCdkjA8Pp7Zt8CP5iUafc+D+RGvZvuzcds7s6tICOehDeMcOThoN1kNGXXkY5Lq5G/aqwqU+3E6G6tsK6x680xw4NBX2UMxEljtKMrS+O+DWN+acKVBwzcPZeNUNsVwKjPcH7cWThIlnTjslQisX/qcRfSo9qBC5qOtE5xdwcYJ3dh5eO+4N66mp7263MOKM4BHH+8AwUMxj0QTUM2uXuty06ksB75Try0xKLixQXKBC+iA==
+MIME-Version: 1.0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>MAIF</title>            </head>    <body style=3D"padding:0; margin:0;=
+">        <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" bgcolor=3D"#FFFFFF">            <tr>                <td align=3D"cen=
+ter" valign=3D"top" width=3D"100%">                    <table width=3D"600"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#FFFFFF">     =
+                   <tr>                                <td align=3D"left" v=
+align=3D"top" width=3D"600">                                    <img src=3D=
+"http://www.maif.fr:80/img/header_creation_espace_perso.gif" width=3D"600" =
+height=3D"130" alt=3D"Cr=C3=A9ation de votre espace perso maif" border=3D"0=
+" hspace=3D"0" vspace=3D"0" style=3D"display:block; ">                     =
+           </td>                        </tr>                        <tr>  =
+                          <td align=3D"left" valign=3D"top" width=3D"600"> =
+                               <img src=3D"http://www.maif.fr:80/img/commun=
+/pix.gif" width=3D"600" height=3D"20" alt=3D"" border=3D"0" hspace=3D"0" vs=
+pace=3D"0" style=3D"display:block; ">                        </tr>         =
+               <tr>                            <td align=3D"left" valign=3D=
+"top" width=3D"600">                                <table width=3D"600" ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#FFFFFF">        =
+                            <tr>                                        <td=
+ align=3D"left" valign=3D"top" width=3D"10">                               =
+             <img src=3D"http://www.maif.fr:80/img/commun/pix.gif" width=3D=
+"10" height=3D"100" alt=3D"" border=3D"0" hspace=3D"0" vspace=3D"0" style=
+=3D"display:block; ">                                        </td>         =
+                                    <table width=3D"580" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" bgcolor=3D"#FFFFFF">                        =
+                            <tr>                                           =
+             <td align=3D"left" valign=3D"top" width=3D"580">              =
+                                              <font style=3D"font-family:Ar=
+ial, Helvetica, sans-serif; font-size:11px; color:#333333;">               =
+                                                 Nous vous confirmons la cr=
+=C3=A9ation de votre espace personnel sur maif.fr                          =
+                                      </font>                              =
+                                                                           =
+</td>                                                    </tr>             =
+                                          <tr>                             =
+                           <td align=3D"left" valign=3D"top" width=3D"580">=
+                                                            <img src=3D"htt=
+p://www.maif.fr:80/img/commun/pix.gif" width=3D"580" height=3D"15" alt=3D""=
+ border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"display:block; ">         =
+                                          </td>                            =
+                        </tr>                                              =
+      <tr>                                                        <td align=
+=3D"left" valign=3D"top" width=3D"580">                                    =
+                        <font style=3D"font-family:Arial, Helvetica, sans-s=
+erif; font-size:11px; color:#333333;">                                     =
+                           Vous pouvez d=C3=A9sormais y acc=C3=A9der avec v=
+os identifiants :                                                          =
+      </font>                                                              =
+                                           </td>                           =
+                         </tr>                                             =
+        <tr>                                                        <td ali=
+gn=3D"left" valign=3D"top" width=3D"580">                                  =
+                          <img src=3D"http://www.maif.fr:80/img/commun/pix.=
+gif" width=3D"580" height=3D"15" alt=3D"" border=3D"0" hspace=3D"0" vspace=
+=3D"0" style=3D"display:block; ">                                          =
+         </td>                                                    </tr>    =
+                                                <tr>                       =
+                                 <td align=3D"left" valign=3D"top" width=3D=
+"580">                                                            <font sty=
+le=3D"font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#e11e=
+19; font-weight:bold;">                                                    =
+            Identifiant : <font style=3D"color:#000000;">jean-18-09@hotmail=
+.fr</font><br>                                                             =
+   Mot de passe : <font style=3D"color:#000000;">D8289XSu</font>           =
+                                                 </font>                   =
+                                                                           =
+           </td>                                                    </tr>  =
+                                                  <tr>                     =
+                                   <td align=3D"left" valign=3D"top" width=
+=3D"580">                                                            <img s=
+rc=3D"http://www.maif.fr:80/img/commun/pix.gif" width=3D"580" height=3D"15"=
+ alt=3D"" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"display:block; ">=
+                                                   </td>                   =
+                                 </tr>                                     =
+           <tr>                                                    <td alig=
+n=3D"left" valign=3D"top" width=3D"580">                                   =
+                     <font style=3D"font-family:Arial, Helvetica, sans-seri=
+f; font-size:11px; color:#333333;">                                        =
+                    Si l'une de ces informations est inexacte, merci de bie=
+n vouloir la corriger</font>                                               =
+  </td>                                                </tr>               =
+                                  <tr>                                     =
+               <td align=3D"left" valign=3D"top" width=3D"580">            =
+                                            <font style=3D"font-family:Aria=
+l, Helvetica, sans-serif; font-size:11px; color:#333333;">                 =
+                                           <a href=3D"http://www.maif.fr:80=
+/">Acc=C3=A9dez =C3=A0 votre espace personnel</a></font>                   =
+                              </td>                                        =
+        </tr>                                                <tr>          =
+                                          <td align=3D"left" valign=3D"top"=
+ width=3D"580">                                                        <fon=
+t style=3D"font-family:Arial, Helvetica, sans-serif; font-size:11px; color:=
+#333333;">Cordialement,</font>                                             =
+       </td>                                                </tr>          =
+                                      <tr>                                 =
+                   <td align=3D"left" valign=3D"top" width=3D"580">        =
+                                                <img src=3D"http://www.maif=
+.fr:80/img/commun/pix.gif" width=3D"580" height=3D"15" alt=3D"" border=3D"0=
+" hspace=3D"0" vspace=3D"0" style=3D"display:block; ">                     =
+                              </td>                                        =
+        </tr>                                                <tr>          =
+                                          <td align=3D"left" valign=3D"top"=
+ width=3D"580">                                                        <fon=
+t style=3D"font-family:Arial, Helvetica, sans-serif; font-size:11px; color:=
+#333333;">                                                            La MA=
+IF<br>                                                            <a href=
+=3D"http://www.maif.fr:80/accueil.html?xtor=3DEPR-1127-[creation_espace_per=
+so]&amp;utm_source=3DMaif-prospect&amp;utm_medium=3DEmailing-relationnel&am=
+p;utm_campaign=3DTOUTPRODUIT&amp;utm_term=3D&amp;utm_content=3Dcreation_esp=
+ace_perso" style=3D"text-decoration:underline; color:#e11e19;">            =
+ http://www.maif.fr</a>                                                    =
+  </font>                                                 </td>            =
+                                    </tr>                                  =
+              <tr>                                                    <td a=
+lign=3D"left" valign=3D"top" width=3D"580">                                =
+                        <img src=3D"http://www.maif.fr:80/img/commun/pix.gi=
+f" width=3D"580" height=3D"15" alt=3D"" border=3D"0" hspace=3D"0" vspace=3D=
+"0" style=3D"display:block; ">                                             =
+      </td>                                                </tr>           =
+                                     <tr>                                  =
+                  <td align=3D"left" valign=3D"top" width=3D"580">         =
+                                               <font style=3D"font-family:A=
+rial, Helvetica, sans-serif; font-size:11px; color:#333333;">              =
+                                              Si vous souhaitez supprimer v=
+os informations sur notre site, <a href=3D"http://www.maif.fr:80//service/e=
+criveznous/afficherEcrivezNous.action?xtor=3DEPR-1127-[creation_espace_pers=
+o]&amp;utm_source=3DMaif-prospect&amp;utm_medium=3DEmailing-relationnel&amp=
+;utm_campaign=3DTOUTPRODUIT&amp;utm_term=3D&amp;utm_content=3Dcreation_espa=
+ce_perso">=C3=A9crivez-nous</a>                                            =
+               </font>                                                 </td=
+>                                                </tr>                     =
+                           <tr>                                            =
+        <td align=3D"left" valign=3D"top" width=3D"580">                   =
+                                     <img src=3D"http://www.maif.fr:80/img/=
+commun/pix.gif" width=3D"580" height=3D"15" alt=3D"" border=3D"0" hspace=3D=
+"0" vspace=3D"0" style=3D"display:block; ">                                =
+                   </td>                                                </t=
+r>                                            </table>                     =
+                   </td>                                    </tr>          =
+                      </table>                            </td>            =
+            </tr>                        <tr>                            <t=
+d align=3D"center" valign=3D"top" width=3D"600">                           =
+     <a href=3D"http://www.maif.fr:80/accueil.html?xtor=3DEPR-1127-[creatio=
+n_espace_perso]&amp;utm_source=3DMaif-prospect&amp;utm_medium=3DEmailing-re=
+lationnel&amp;utm_campaign=3DTOUTPRODUIT&amp;utm_term=3D&amp;utm_content=3D=
+creation_espace_perso" style=3D"text-decoration:none;"><img src=3D"http://w=
+ww.maif.fr:80/img/commun/c_maif.gif" width=3D"600" height=3D"39" alt=3D"mai=
+f.fr" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"display:block; "></a>=
+                            </td>                        </tr>             =
+           <tr>                            <td align=3D"left" valign=3D"top=
+" width=3D"600">                                <img src=3D"http://www.maif=
+.fr:80/img/commun/pix.gif" width=3D"600" height=3D"5" alt=3D"" border=3D"0"=
+ hspace=3D"0" vspace=3D"0" style=3D"display:block; ">                      =
+      </td>                        </tr>                    </table>       =
+         </td>            </tr>           </table>    </body></html>

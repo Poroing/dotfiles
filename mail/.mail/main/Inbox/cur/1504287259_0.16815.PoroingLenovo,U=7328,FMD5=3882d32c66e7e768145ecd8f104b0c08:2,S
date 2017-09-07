@@ -1,0 +1,146 @@
+Received: from DB5EUR03HT218.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:200:6::31) by AM5PR0801MB1636.eurprd08.prod.outlook.com with HTTPS
+ via AM4PR0501CA0021.EURPRD05.PROD.OUTLOOK.COM; Wed, 26 Jul 2017 15:53:37
+ +0000
+Received: from DB5EUR03FT033.eop-EUR03.prod.protection.outlook.com
+ (10.152.20.58) by DB5EUR03HT218.eop-EUR03.prod.protection.outlook.com
+ (10.152.21.151) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1240.9; Wed, 26
+ Jul 2017 15:53:36 +0000
+Authentication-Results: spf=none (sender IP is 84.16.68.112)
+ smtp.mailfrom=pokecardex.com; hotmail.fr; dkim=none (message not signed)
+ header.d=none;hotmail.fr; dmarc=none action=none header.from=pokecardex.com;
+Received-SPF: None (protection.outlook.com: pokecardex.com does not designate
+ permitted sender hosts)
+Received: from SNT004-MC5F10.hotmail.com (10.152.20.60) by
+ DB5EUR03FT033.mail.protection.outlook.com (10.152.20.76) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1240.9 via Frontend Transport; Wed, 26 Jul 2017 15:53:35 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:38E3106ECB7295AD4C987201CE0682DBC5C59E50561986B83E2ED215EB0A1D2C;UpperCasedChecksum:8502FDB6547E9C22A787FE0B8F3F72728FEDE1A1FA65EDB4799796125AC99424;SizeAsReceived:1780;Count:26
+Received: from smtp-imu4.infomaniak.ch ([84.16.68.112]) by SNT004-MC5F10.hotmail.com with Microsoft SMTPSVC(7.5.7601.23143);
+	 Wed, 26 Jul 2017 08:53:31 -0700
+Received: from os-dmu589.infomaniak.ch (os-dmu589.infomaniak.ch [84.16.72.183])
+	by smtp-imu4.infomaniak.ch (8.14.5/8.14.5) with ESMTP id v6QFrSjD017176
+	for <jean-18-09@hotmail.fr>; Wed, 26 Jul 2017 17:53:28 +0200
+Received: from os-dmu589.infomaniak.ch (localhost [127.0.0.1])
+	by os-dmu589.infomaniak.ch (8.14.5/8.14.5) with ESMTP id v6QFrSgL030366
+	for <jean-18-09@hotmail.fr>; Wed, 26 Jul 2017 17:53:28 +0200
+Received: (from uid24041@localhost)
+	by os-dmu589.infomaniak.ch (8.14.5/8.14.2/Submit) id v6QFrStu030365;
+	Wed, 26 Jul 2017 17:53:28 +0200
+X-Authentication-Warning: os-dmu589.infomaniak.ch: uid24041 set sender to webmaster@pokecardex.com using -f
+To: =?UTF-8?B?UG9yb2luZw==?= <jean-18-09@hotmail.fr>
+Subject: =?UTF-8?B?QWN0aXZhdGlvbiBkdSBub3V2ZWF1IG1vdCBkZSBwYXNzZQ==?=
+From: =?UTF-8?B?Rm9ydW0gZGUgUG9rw6ljYXJkZXg=?= <contact@pokecardex.com>
+Reply-To: =?UTF-8?B?Rm9ydW0gZGUgUG9rw6ljYXJkZXg=?= <contact@pokecardex.com>
+Sender: <contact@pokecardex.com>
+Message-ID: <a9131eeac9e20161ec51c478de084b4c@www.pokecardex.com>
+Date: Wed, 26 Jul 2017 17:53:28 +0200
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Mailer: phpBB3
+X-MimeOLE: phpBB3
+X-phpBB-Origin: phpbb://www.pokecardex.com/forums
+X-AntiAbuse: Board servername - =?UTF-8?B?d3d3LnBva2VjYXJkZXguY29t?=
+X-AntiAbuse: User_id - 1
+X-AntiAbuse: Username - =?UTF-8?B?QW5vbnltb3Vz?=
+X-AntiAbuse: User IP - 89.3.91.57
+Return-Path: webmaster@pokecardex.com
+X-OriginalArrivalTime: 26 Jul 2017 15:53:33.0095 (UTC) FILETIME=[5572BB70:01D30627]
+X-IncomingHeaderCount: 26
+X-MS-Exchange-Organization-Network-Message-Id: 3372a1e8-3985-4986-e543-08d4d43e79e6
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 84.16.68.112
+CMM-sending-ip: 84.16.68.112
+CMM-Authentication-Results: hotmail.com; spf=none (sender IP is 84.16.68.112)
+ smtp.mailfrom=webmaster@pokecardex.com; dkim=none header.d=pokecardex.com;
+ x-hmca=none header.id=contact@pokecardex.com
+CMM-X-SID-PRA: contact@pokecardex.com
+CMM-X-AUTH-Result: NONE
+CMM-X-SID-Result: NONE
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MjtHRD0xO1NDTD0w
+CMM-X-Message-Info: 11chDOWqoTkEFSOYAJsOP01WtjgbphkhymDeAHf5IQ3cN+XY/wrm/6FoCl1SmgtG+Zjd3Sz6G2YSPxmAXU0wEPjcr9UrTmtwX/xwgKeF+jCUxNPbSTlhAn9bzWPShz+UxIZZnbDtr21icAo0Q50170oIjeZu5dryq0gpqN3Q7yuTbyPIF1YdMb+Xypb7IVuuvahr8Bh2KGdXjokKATfd1eF/5ic2jutUFHKhqZwKyUS21urYElyisuMf+o8x1vn8
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03FT033;1:epnAJPCmtoFEBWFi3y23QTPC1L5I4kcxuqFekvT0ANTAbMqa9yT3zVg27JkrfRqBLOCPaCPVTYjccvAaTmO+6w/K5PdPe17y+I0RCO9ti91KaJ0K1dDOrNr8yiHFWlEdJVXBS/fidlrWibIDpRfc1fEw8SqMvtCI8uthse129wO2v2d/fz/brYeWDi9ZBgUpHuAgnsrDxab88pN38Y1ENxDcj0JoSMvZfaOFNlrLxa9zEa6y35C1HfJVTCRZ61WpGsIX6v+HCQ6T0JcBZSTTHS2pWbMtWUb/aWSV7kPlhAkqx2+wvGhVEIRa1+TtWOOCiWQVLm40dzPpVl+kFdANyw2VyDupFGtWUUSsjH8mLgZuNLYhSWxi660gcdOmvCwmqRMcUS2j+JeY1alVRrgEhbJn06eHnugDgf/MALEjogzXU6aNoxbzHafYksM5UPRQzrPFPfO4m6uAMxF8UFtvIvqQQU2tUv9RxeDl2xDmDwE=
+X-Forefront-Antispam-Report: EFV:NLI;SFV:SPM;SFS:(28900001);DIR:INB;SFP:;SCL:5;SRVR:DB5EUR03HT218;H:SNT004-MC5F10.hotmail.com;FPR:;SPF:None;LANG:fr;
+X-MS-Exchange-Organization-AuthSource: DB5EUR03FT033.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 3372a1e8-3985-4986-e543-08d4d43e79e6
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(23075)(8291501071);SRVR:DB5EUR03HT218;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;3:7fzCLe62J15voetYUIJKSHHvWbFl6InIi+wD5oiMNvDF3SmsPClXarWCD6Xytc9On25b63/t+EiaUMMkLga9NY6ZZCKortUKRWA26neUKK0XoG2kypzP/sGvJmJR7y2PnEHvIbUxr2IpcfgB0PqmmlZ261sXP6jaq+7DARTYguKH25HqzMG8sd4Z8I37yMoeoFQi6Z5QbYPA+KPgVa/VOHdBqICETlM45jpeVQoeQ39CvF2/PYlvPdYgtX4RTadmL1qlkWUHK2G83YJn51elajOnFtLjdhgS7zq3HST9skwgwGCvwl4QTFyDbokfFN9bC/WYkigHeXyEWoMZ1Bd3KaG+5z2AEG91Ii1zsR95ws4atI+MTF8aYhzOZYLJpGdxvsfkCPucC+1uRDtCH755pxSTTVWfWQBRWUxd1cMUwnssNoBYWOsF10ktNSn4va1YWcTFrrqLbfeLW0W8YQ9zik/kfQJ9cdT/gYz45R8VgEC9/yn3uqWtjZpTXscekCGIQV/kLBM1XUV4XHZSkIUQZWi4X+KQ45yKzsCoRKoXPEY=
+X-MS-TrafficTypeDiagnostic: DB5EUR03HT218:
+X-Microsoft-Exchange-Diagnostics: =?utf-8?B?MTtEQjVFVVIwM0hUMjE4OzI1OlBiMXZkTlBJd1FlbUl3K3NucGNnbmo0Z0lD?=
+ =?utf-8?B?d1VCWlhWR1kvcmdBNCs2OW41RE15b2lsbmtsQi8vZjRuYXJYM1lmdkVISEtU?=
+ =?utf-8?B?NkRpci9Ub0VDMVJiQ05pQjRyR2xwMDdDOHI1OERvbCt2bWxTZWFmcVI3bWlY?=
+ =?utf-8?B?dVFJdStvUnhseDJCTTkvVVJtUjQrTER1NTVSdXdLTDZJMWp5VUd6RXQvaS9C?=
+ =?utf-8?B?MmlJSWxVblJOMWhFamxKVjA4RjFCazFUdmxRbmp3ZjVhU0dZamJDbkpUWWFH?=
+ =?utf-8?B?MUtjM1k1Y21TNWtEbkF0aHF4YWdKdlVvRFVKcDZrQjJCSGUvRGxKZC9nUTVi?=
+ =?utf-8?B?TUdHeVM3NTFRUGI3OThXVDJ4Zjc5VEQwdzB2ZG9pY0JhcnBVRlBlMlV3VDI4?=
+ =?utf-8?B?WE5CWEhzSnBJNURUdjUwM1hmeUxVd1ZiWG1BRUk3UGlHVldNN0hwdmZwaGRU?=
+ =?utf-8?B?SENWNWJaQjIxOUZ4YUlyTTNOZWRLTHMyVFRNRFZtNG11TXVOdFdvZjZlNTRD?=
+ =?utf-8?B?RkRBN3ovVmpDclNqYjJ5eWFQdytYUWxiZm5oaWZ6d3RaQ0d3TEQ5RzJxMWFs?=
+ =?utf-8?B?YUg4QXIyUGwrRXJmWCszZGFmZitDMUpSZnZJSEl4b1hoanhXeHZEVVpxWXRx?=
+ =?utf-8?B?TUdkc2JKWU9ReVRjTkRvcmZ1bFZjVzlEWCtpQ0l6YzhMMEx0ZzRpTWVncmFs?=
+ =?utf-8?B?M21WZHluUml6RVd3ZUZXZmtSWjNDU2lPMnEvSnJNbHRZY0NFVC9EL0hGL1or?=
+ =?utf-8?B?djNHVFFzTmZHVEhVdHc1VmZRbzZBdStPMTBLMzBHNWF2bktqenRUT0s0MGxY?=
+ =?utf-8?B?SFY2MCtCS1JZbEc5VndsSHNDN0RZcGpFYlI1bU0vS3dFRDdsbmI4OTZmK0Q5?=
+ =?utf-8?B?b2pUbzk4bnZIZ0doNmlERDVwUG1WclhUUEdGWkhVVEdaSTdtRFBjSHBBOVlR?=
+ =?utf-8?B?Q2RqSHpKenBESTRwaGxqSnUrTlo5YUwxK2ZsejlsTHY3bmZMQytRNWhhdDQv?=
+ =?utf-8?B?anlEbmFRU3JWZXg2bmhaYnVYMGRIUXBicWQrUkdNc0dXRXBZRGIvZVdObjAv?=
+ =?utf-8?B?T2orSC9rc25UaHh4eDBnSVdTdXdUYnhwMVcrcCtKNUJhRnluZGo4TGU5YkRL?=
+ =?utf-8?B?UDl2Q0dMNVZvdVlxYjhCWG1KbGE5M2ZObWlvUE00RFdRTTJwRFphanA5VXVn?=
+ =?utf-8?B?ekVPTUFhZDNJRVlTNkM0bUMzVlQ3Y2ZKcmpWRHMzZjVPK29jYkRaSXltSys4?=
+ =?utf-8?B?V1ZweG16Yjl4R2FBNHo0K0cxdG9qdXhrbnRrVEZTL3UxbThKbEkzZDMzbFJT?=
+ =?utf-8?B?U0ZGblBXbHNjNWEwbXFHRWNLNFpUZGdmTndmUUtNdFYwR09JODJhSnRITXpZ?=
+ =?utf-8?B?SGtWN2V0OHMwWXVBZER3M25yOTZiQk8wUEh5ZnlnPT0=?=
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;31:HFAoezg28eenLznRrBt9Lh2I/+eXqDoPLO0CUYKfsnFeFeD7895WOoZyUw1p14uZUGdrupnIY94l9ZTPcNKss0JkqYIpZONOs1v7KNWXeM9aLvOUOboD2rRlKgc3hXI+jwMBnoAJIx0x9a6PAvE/VJpUaBgUS3JyVjPTw2sPLBbfmyTFDZIMbU6kwVEJW7lZBjKsl8XRbNdok44uN93Ql/A7SxtenmZ4PK5XNTM/EUB1iWzoAurDbRPWdAwhNNkyeDEYAP04bNbgqTimmv7YSbrFWeLYGg8U+OJx+vmKVl65xYgOOxdqBYjQ86fgtBeEH3kPoJnfi1Ka46bE8nFVPZ7cgkW/VTsWDpN7Uzw4SEnJzhlU8rEGGY+ElWkLlf0axjv31q/o//MFZFavF8zLeHINkva7C+BTrDRpFJWyonteZAIB0bGxJcWJ0oU+gX2HqUfHT3I0zSjsb8IHlMYbd/X5V5sSKjl+rqP8HH+aJCxbV0oICYpA+wDw1JwfXE9tC+Rx4/uizjQ2vHycNXbNnH4+VS67H+i3M19nXel2rzPLsRU7hr7qsKJgET+LhrFsbkH0/0fOIM2VEztQ4Wskny6Y9MmYAMaFMcFo7dgwRIUSGcNP8cpPGntty4i4OlpyrMgWdw0UfW+CtGAEVNkRocbkb+su83sc047hWYaXenbXygSbh+Mu8Y5d9skGrDqzsJYcEgqCkchYvDbXeymIAzffqmY9pMaN+GZWu/o37bcmVALGDnDf8IW1PKfermhm
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444000031);SRVR:DB5EUR03HT218;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DB5EUR03HT218;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;4:z8iinTHN2CtDuBuDsV4GRULt8NOWWBWTo1gLSYUBRLyNzVJTOq52rRbMoUlnADh0RSiw1lhww6+iGn+T+aSblc0VX+nrK/zVTu49TUrf1Ajq7yg6MmQvm4fIVaa26x6XEW5/Rg4o+M6JWhnHeUOtV+ZgAiydPe0Aks6tYsLx1hL1IkfA1bSczdV44INMPw6vBcn+SdTDD2HfjkVVginB2TkA8D6q69AcCm2ios1i6Fr+ArHltDG3JieiS/Zvn4N+8HCc/O4TvjwQE6AyuiOnCJ2XV5aOBfNqzr4EaPTiGiQ+57MGhfIxWSHaLQdzKoG4z5fkvUAmaF8krqconPZw1XqbQmMyp11dqY6sSRDztWkvur87tYBaY8/ntE21yh4kRZnxwcJ8rQ3kV3ly+dRus3EAYAtl5jelL848h12UFUA+/plIinEXlT/sU5yh5nBzJHhVWc63cfnyn1LKXA6AOQ==;23:elAteN745UlI7p3uz7Vjjz+t7yHxWEujhqjxUoT8cyvCMDoV9q52ujxTkl22Gxsgor7hzNyPRYnSLjTz0rf+yn9+ZpmaeibWGv2bCdg+nz9bmigoyMupBolf87yGsWPSHXkRFpDTVhR72e7qKBkWgwG4HdhDaFyHQUZft9IBGX7XirtLOkqpDj10tbNGsJrN3Fr3fV8tc3Ck9875tAjwQA==
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;6:zRaKEtS0VWhYdv6LynzWnBFPYBqY/l4S0Z4RbUOSnKU0iLo5niFJJw/iUQ8qtXSgB44zqAQclyaN5T50bKN+akMo1CUOloOaXYlsgWgcTDc84LiqU3DcF7bNDsrvPStybYZp+u+MiQyNWMAB5hn2OV+WgD0V+H8trKBlKmBgILIY0TsGoky3T3B7EO4h7VXyS+hc/zLXDeCw9O+r1ui2/5CHeF8plUdFNpxU1pYJix8Yg3vQMv3yswjQkb6V1QMv4swKbg8uYwO+vVqH7dP3nIeEsFZTORqrohjKxfK55a9jJRyZvTs8zoVybxLhNCV1HgYMKviB/znDD4QKw9TxRzjO2TtNL7LbmDO+IEVl6XKi0i0Q+mlCeu0DDTn3BlqasKKgrSrqd+hsYltp1rbd2VfnlHW2iDA4hA9wodJzTPRVmEVi+6lYeujwiyH4pbg2huzEG89d6vAdU7E3mK+ZGPkG8yI9tLTE8JANN09teRAEPjJeoqVeq+D3y20YajLr6HhF9PD/b9Im7nEeL6byDMVS4N88owpydxIn475pMACdGPc1ppeMU11BY/nIcdNAaDZh6ygi0RIWzFRo/GdybUr3G3Lie7EMDhEgysfZ5fYfUs/R7N6tLS9jd1FPIVFmIDnjt5LkdCMU4r2/Wb70l8mgjyuSjB7p7Rh7bmlb8GZstI1/Z0/yIUWfHCWq1bYg/TfRrYxqUaONFYQKDTmL5hv6LvbZ9XcGZetyVgQmKmZL302gFpNBxHpsFoXC18rXkWxTq7xl3rKsdz62tm/uFlEoVYILJ6DGgPiOm4QnXGqLVfc5X2ZL/7lKMHXlkgsyODXc3Xp1Sai18apjvP+hIIxXjhxY8ykpa4HXVymGyDw8KAb03/ozC1v/N5iAtQjO
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;5:qUA+PNy/ZKQpDylsAq9kk/0fOhcpbJCP6CU1p/Tfx4O0LHljfKdB6I0sddHcDivThmB6Ba9j/STZsqsq7BQYPQ9shflxSxWkVQMm8vU/koXCWCU7RoC5Gh1WFFkSke5xm/HquNkAVajDQ8xjWwRPYkJjKRAIIS+3yqOmnI7jbBNhhTCWbFNAAcyhsxyKW0bV+4KasOF+39Zg8lhKjoHzNHgiugJKd1htwBIW8jkf6wSxJ1f9JnYcF03J/glA2JvMH2GyzKh9Phjn1d+j1JnmM7ZfDhga2rTW9NFQy5+3uIVT0rLEsX1Y90Ci1TrcVYkulF8qcnjP54ZVVLwkFKalfTmd2Azny7byU5BqPdUlF6CxR3iavjTBvWkHEBYNfOAYEIaKZNiOlhaXlIEnukeuUe5krRugKN7e2H6xYlZdo1lQvHVhlJUSUqM9DhDRYQxfOrgslb6q9UQBCobJRdmPLOXCHjMxVqcHdzdhCTJMNFpWsb3zeeTOkQ9iXTjgrsyf;24:1De9clNO8voiU0YBEMc6ZvNTZRuopvIXGMpRA2EiBO3T8xBdmEIBF549/UlyLD72KlirZJVT4d5x3FCC49o4DA==
+SpamDiagnosticOutput: 1:22
+SpamDiagnosticMetadata: Default
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT218;7:uQlPuMmA6W/4F1+g0MoC3YRW1phL2LD7ffVOX+uygI/+z8d83DtW1SBUchyeqwc3Q0NavdlrToIYBRquSkxV6CkpzwDknGNc+/kgYWBmu7NYx8WR6XYdSnRWFnGRgfsFTzFqKhgVpjohUbNI0jivuBN+r1TtqA+rkD9+2iAvtxq4XIUQqtG8r+pnWAwon5cWIiZ6Y477hgkuUD0soMwbmUnTk3SQEowcf9bO5vJqlLMi7WVPZbWiPgSW0ktoySGrnyDyjyE2Ny7wRg6cL+3K6k339oRCjnnELYm3IlflWBay4CovoGHD2a0xxH0MjQHHelByshbJo1x/jYM1IaiwtHISUjcdZsoSHAI3b17lW1g6NsZ3WNHAFmNoEvuiyPpgHaSZCDNWOrpsNU+eiQgdekI7PHJOrFodF1s09lcSoCKO5GnwT/BfR7fQ005YdGfLjyNwNFH257T64KbU7oknDHPnsf3XqzVRyaf8ThgKP2WA+3/0wpkNvN4RygqeHItphJoavNxKOBazDb0zzWNYn4a0W/r4St8znsZe7dJ4ZmXu1wP/nAs4wla6KmEiToP6XRdgl5rrlaQ+4oIXxcvpOIR/gWD5Sp+IBLl02VuQTN4uJwK5R5KWR2ejQFObLHzYLPj5BzLHveJY1LZFDDDHRRX4yZE1RjY4Ijl/xmHIz9kCgm+bKxlMVkwf8gdZwOIBC5LMMvMUyUZinrVuyqTpUsZTSbHoFsbDG6Oa7geTYzofUXFrrlxQRKv3JIqsG2WhWHVkbh3D/7gqZAKdzqe/3GY/J0unjHo2hO9VO31sn94=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 Jul 2017 15:53:35.0099
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR03HT218
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.6040625
+X-Microsoft-Exchange-Diagnostics:
+	1;AM5PR0801MB1636;27:OcAip+VIIpVK4ypYD7c4ZTxfkDs77vId3SPM8WCH+bi618S4yo2XyuxqG2p0RtNws1/VD4RjP1Esi8hzT0qslkT4keVqO2JkexmUQJmP6TQChgZBa0rIx9MDQqRdpDCqWZvgGeWA+mZSfK8W7lbgRQ==
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:J;WIMS-SenderIP:84.16.68.112;WIMS-SPF:pokecardex%2ecom;WIMS-DKIM:pokecardex%2ecom;WIMS-822:contact%40pokecardex%2ecom;WIMS-PRA:contact%40pokecardex%2ecom;WIMS-AUTH:NONE;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(3125004)(4950112)(4990090)(9140004);RF:JunkEmail;OFR:SpamFilterAuthJ;
+MIME-Version: 1.0
+
+Bonjour Poroing
+
+Vous recevez cette notification car vous avez (ou quelqu’un qui prétend
+être vous) demandé qu’un nouveau mot de passe vous soit envoyé pour votre
+compte sur « Pokécardex - Forum ». Si vous n’êtes pas à l'origne de cette
+demande, vous pouvez l’ignorer. Si vous continuez à recevoir ce type de
+notification, contactez l’administrateur du forum.
+
+Pour utiliser le nouveau mot de passe, vous avez besoin de l’activer. Pour
+ce faire, cliquez sur le lien fourni ci-dessous.
+
+https://www.pokecardex.com/forums/ucp.php?mode=activate&u=4349&k=19DYMP92Y
+
+Si cela réussit, vous pourrez vous connecter avec le mot de passe suivant :
+
+Mot de passe : 4JACPX6BWTQAE
+
+Vous pouvez bien sûr changer vous-même ce mot de passe en passant par le
+panneau de l’utilisateur. Si vous rencontrez des difficultés, contactez
+l’administrateur du forum.
+
+-- 
+L'équipe vous remercie d'utiliser Pokécardex!
+Thank you from all the Pokécardex Team!

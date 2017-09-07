@@ -1,0 +1,24 @@
+Received: from BLU436-SMTP207 (2603:10b6:404:13e::13) by
+ HE1PR08MB2809.eurprd08.prod.outlook.com (2603:10a6:7:2e::20) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.1.1385.9 via Mailbox
+ Transport; Sat, 2 Sep 2017 15:16:18 +0000
+Received: from localhost ([193.57.121.62]) by BLU436-SMTP207.smtp.hotmail.com over TLS secured channel with Microsoft SMTPSVC(8.0.9200.16384);
+	 Sat, 2 Sep 2017 08:16:14 -0700
+Date: Sat, 2 Sep 2017 17:16:07 +0200
+From: Jouve Jean <jean-18-09@hotmail.fr>
+To: Jean.Jouve@ens-rennes.fr
+Subject: Test
+Message-ID: <20170902151607.GA24055@PoroingLenovo>
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.8.3 (2017-05-23)
+Return-Path: jean-18-09@hotmail.fr
+X-OriginalArrivalTime: 02 Sep 2017 15:16:15.0226 (UTC) FILETIME=[6B4585A0:01D323FE]
+X-MS-Exchange-Organization-Network-Message-Id: 28a99d33-2a10-4191-f893-08d4f2158fef
+X-MS-Exchange-Organization-AuthSource: HE1PR08MB2809.eurprd08.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-TMN: [34sIQY88KSaj6DWxSjj34sS8TAHm4Ybh]
+MIME-Version: 1.0
+
+Test

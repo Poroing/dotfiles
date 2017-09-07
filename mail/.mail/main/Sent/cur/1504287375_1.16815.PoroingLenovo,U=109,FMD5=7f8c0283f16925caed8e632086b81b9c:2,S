@@ -1,0 +1,151 @@
+X-TMN: [gHPcfrJw3DZzz1EOLxNODVq4e9aFj1tN]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <DUB129-W221CD0A940534087DDF322BA8B0@phx.gbl>
+Content-Type: multipart/alternative;
+	boundary="_36f811d2-2415-4439-aff6-cf013054c5c2_"
+From: jean jouve <jean-18-09@hotmail.fr>
+To: "gregory.scheemacker@free.fr" <gregory.scheemacker@free.fr>
+Subject: RE: Aide pour android.
+Date: Fri, 7 Mar 2014 15:47:48 +0100
+In-Reply-To: <1274690536.71841147.1394188400634.JavaMail.root@zimbra60-e10.priv.proxad.net>
+References: <DUB129-W954E852FBE4C5852313CD0BA8B0@phx.gbl>,<1274690536.71841147.1394188400634.JavaMail.root@zimbra60-e10.priv.proxad.net>
+MIME-Version: 1.0
+
+--_36f811d2-2415-4439-aff6-cf013054c5c2_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+J'avais l'habitude de poser mes question sur stackoverflow ou de trouver le=
+s reponse dont j'avais besoin.Mais cette fois ci personne ne m'a repondu.ht=
+tp://stackoverflow.com/questions/22201457/how-to-make-bluetooth-for-game-th=
+e-right-way
+Le jeu est une sorte de snake ou l'objectif et de faire en sorte que le deu=
+xi=E8me joueur se prenne la queue du premier.Par contre il ne faut pas mang=
+er pour que le serpent s'agrandie il laisse une sorte de trace derri=E8re l=
+ui qui lui serre de queue
+Le probl=E8me n'est pas du fait que je n'ai pas des log=2C c'est que d'habi=
+tude mes probl=E8me vienne de NullPointerou d'autre truc qui s'affiche dans=
+ les log mais cette fois ci non.
+Je t'envoie donc le code=2C J'utilise LibGDX comme biblioth=E8que pour code=
+r le jeu en plus de celle d'android.
+https://mega.co.nz/#!tRdjnLCC!lVh6nZ9tDRiZfgTLtSbwvu5d9tR7aqx6kmGAeATL0AQht=
+tps://mega.co.nz/#!pZl3hZrQ!23hc21FEx5Jyya1EF5-ZwH1d99ZghtzCL17Z_om1Ki4
+> Date: Fri=2C 7 Mar 2014 11:33:20 +0100
+> From: gregory.scheemacker@free.fr
+> To: jean-18-09@hotmail.fr
+> Subject: Re: Aide pour android.
+>=20
+> Bonjour Jean=2C
+>=20
+> Peux-tu m'expliquer en quoi consiste ton jeu ?
+> Pour que je puisse comprendre l'utilisation du bluetooth.
+>=20
+> Peux-tu m'envoyer le code ? par t=E9l=E9phone ca va =EAtre difficile de t=
+rouver le probl=E8me =3B)
+> Personnellement=2C je n'ai pas encore utilis=E9 le bluetooth dans le code=
+ de mes applications=2C
+> mais je pourrais voir ce qui ne va pas et pourquoi tu n'as pas de log.
+>=20
+> Y'a le site stackoverflow qui est bien pour trouver des r=E9ponses :
+> http://stackoverflow.com/
+> http://stackoverflow.com/search?q=3Dbluetooth+android
+>=20
+> http://www.tutos-android.com/utilisation-bluetooth-application-android
+>=20
+> Gr=E9gory
+>=20
+> ----- Mail original -----
+> De: "jean jouve" <jean-18-09@hotmail.fr>
+> =C0: "gregory scheemacker" <gregory.scheemacker@free.fr>
+> Envoy=E9: Vendredi 7 Mars 2014 11:22:18
+> Objet: Aide pour android.
+>=20
+>=20
+> Bonjour Gregory.=20
+> Je suis le fils de Laurence=2C j'aurais besoin de ton aide si c'est possi=
+ble pour mon TPE de 1ere.=20
+> Je d=E9veloppe un petit jeu qui est cens=E9 fonctionner en bluetooth.=20
+> Mais depuis que j'ai commencer a introduire le bluetooth dans l'applicati=
+on=2C=20
+> plus rien ne marche=2C j'ai vainement essayer de r=E9gler le probl=E8me e=
+n v=E9rifiant ce qui n'aller pas.=20
+> Mais je suis arriver =E0 un point o=F9 le probl=E8me n'est pas afficher d=
+ans les log et je n'arrive pas =E0 trouver d'o=F9 il viens.=20
+> J'aimerais donc ton aide pour analyser le code et m'aider =E0 trouver l'e=
+rreur et la solution.=20
+>=20
+>=20
+> Merci d'avance=2C Jean Jouve=20
+>=20
+>=20
+> PS: Le code doit surement =EAtre tr=E8s mal cod=E9=2C mais =E7a marche en=
+ partie.
+ 		 	   		  =
+
+--_36f811d2-2415-4439-aff6-cf013054c5c2_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style></head>
+<body class=3D"hmmessage"><div dir=3D"ltr"><div>J'avais l'habitude de poser=
+ mes question sur stackoverflow ou de trouver les reponse dont j'avais beso=
+in.</div><div>Mais cette fois ci personne ne m'a repondu.</div><div>http://=
+stackoverflow.com/questions/22201457/how-to-make-bluetooth-for-game-the-rig=
+ht-way</div><div><br></div><div>Le jeu est une sorte de snake ou l'objectif=
+ et de faire en sorte que le deuxi=E8me joueur se prenne la queue du premie=
+r.</div><div>Par contre il ne faut pas manger pour que le serpent s'agrandi=
+e il laisse une sorte de trace derri=E8re lui qui lui serre de queue</div><=
+div><br></div><div>Le probl=E8me n'est pas du fait que je n'ai pas des log,=
+ c'est que d'habitude mes probl=E8me vienne de NullPointer</div><div>ou d'a=
+utre truc qui s'affiche dans les log mais cette fois ci non.</div><div><br>=
+</div><div>Je t'envoie donc le code, J'utilise LibGDX comme biblioth=E8que =
+pour coder le jeu en plus de celle d'android.</div><div><br></div><div><a h=
+ref=3D"https://mega.co.nz/#!tRdjnLCC!lVh6nZ9tDRiZfgTLtSbwvu5d9tR7aqx6kmGAeA=
+TL0AQ" target=3D"_blank">https://mega.co.nz/#!tRdjnLCC!lVh6nZ9tDRiZfgTLtSbw=
+vu5d9tR7aqx6kmGAeATL0AQ</a></div><div><a href=3D"https://mega.co.nz/#!pZl3h=
+ZrQ!23hc21FEx5Jyya1EF5-ZwH1d99ZghtzCL17Z_om1Ki4" target=3D"_blank">https://=
+mega.co.nz/#!pZl3hZrQ!23hc21FEx5Jyya1EF5-ZwH1d99ZghtzCL17Z_om1Ki4</a></div>=
+<br><div>&gt; Date: Fri, 7 Mar 2014 11:33:20 &#43;0100<br>&gt; From: gregor=
+y.scheemacker@free.fr<br>&gt; To: jean-18-09@hotmail.fr<br>&gt; Subject: Re=
+: Aide pour android.<br>&gt; <br>&gt; Bonjour Jean,<br>&gt; <br>&gt; Peux-t=
+u m'expliquer en quoi consiste ton jeu ?<br>&gt; Pour que je puisse compren=
+dre l'utilisation du bluetooth.<br>&gt; <br>&gt; Peux-tu m'envoyer le code =
+? par t=E9l=E9phone ca va =EAtre difficile de trouver le probl=E8me ;)<br>&=
+gt; Personnellement, je n'ai pas encore utilis=E9 le bluetooth dans le code=
+ de mes applications,<br>&gt; mais je pourrais voir ce qui ne va pas et pou=
+rquoi tu n'as pas de log.<br>&gt; <br>&gt; Y'a le site stackoverflow qui es=
+t bien pour trouver des r=E9ponses :<br>&gt; http://stackoverflow.com/<br>&=
+gt; http://stackoverflow.com/search?q=3Dbluetooth&#43;android<br>&gt; <br>&=
+gt; http://www.tutos-android.com/utilisation-bluetooth-application-android<=
+br>&gt; <br>&gt; Gr=E9gory<br>&gt; <br>&gt; ----- Mail original -----<br>&g=
+t; De: &quot;jean jouve&quot; &lt;jean-18-09@hotmail.fr&gt;<br>&gt; =C0: &q=
+uot;gregory scheemacker&quot; &lt;gregory.scheemacker@free.fr&gt;<br>&gt; E=
+nvoy=E9: Vendredi 7 Mars 2014 11:22:18<br>&gt; Objet: Aide pour android.<br=
+>&gt; <br>&gt; <br>&gt; Bonjour Gregory. <br>&gt; Je suis le fils de Lauren=
+ce, j'aurais besoin de ton aide si c'est possible pour mon TPE de 1ere. <br=
+>&gt; Je d=E9veloppe un petit jeu qui est cens=E9 fonctionner en bluetooth.=
+ <br>&gt; Mais depuis que j'ai commencer a introduire le bluetooth dans l'a=
+pplication, <br>&gt; plus rien ne marche, j'ai vainement essayer de r=E9gle=
+r le probl=E8me en v=E9rifiant ce qui n'aller pas. <br>&gt; Mais je suis ar=
+river =E0 un point o=F9 le probl=E8me n'est pas afficher dans les log et je=
+ n'arrive pas =E0 trouver d'o=F9 il viens. <br>&gt; J'aimerais donc ton aid=
+e pour analyser le code et m'aider =E0 trouver l'erreur et la solution. <br=
+>&gt; <br>&gt; <br>&gt; Merci d'avance, Jean Jouve <br>&gt; <br>&gt; <br>&g=
+t; PS: Le code doit surement =EAtre tr=E8s mal cod=E9, mais =E7a marche en =
+partie.<br></div> 		 	   		  </div></body>
+</html>=
+
+--_36f811d2-2415-4439-aff6-cf013054c5c2_--

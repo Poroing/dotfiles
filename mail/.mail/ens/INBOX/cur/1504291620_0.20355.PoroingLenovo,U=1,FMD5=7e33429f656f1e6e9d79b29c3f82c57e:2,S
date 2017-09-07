@@ -1,0 +1,69 @@
+Return-Path: <www-data@ens-rennes.fr>
+X-Original-To: jjouv422@eleves.ens-rennes.fr
+Delivered-To: jjouv422@eleves.ens-rennes.fr
+Received: from romarin.ens-rennes.fr (romarin.ens-rennes.fr [193.52.92.218])
+	by arum.ensr.local (Postfix) with ESMTP id 6FAF8A81675
+	for <jjouv422@eleves.ens-rennes.fr>; Thu, 31 Aug 2017 12:13:49 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id CDF3E1720B5B
+	for <jjouv422@eleves.ens-rennes.fr>; Thu, 31 Aug 2017 12:13:48 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from romarin.ens-rennes.fr ([127.0.0.1])
+	by localhost (romarin.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ArgWC66pLFvW for <jjouv422@eleves.ens-rennes.fr>;
+	Thu, 31 Aug 2017 12:13:48 +0200 (CEST)
+Received: from kepler.ens-rennes.fr (kepler.ens-rennes.fr [193.52.92.70])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id B9D27172096E
+	for <Jean.Jouve@ens-rennes.fr>; Thu, 31 Aug 2017 12:13:48 +0200 (CEST)
+Received: by kepler.ens-rennes.fr (Postfix, from userid 33)
+	id C4959C0536; Thu, 31 Aug 2017 12:13:48 +0200 (CEST)
+To: Jean JOUVE <Jean.Jouve@ens-rennes.fr>
+Subject: [WikiDIT] Your DokuWiki password
+X-PHP-Originating-Script: 33:Mailer.class.php
+X-Mailer: DokuWiki
+X-Dokuwiki-User: david.pichardie
+X-Dokuwiki-Title: WikiDIT
+X-Dokuwiki-Server: wiki.dit.ens-rennes.fr
+X-Auto-Response-Suppress: OOF
+List-Id: WikiDIT <dokuwiki.dit.wiki.dit.ens-rennes.fr>
+Date: Thu, 31 Aug 2017 12:13:43 +0200
+From: Luc.Bouge@ens-rennes.fr
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+  boundary="__________2c9a9fcac42625b358661701ff42e84fXX"
+Message-Id: <20170831101348.C4959C0536@kepler.ens-rennes.fr>
+
+This is a multi-part message in MIME format.
+--__________2c9a9fcac42625b358661701ff42e84fXX
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+SGkgSmVhbiBKT1VWRSEKCkhlcmUgaXMgeW91ciB1c2VyZGF0YSBmb3IgV2lraURJVCBhdCBo
+dHRwOi8vd2lraS5kaXQuZW5zLXJlbm5lcy5mci9ESVQvRG9rdXdpa2kvCgpMb2dpbiAgICA6
+IGplYW4uam91dmUKUGFzc3dvcmQgOiBoaW9uZWN6dXIyMCMKCi0tIApUaGlzIG1haWwgd2Fz
+IGdlbmVyYXRlZCBieSBEb2t1V2lraSBhdApodHRwOi8vd2lraS5kaXQuZW5zLXJlbm5lcy5m
+ci9ESVQvRG9rdXdpa2kvCg==
+--__________2c9a9fcac42625b358661701ff42e84fXX
+Content-Type: multipart/related;
+  boundary="__________2c9a9fcac42625b358661701ff42e84f";
+  type="text/html"
+
+--__________2c9a9fcac42625b358661701ff42e84f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+CjxoZWFkPgogICAgPHRpdGxlPldpa2lESVQ8L3RpdGxlPgogICAgPG1ldGEgaHR0
+cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRm
+LTgiPgo8L2hlYWQ+Cjxib2R5PgoKSGkgSmVhbiBKT1VWRSE8YnIgLz4KPGJyIC8+CkhlcmUg
+aXMgeW91ciB1c2VyZGF0YSBmb3IgV2lraURJVCBhdCA8YSBocmVmPSJodHRwOi8vd2lraS5k
+aXQuZW5zLXJlbm5lcy5mci9ESVQvRG9rdXdpa2kvIj5odHRwOi8vd2lraS5kaXQuZW5zLXJl
+bm5lcy5mci9ESVQvRG9rdXdpa2kvPC9hPjxiciAvPgo8YnIgLz4KTG9naW4gICAgOiBqZWFu
+LmpvdXZlPGJyIC8+ClBhc3N3b3JkIDogaGlvbmVjenVyMjAjPGJyIC8+CgoKPGJyIC8+PGhy
+IC8+CjxzbWFsbD5UaGlzIG1haWwgd2FzIGdlbmVyYXRlZCBieSBEb2t1V2lraSBhdDxiciAv
+PjxhIGhyZWY9Imh0dHA6Ly93aWtpLmRpdC5lbnMtcmVubmVzLmZyL0RJVC9Eb2t1d2lraS8i
+Pmh0dHA6Ly93aWtpLmRpdC5lbnMtcmVubmVzLmZyL0RJVC9Eb2t1d2lraS88L2E+PC9zbWFs
+bD4KPC9ib2R5Pgo8L2h0bWw+Cg==
+
+--__________2c9a9fcac42625b358661701ff42e84f--
+--__________2c9a9fcac42625b358661701ff42e84fXX--
+

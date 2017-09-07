@@ -1,0 +1,1727 @@
+Received: from DM3NAM03HT222.eop-NAM03.prod.protection.outlook.com
+ (2603:10a6:7:29::36) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0107.EURPRD02.PROD.OUTLOOK.COM; Wed, 6 Sep 2017 05:03:24 +0000
+Received: from DM3NAM03FT038.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.55) by DM3NAM03HT222.eop-NAM03.prod.protection.outlook.com
+ (10.152.83.134) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.13.11; Wed, 6 Sep
+ 2017 05:03:22 +0000
+Authentication-Results: spf=pass (sender IP is 91.221.147.78)
+ smtp.mailfrom=venteprivee.com; hotmail.fr; dkim=fail (body hash did not
+ verify) header.d=venteprivee.com;hotmail.fr; dmarc=pass action=none
+ header.from=venteprivee.com;
+Received-SPF: Pass (protection.outlook.com: domain of venteprivee.com
+ designates 91.221.147.78 as permitted sender)
+ receiver=protection.outlook.com; client-ip=91.221.147.78;
+ helo=r278.venteprivee.com;
+Received: from r278.venteprivee.com (91.221.147.78) by
+ DM3NAM03FT038.mail.protection.outlook.com (10.152.83.95) with Microsoft SMTP
+ Server id 15.20.13.11 via Frontend Transport; Wed, 6 Sep 2017 05:03:23 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:0427F28F6CDCB57D8F67C79008B4F1B30327FCD750A45BC880A81A5FD15CDB1F;UpperCasedChecksum:23AFDD75B84942E74A2029774A893D30E95B72AED8F50297017B2C55548679FE;SizeAsReceived:1609;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	s=vp1;
+	d=venteprivee.com;
+	h=domainkey-signature:from:date:subject:to:reply-to:mime-version:x-mailer:message-id:x-member:x-rpcampaign:x-csa-complaints:feedback-id:precedence:vptype:content-type;
+	bh=IzsNw/26eMaOkfcbBmmXgIZ66XAj032mtZWn3uKEBi4=;
+	b=dMogVTQn8Vsw0atFV60Q5smvlhyPtMVtAFmQACAQNiO9Il+tK45Vlg57GtqgEIncrhuA3Bu1gbQTc/oWzRz0Yi5qj8PmQeReljyv8IA/QzcKocJIBPW8oS5Tf0XLyrXi2sk1gxSapPw0aoQEbgyj2q71nUIwTG/jatZ2FAGMM2E=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+	s=vp1;
+	d=venteprivee.com;
+	h=From:Date:Subject:To:Reply-To:MIME-Version:X-mailer:Message-ID:X-Member:X-rpcampaign:X-CSA-Complaints:Feedback-ID:Precedence:VPTYPE:Content-Type;
+	b=ZoXQnIwofNpn+3dv1xr3VavUOWVqZVSD5p5Rp9E3AxLA46xkOBcZG5GAPxzpgUdCkUpOGOJANwXXZA/Kx5gcE4HJwxQ2oCkjMI+eat9Lz7GBhlymqyNZDRRonRVmuvYWYGQTiPBeoSzWhhPRvKtcM3uBWJEz+ZqCh7dapNv3N38=
+From: "vente-privee" <invitation@venteprivee.com>
+Date: Wed, 06 Sep 2017 07:03:21 +0200
+Subject: Bonjour Jean, aujourd'hui Foire aux vins, United Colors of Benetton, Tefal et 18 autres ventes sur vente-privee
+To: <jean-18-09@hotmail.fr>
+Reply-To: "vente-privee" <invitation@venteprivee.com>
+X-mailer: nlserver, Build 6.1.1.8753
+Message-ID: <NM608F29E0D014D8EB4VPPROD2MID4@venteprivee.com>
+X-Member: 46558698_BB4D794A93026D0E000CB2CB0D05592D:
+X-rpcampaign: VP21860020
+X-CSA-Complaints: whitelist-complaints@eco.de
+Feedback-ID: Invitation:FRFR::VentePrivee.com
+Precedence: bulk
+VPTYPE: "invitation"
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_234_F1457DC2.F1457DC2"
+X-IncomingHeaderCount: 17
+Return-Path: s2mid4@venteprivee.com
+X-MS-Exchange-Organization-Network-Message-Id: 25d57962-e1a8-4f33-e87f-08d4f4e499a6
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03FT038;1:xGDjq32D35LZrTJHt87HosLJl0TQJGT7+wHhfhD0QSgaxjI3c3k2JwDrmmiNygMYe/I1rvxyu5Kix97TGz5W7EHIJpkNHS+ZBnmh652d2rLh/9RqXAFDt0mfUumK6u6j
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:DM3NAM03HT222;H:r278.venteprivee.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: DM3NAM03FT038.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-UserLastLogonTime: 9/6/2017 4:15:45 AM
+X-MS-Office365-Filtering-Correlation-Id: 25d57962-e1a8-4f33-e87f-08d4f4e499a6
+X-Microsoft-Antispam: BCL:1;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(23075)(300000502095)(300135100095)(5000083)(610149)(640150)(650150)(8291501071);SRVR:DM3NAM03HT222;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT222;3:grDCK1qjK8niBw3j69v7ZQRD2YhanL60cWsqTGckOmvej4GKkLXJ6XbwLY1XnezKupaU5O79N7tGJ2XTkK4PGtIF67CawLQNP4htsIvsdfeBgSLgfZEYocjR9SPwUVItddVYEuZUXbbVmezqdjSD4dM43Saj0gqgAsnw2iPNPuNsuchagc9d3Addfu9v0tkn7dEgTZa6C4GKKJmmUs1VxiA8ZS0hIjqtweHXMowLxIPrvIqRquJM+LBbtgstwAQXLDRNRgBMEcM14I3iIM322EBaKO/dEe2kXvjrDzVXG2o76ta9+ck79sJFgAbrJelq;25:rr5ycaMsm5fVUJDO7VgNGEO6KsrqUff3RmI4RSuta5BZgqKUrjiG/xG9FlGNF1x60xawqnqJf5kfcjRucrBhCz6AghM1jfUSWD9VNgJ0iBpuJlqaYZyb+SvOf8GbR4wUmvsdCcakW/EvvkqigGXcqbAGM3w7zUV2bl6lv36sOWTZLWT8BxKwf+SBg5bPLKVsId+VM650taaCa36+6VsVJp1KoBbHvsuZvmBWXdf0DlrABhQ3AqKk1P8V191AbGj5v8RzwXMvO5y2mAMkT+Aj25EPBN9PVRAYFFrWySo0ln6/NlYhauHLNyW1m5zIRyo2J1GP6Qkg3MHhCCdlS+3cyQ==;31:gttuCt7cfPldGW3NXl+i966TLNF+pDWmk+ADT+dBFClFXH9YHCeLuh+IhVKEB8YJNhX9RVjw81u4UXmjl8Lyl+mBkXG4gZJ6WwvfjGLH13DSBoj+AhiJAIEvlt7VPPfRO2Mkhab1LNRiLHhKKVC049j2sWIMv4UnCtbVlVD6q69c69hQlK2C6UTwpFWTpmbXCQ2SkvUjGoacqMd9M2CG/T6HLznfPxSlNSonW35vtyw=
+X-MS-TrafficTypeDiagnostic: DM3NAM03HT222:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 91.221.147.78
+X-SID-PRA: INVITATION@VENTEPRIVEE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(253898941778429)(148322886591682)(240277417309895)(77112890327476)(81227570615382)(241709619436843);
+X-Exchange-Antispam-Report-CFA-Test: BCL:1;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(595095)(82015058);SRVR:DM3NAM03HT222;BCL:1;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DM3NAM03HT222;
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT222;4:jQii+lzLRcNOaWRrEXsh7aV4aZq2BkD7xKMv141UEF8NFKRB2lRcqsQsaRwc4EnFAq9x33hd4jUbER6EsWDEUOuDVHMyqUp3Zpzrv8W/uxdr2ZTSC2PavMpOiaBRz7L6SZW+BGj7rltaQd40mgdlRy+/iN/oJ+UoNGCfCVqaZc1WqxoBxJzWk/A6hAIndTkU0E7jrOXJC2oz1OvPG3DhehCTKVvnc808kaFrdv4NEjoC6akhoI9b9YLUv2drWc3NXrvFhC3aqIeVM3EX/JT89UtVzac4IVSy5pYAgw3bH1NGHPavEPrcMPmSuIhGPPhoFuzYZyL5kQmcpptWQ4mwEFIjzIqImt2iXxaLJqidETbZbvEy/QfDZImxTcbHucpFkgVH3n3r3CC2BbqhuW24mIIxDJQmhkXIXd7Mh02aJX0XahxJ43QgtkOdZl/CpCJeiHBcR/qNKYyF1QfRGjvBrQ==;23:SAdR1avD4DPHw4kyjFneCj7phFicIqy1hxWgrXPK2G/WhnKMrP5kUc4oqCqFyAJ8SKMiT7onFTgvhilUGQWiriYBxv/PPvddpaf/Sy6We+9vJi+Jcj6pVUQsJc+A7iHn7z9w2lmWX1JZPb+NIJ71Vl7mMnJi4WpcusOOGddvoBA=
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;DM3NAM03HT222;6:8ZXni2mSdEz0UaeuwYP5FwWppua6rfa2dpxJhX4a2IeyYuZccNaveS3ZCECCo1yldc1n9TAgQL8lhHy+ILqYvq1wo4/nYKonVYNgRtC1PKGpmL4Z7vVx/jAAX9iIw9evDqyjej/ueJ7qk6i1km+Nh+rOzs62x4Vnvf1f8F5J7jyC8xDKTcR4gAlOiezCaD0mCBGVDrsNHuQdrqL/IIwlYdGhgjE2SjwdhvRlYqdpc8rOhuRliEKJFfQ31UrDVZ0mxo6KuX7MiL5iPGtXFOr5QygxyyUznU1Jez5jrLRGe9xWj0j3od7yhHaXkk31O2wr/dsAPvVz4VBP/dqA0yNA9w==;5:Udd7ANfLVIiyO+aDEY3tTwRtP0Fjdzt6KR5WzHjvyK83Wk9dFnMCO6eV/EuZGtcA2QKDQQQIooM1tAzgIg5p3DLoYjJfWtH0A2gAyiHpNxbMzCzhU10sMv20jb3j+cOMazvPuY4bJ4Kke9eCj/zGNw==;24:IStBC1TzWWTj1ut9NIr4XKCKVFd1sH6URUlRh+w4ganUblFSOCUMzO3TWLDbOm1ly2oRtNQ0l5Ay9LEoqPRgs6uSo9colD8GwVPnWUtEzxY=;7:hKVNRaxcYEdj9qFRXdWYe7i/iM6sGI0XeiUN0W+S0pAP7Vuhya2OZLbLjykqBVFBiLrQo4spA5CFPnTbDA5/smTBU0kOsIdeYeV2rRXY2lSGW2yTdJCQmRAinTQmrtJKVqJYFLMm7xXsBuzvoTJi+sRG4+KiHZWOgE02Xb4eaRllz/OqQFcUgZ9OAveHkvmJUCwFx730xSXRflQjZu37nZOXwe+JfqHbkghc0yVPZhw=
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: Default:1
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Sep 2017 05:03:23.2562
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM03HT222
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.9399082
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0013.014
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:A9T19pc+6Xdk33utQMSRGzWDeNNlieyep7BXlattkewcs3e2VP/dLd2Z5jq8Imif9V/VAlDruSdaiMAFQOIkk/1cf8SVnoaubqVV1cn3isrY9a5xdxoP2cMisxSsYW2C
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6250004)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdccJVmFYQs/2w3RHZeABruvA2GqfONhOwUxFcRyhoWlNffrLx611yoH/5JGhyNfQYc1M5C8s5a/l3174zDQ2n7m065KRKLAPaUQ8uudD3coEyi5NESPoD+n0Zo3GYeFHjKkB+fPud040rmfMDBt5G4AkSZm3LMZNCFZjuxTE8WpFBtoeGNAVVyAGDcijegeXRdBII3lNBptNVExFCxoRx79
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MDtHRD0wO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	TjRsyDSsVzcEXeGLZHYYD0lgIvkzuCrCVxKBWUva0fK2HFH7vCae8uat/q1HHKiuJd9LBUFmQAkqGoe/KiyUS4Sk6wg0gYQ1b2bSQgs7kEftZ8q6zqqOcLdQcdlqnb0/HpgHnjepVudBYUXZgB5kJ+t/+6r8SuAXwDK46Auw85FWdNw8zFJzSJhzn7UXMMKT009yBztjPdXFdetB9x3l1Ea6dQGLfpvk+pihJYwdt1N0ovWn8CPqWlj8ghSphNfNMhsPsQ9E/fbVdklTU4NLfHvNgik2jpKqhtljAWv8NV4UU6uGDbaroBCOYlJPoQNw
+MIME-Version: 1.0
+
+------=_NextPart_234_F1457DC2.F1457DC2
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: 8bit
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:A9T19pc+6Xdk33utQMSRGzWDeNNlieyep7BXlattkewcs3e2VP/dLd2Z5jq8Imif9V/VAlDruSdaiMAFQOIkk/1cf8SVnoaubqVV1cn3isrY9a5xdxoP2cMisxSsYW2C
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6250004)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdccJVmFYQs/2w3RHZeABruvA2GqfONhOwUxFcRyhoWlNffrLx611yoH/5JGhyNfQYc1M5C8s5a/l3174zDQ2n7m065KRKLAPaUQ8uudD3coEyi5NESPoD+n0Zo3GYeFHjKkB+fPud040rmfMDBt5G4AkSZm3LMZNCFZjuxTE8WpFBtoeGNAVVyAGDcijegeXRdBII3lNBptNVExFCxoRx79
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MDtHRD0wO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	TjRsyDSsVzcEXeGLZHYYD0lgIvkzuCrCVxKBWUva0fK2HFH7vCae8uat/q1HHKiuJd9LBUFmQAkqGoe/KiyUS4Sk6wg0gYQ1b2bSQgs7kEftZ8q6zqqOcLdQcdlqnb0/HpgHnjepVudBYUXZgB5kJ+t/+6r8SuAXwDK46Auw85FWdNw8zFJzSJhzn7UXMMKT009yBztjPdXFdetB9x3l1Ea6dQGLfpvk+pihJYwdt1N0ovWn8CPqWlj8ghSphNfNMhsPsQ9E/fbVdklTU4NLfHvNgik2jpKqhtljAWv8NV4UU6uGDbaroBCOYlJPoQNw
+
+----------------------------------------------------------------------------
+Pour afficher cet email au format HTML, cliquez sur le lien suivant :
+
+Accéder à la version en ligne: 
+http://trkmid.venteprivee.com/r/?id=t6aff3dbb,3826cce7,3826cd20&p1=%40iPzxrqTJ9dca%2Fx%2BGendBF8zVq9NvN2onpIW514a17Ik%3D
+
+ou copiez-le dans votre navigateur internet.
+----------------------------------------------------------------------------
+ 
+Cordialement,
+Cécile de Rostand
+Responsable Relations Membre
+
+------=_NextPart_234_F1457DC2.F1457DC2
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:A9T19pc+6Xdk33utQMSRGzWDeNNlieyep7BXlattkewcs3e2VP/dLd2Z5jq8Imif9V/VAlDruSdaiMAFQOIkk/1cf8SVnoaubqVV1cn3isrY9a5xdxoP2cMisxSsYW2C
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6250004)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdccJVmFYQs/2w3RHZeABruvA2GqfONhOwUxFcRyhoWlNffrLx611yoH/5JGhyNfQYc1M5C8s5a/l3174zDQ2n7m065KRKLAPaUQ8uudD3coEyi5NESPoD+n0Zo3GYeFHjKkB+fPud040rmfMDBt5G4AkSZm3LMZNCFZjuxTE8WpFBtoeGNAVVyAGDcijegeXRdBII3lNBptNVExFCxoRx79
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MDtHRD0wO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	TjRsyDSsVzcEXeGLZHYYD0lgIvkzuCrCVxKBWUva0fK2HFH7vCae8uat/q1HHKiuJd9LBUFmQAkqGoe/KiyUS4Sk6wg0gYQ1b2bSQgs7kEftZ8q6zqqOcLdQcdlqnb0/HpgHnjepVudBYUXZgB5kJ+t/+6r8SuAXwDK46Auw85FWdNw8zFJzSJhzn7UXMMKT009yBztjPdXFdetB9x3l1Ea6dQGLfpvk+pihJYwdt1N0ovWn8CPqWlj8ghSphNfNMhsPsQ9E/fbVdklTU4NLfHvNgik2jpKqhtljAWv8NV4UU6uGDbaroBCOYlJPoQNw
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+      <title>Document sans nom</title>
+      <style type=3D"text/css">
+         #outlook a{padding:0;}
+body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width=
+:100%;}
+body{-webkit-text-size-adjust:none; -ms-text-size-adjust:none; text-size-ad=
+just:none;}
+body{margin:0; padding:0;}
+img{height:auto; line-height:100%; outline:none; text-decoration:none;-ms-i=
+nterpolation-mode:bicubic;}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !i=
+mportant;}
+table{mso-table-lspace:0pt; mso-table-rspace:0pt;}=20
+         @media screen and (max-width:640px){=20
+         *[class~=3D"fw"]{width:100% !important;max-width:100% !important;}
+*[class~=3D"afw"]{margin:0 auto !important;width:96% !important;}
+*[class~=3D"imgfw"]{width:100% !important;height:auto !important;}
+*[class~=3D"img20"]{width:20% !important;height:auto !important;}
+*[class~=3D"img30"]{width:30% !important;height:auto !important;}
+*[class~=3D"img90"]{width:90% !important;height:auto !important;}
+*[class~=3D"dNone"]{display:none !important;}
+*[class~=3D"dBlk"]{display:block !important;width:100% !important;}
+*[class~=3D"dNone"]{display:none !important;}
+*[class~=3D"mirror"] {font-size:14px !important;line-height:22px !important=
+;} =20
+*[class~=3D"linkFoot"] {padding:10px 0!important;}
+*[class~=3D"wBlk"] {width:auto !important;}
+*[class~=3D"pBlk"]{padding:20px 0 0 0 !important;}
+*[class~=3D"pad0"]{ padding:0!important;}
+*[class~=3D"pad1"]{ padding:0 0 20px!important;}
+*[class~=3D"pad2"]{ padding:20px 15px 15px!important;}
+*[class~=3D"pad3"]{ padding:0 15px 15px!important;}
+*[class~=3D"w90"]{ width:90% !important;}
+/* PRE-HEADER */
+*[class~=3D"pHead"]{padding:20px !important;} =20
+/* LOGO */
+*[class~=3D"logo"] {width:70% !important;height:auto !important;margin:auto=
+ !important;}
+/* TITRE */
+*[class~=3D"headTitle"] {font-size:15px !important;line-height:25px !import=
+ant;}
+/* FOOTER */
+*[class~=3D"footerBloc"]{padding-bottom:10px !important;}
+*[class~=3D"titleSocialNetwork"]{font-size:14px !important;}
+*[class~=3D"socialLine"] img {width:70% !important;height:auto!important;}
+*[class~=3D"linkFootLine"]{font-size:14px !important;}
+*[class~=3D"footerPhrase"]{font-size:14px !important;color:#999999 !importa=
+nt;padding:10px !important;}
+*[class].socialBlock{width: 90% !important;max-width: 90% !important;height=
+: auto !important;}
+/* TEXT */
+*[class~=3D"txt12"]{font-size:14px !important;line-height:24px !important;}
+*[class~=3D"txt14"]{font-size:16px !important;line-height:26px !important;}
+*[class~=3D"txt10"]{font-size:12px !important;line-height:22px !important;}
+*[class~=3D"txt15"]{font-size:17px !important;line-height:27px !important;}
+*[class~=3D"txt22"]{font-size:24px !important;line-height:34px !important;}
+*[class~=3D"txt28"]{font-size:30px !important;line-height:40px !important;}
+/* CTA */
+*[class~=3D"cta"]{padding-left:4% !important;padding-right:4% !important;li=
+ne-height:44px !important;height:44px !important;font-size:16px !important;=
+line-height:26px !important;font-weight:bold !important;border-radius:0 !im=
+portant; border:none !important;}
+*[class~=3D"cta_row"] {padding:0 0 25px !important;}=20
+         *[class~=3D"fw"]{max-width:100% !important;}
+         *[class].title1 {padding-top: 10px !important;}
+         *[class].txt14 {font-size: 16px !important; line-height: 20px !imp=
+ortant;}
+         *[class].txt10 {font-size: 13px !important; line-height: 17px !imp=
+ortant; text-align:center !important}
+         /* Banner */
+         .banner {width: 98%!important;}
+         *[class].bannerInfo {padding: 0 5px !important;}
+         *[class].imgSales {height: auto !important;}
+         *[class].dateBloc {padding:10px 0 !important;}
+         *[class].baseline, *[class].dateBloc {text-align: center !importan=
+t;}
+         *[class].baseline{padding: 10px 0 0 !important;}
+         *[class].socialBlock{width: 90% !important;max-width: 90% !importa=
+nt;height: auto !important;}
+         *[class].logoLine {text-align: left !important; width: 30% !import=
+ant;max-width: 30% !important;}
+         *[class].logoLine img{width: 100% !important;height: auto !importa=
+nt;}
+         *[class].pictoWrapper {text-align: right !important;}
+         *[class].btRegister {padding:0 10px !important;}
+         *[class].pif, *[class].cal,*[class].pif, *[class].ba{ padding: 0 8=
+px !important; text-align:center !important;}
+         *[class].pictoLine{text-align: right !important;width: 67% !import=
+ant;max-width: 67% !important; padding:0 0 10px !important}
+         *[class~=3D"footerPhrase"]{padding:10px !important;}
+         }
+         @media screen and (min-width: 641px) {
+         .mainContent,.bgLogo,.footer{
+         width: 640px!important;
+         }
+         .banner {
+         width: 442px!important;
+         }
+         .brandInfo {
+         width: 270px!important;
+         }
+         .brandIcon {
+         width: 142px!important;
+         }
+         .socialBlock{
+         width: 170px!important;
+         }
+         }
+      </style>
+   </head>
+   <body style=3D"background-color: #f2f4f6; margin: 0; padding: 0;">
+      <table class=3D"fw" style=3D"margin: 0 auto;" align=3D"center" bgcolo=
+r=3D"#f2f4f6" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%">
+         <tr>
+            <td>
+               <!-- BEGIN : header -->
+               <table style=3D"margin: 0 auto;" class=3D"fw" align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                  <tr>
+                     <td class=3D"pHead" style=3D"padding:10px 0;font-famil=
+y:Arial, Helvetica, sans-serif;font-size:12px;color:#f21e8c" align=3D"cente=
+r">
+                        Attention, ce mail contient de la joie !=20
+                        <br>=20
+                        <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6=
+aff3dbb,3826cce7,3826cce9&amp;p1=3D%40iPzxrqTJ9dca%2Fx%2BGendBF8zVq9NvN2onp=
+IW514a17Ik%3D" target=3D"_blank" _label=3D"Page Miroir" title=3D"Consulter =
+la version en ligne" style=3D"color:#f21e8c;text-decoration:underline;">   =
+                     Acc=E9der =E0 la version en ligne</a> /
+                        <a style=3D"color:#f21e8c" href=3D"http://trkmid.ve=
+nteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826cce8&amp;p1=3Dsecure.fr.vente-=
+privee.com/memberaccount/communications/notloggued?i=3D3cDvwGyNMj/QqmPpAf9K=
+6ocpTfIKju7SY6Z4QDY5M36lUUW9qtYRXY&#43;R7d5Scp&#43;S&amp;SiteId=3D1&amp;utm=
+_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidiento=
+utesventesj0&amp;utm_content=3Dgoodhorslogin-hyperlink1&amp;member_id=3D465=
+58698&amp;partnerid=3D15418"> Modifier vos pr=E9f=E9rences de communication=
+</a>
+                     </td>
+                  </tr>
+               </table>
+               <!-- END :  header -->
+               <!-- BEGIN : logo -->
+               <table class=3D"fw bgLogo" style=3D"margin:0 auto;max-width:=
+640px;" align=3D"center" bgcolor=3D"#f2f4f6" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%">
+                  <tr>
+                     <td class=3D"afw" style=3D"padding:20px 0;" align=3D"c=
+enter" bgcolor=3D"#f2f4f6" height=3D"46" valign=3D"top">
+                        <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6=
+aff3dbb,3826cce7,3826ccea&amp;p1=3Dsecure.fr.vente-privee.com/ExternalLinks=
+/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/QqmPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZ=
+unZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStszXDkubGYnd34LBR7tCTydxkGBOtLs&#43;Aia=
+q2UPU1X66WBp&#43;/fiQ1Ro&amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;ut=
+m_medium=3Demail&amp;utm_campaign=3Dquotidientoutesventesj0&amp;utm_content=
+=3Dhome-logoVP&amp;member_id=3D46558698&amp;partnerid=3D15418" target=3D"_b=
+lank"><img src=3D"http://vp-eu.scene7.com/is/image/vpeu/00_INT_mkt-logoVp_0=
+2?$PNG$" style=3D"display:block;" class=3D"logo" alt=3D"vente-privee" borde=
+r=3D"0" height=3D"46" width=3D"243"></a>
+                     </td>
+               </table>
+               <!-- END :  logo -->
+              =20
+                <!-- BEGIN :  Bandeau MKT exceptionnel -->
+    =20
+             =20
+                =20
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<tbody>
+<tr id=3D"autoPromo">
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PAD=
+DING-RIGHT: 0px" valign=3D"top" align=3D"center">
+<a title=3D"Foire aux vins sur Vente-privee !" href=3D"http://trkmid.ventep=
+rivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826cceb&amp;p1=3Dsecure.fr.vente-priv=
+ee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/QqmPpAf9K6ocpTfIKj=
+u7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStszXDkubGYnd34LBR7t=
+CTydxkGBOtLs&#43;Aiaq2UPU1X66WBp&#43;/fiQ1Ro&amp;SiteId=3D1&amp;utm_source=
+=3Dinvitations&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidientoutesven=
+tesj0&amp;utm_content=3DWNE_FAV1_visual&amp;member_id=3D46558698&amp;partne=
+rid=3D15418" target=3D"_blank"><img id=3D"promoVvp" class=3D"imgfw" style=
+=3D"VERTICAL-ALIGN: top" border=3D"0" alt=3D"Foire aux vins sur Vente-prive=
+e !" src=3D"http://www.vente-privee.com/vp4/_sales/VPMARKET01/emailing/CPGN=
+E_MARQUE/fav-email-invit.jpg" width=3D"640" height=3D"145"></a> </td></tr><=
+/tbody></table>
+             =20
+
+             <!-- END : Bandeau MKT exceptionnel -->
+              =20
+               <!-- BEGIN : Main Content -->
+               <!--[if (gte mso 9)|(IE)]>
+               <table width=3D"640" class=3D"fw mainContent" align=3D"cente=
+r" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"margin: 0 auto=
+;">
+                  <tr>
+                     <td>
+                        <![endif]-->
+                        <table class=3D"fw mainContent" style=3D"margin: 0 =
+auto;max-width:640px;" align=3D"center" bgcolor=3D"#ffffff" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                           <tr>
+                              <td align=3D"center">
+                                 <!--[if (gte mso 9)|(IE)]>
+                                 <table class=3D"banner" width=3D"100%" ali=
+gn=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                                    <tr>
+                                       <td>
+                                          <![endif]-->
+                                          <table class=3D"banner" style=3D"=
+margin: 0 auto; max-width:100%;" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+                                             <tr>
+                                                <td class=3D"txt14 title1" =
+style=3D" padding:20px 5px; font-family:Arial, Helvetica, sans-serif; font-=
+size: 14px; color: #666666;" align=3D"center" valign=3D"middle">21 nouvelle=
+s ventes aujourd=92hui sur vente-privee<br></td>
+                                             </tr>
+                                             <!-- BEGIN : REPETITION BANDEA=
+U VENTE -->
+                                             <tr>
+                                                <td>
+                                                   <table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"fw">
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS03bq8kE2OHgg=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[WNE_FAV1]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_WNE_FAV1 - " =
+target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/5/00_68525_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_WNE_FAV1 - " border=3D"0" style=3D"vertical-a=
+lign: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0BBlc9x6tpGA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[BENETTON43]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_BENETTON43 =
+- Mode color=E9e pour b=E9b=E9 et enfant..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/TPL_BRANDVISUAL_PICTO?$src=3D00_71812=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_BENETTON43 - Mode co=
+lor=E9e pour b=E9b=E9 et enfant..." border=3D"0" style=3D"vertical-align: t=
+op;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0Po67&#43;Y5xn2I=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[TEFAL63]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_TEFAL63 - =
+" target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71701_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_TEFAL63 - " border=3D"0" style=3D"vertical-al=
+ign: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0eTFO01icTgY=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[MORESCHI9]-brandvisua=
+l&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_MORESCHI9 - =
+Chaussures de luxe italiennes, originales et =E9l=E9gantes..." target=3D"_b=
+lank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_69870=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor3=3D-109,-141&am=
+p;$picto3=3DVPL_WO_BLINE_NOIR_FR&amp;$anchor3=3D-109,-141&amp;$picto3=3DVPL=
+_WO_BLINE_NOIR_FR" width=3D"280" alt=3D"ope_MORESCHI9 - Chaussures de luxe =
+italiennes, originales et =E9l=E9gantes..." border=3D"0" style=3D"vertical-=
+align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS091GQA6kiekc=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[JLSCHERRER57]-brandvi=
+sual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_JLSCHERRE=
+R57 - Une collection =E9l=E9gante et compl=E8te pour toutes les occasions..=
+." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/0/TPL_BRANDVISUAL_PICTO?$src=3D00_70998=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_JLSCHERRER57 - Une c=
+ollection =E9l=E9gante et compl=E8te pour toutes les occasions..." border=
+=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS058cD2X13ezE=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[RZD_WONDERBRA21]-bran=
+dvisual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_RZD_WO=
+NDERBRA21 - Des collections de lingerie glamour, uniques et cr=E9atives..."=
+ target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/0/00_72024_FR_brandvisualbrandvisualxlb=
+usinessv1fr" width=3D"280" alt=3D"ope_RZD_WONDERBRA21 - Des collections de =
+lingerie glamour, uniques et cr=E9atives..." border=3D"0" style=3D"vertical=
+-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0ExdUZMhJCgI=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ELEMENT11]-brandvisua=
+l&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ELEMENT11 - =
+Pr=EAt-=E0-porter, sneakers et accessoires streetwear pour toute la famille=
+..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_70779=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor2=3D-190,162&amp=
+;$picto2=3D72H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_ELEMENT11 - Pr=EAt-=
+=E0-porter, sneakers et accessoires streetwear pour toute la famille..." bo=
+rder=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0mrbCkjdnvqg=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[SIEMENS22]-brandvisua=
+l&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_SIEMENS22 - =
+Mat=E9riel =E9lectrique &amp; chauffage..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/3/TPL_BRANDVISUAL_PICTO?$src=3D00_70384=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_SIEMENS22 - Mat=E9ri=
+el =E9lectrique &amp; chauffage..." border=3D"0" style=3D"vertical-align: t=
+op;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0NIi0GHCdwOs=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[BLUEGENEX19]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_BLUEGENEX1=
+9 - Chaussures de tendance f=E9minines Bluegenex; garantie, qualit=E9 et co=
+nfort..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71998_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_BLUEGENEX19 - Chaussures de tendance f=E9mini=
+nes Bluegenex; garantie, qualit=E9 et confort..." border=3D"0" style=3D"ver=
+tical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0twuEsZPDgA4=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[PEACELOVE4]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_PEACELOVE4 =
+- Pour un deressing d'automne chic..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/8/TPL_BRANDVISUAL_PICTO?$src=3D00_71401=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_PEACELOVE4 - Pour un=
+ deressing d'automne chic..." border=3D"0" style=3D"vertical-align: top;" c=
+lass=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0WE/0Hlq9kQA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[LPBOMBES7]-brandvisua=
+l&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_LPBOMBES7 - =
+" target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_71012=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_LPBOMBES7 - " border=
+=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0vhCMjja/434=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VARIANCE27]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VARIANCE27 =
+- Lingerie unique et p=E9tillante..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_70314_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_VARIANCE27 - Lingerie unique et p=E9tillante.=
+.." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS09vtCowjkZUA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[BRIO7]-brandvisual&am=
+p;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_BRIO7 - Offrez t=
+out un monde imaginaire =E0 votre enfant..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_70807_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_BRIO7 - Offrez tout un monde imaginaire =E0 v=
+otre enfant..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"=
+></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0PDdhDNMv4vY=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[GATMAIS2]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_GATMAIS2 - Po=
+ur des p=E2tisseries maison gourmandes et color=E9es..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_71280=
+_FR_brandvisualbrandvisualxlv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162&amp=
+;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_GATMAIS2 - Pour des =
+p=E2tisseries maison gourmandes et color=E9es..." border=3D"0" style=3D"ver=
+tical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0vnlNNJA9g0k=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[FTOOLS20]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_FTOOLS20 - Ac=
+compagne vos projets de bricolage et jardinage..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/0/00_71024_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_FTOOLS20 - Accompagne vos projets de bricolag=
+e et jardinage..." border=3D"0" style=3D"vertical-align: top;" class=3D"img=
+fw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS06St0lBM6SHc=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPF_SALONS3]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPF_SALONS=
+3 - D=E9couvrez des salons pour tous les go=FBts, partout en France... " ta=
+rget=3D"_blank">
+                                                            <img src=3D"htt=
+p://vp-eu.scene7.com/is/image/vpeu/5/00_71914_FR_brandvisualbrandvisualxlv1=
+fr" width=3D"280" alt=3D"ope_VPF_SALONS3 - D=E9couvrez des salons pour tous=
+ les go=FBts, partout en France... " border=3D"0" style=3D"vertical-align: =
+top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0hQBehnrD/oU=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[MLAREN17]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_MLAREN17 - De=
+sign, innovation et confort pour b=E9b=E9=85" target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71317_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_MLAREN17 - Design, innovation et confort pour=
+ b=E9b=E9=85" border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"><=
+/a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0MKG2IKaax7Q=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_H_P_FLY407]-brand=
+visual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_H_P=
+_FLY407 - " target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72295_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_VPV_H_P_FLY407 - " border=3D"0" style=3D"vert=
+ical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0K/Y8ssiXyLg=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_SVAC97]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_SVAC97 =
+- Valfr=E9jus en all inclusive, le temps d'une escapade ou un s=E9jour de 2=
+ =E0 7 nuits..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_72133_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_VPV_SVAC97 - Valfr=E9jus en all inclusive, le=
+ temps d'une escapade ou un s=E9jour de 2 =E0 7 nuits..." border=3D"0" styl=
+e=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf1&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS01kmWrWDnd8Q=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_MULTI1018]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_MULT=
+I1018 - Escapades en France..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/3/00_72222_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_VPV_MULTI1018 - Escapades en France..." borde=
+r=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccee&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0cmGvLyEDQsc=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_H_AGAPA7]-brandvi=
+sual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_H_AGA=
+PA7 - Offrez-vous une pause bien-=EAtre d=92exception=85" target=3D"_blank"=
+>
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72327_FR_brandvisualbrandvisualxlv=
+1fr" width=3D"280" alt=3D"ope_VPV_H_AGAPA7 - Offrez-vous une pause bien-=EA=
+tre d=92exception=85" border=3D"0" style=3D"vertical-align: top;" class=3D"=
+imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                     =20
+                                                      </tr>
+                                                     =20
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- END : REPETITION BANDEAU =
+VENTE -->
+                                          </table>
+                                          <!--[if (gte mso 9)|(IE)]>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <![endif]-->
+                              </td>
+                           </tr>
+              =20
+              <!-- BEGIN :   Bloc Ventes du lendemain -->
+              =20
+                           <tr>
+                              <td align=3D"center">
+                                 <!--[if (gte mso 9)|(IE)]>
+                                 <table class=3D"banner" width=3D"100%" ali=
+gn=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                                    <tr>
+                                       <td>
+                                          <![endif]-->
+                                          <table class=3D"banner" style=3D"=
+margin: 0 auto; max-width:100%;" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+                                            =20
+                                             <tr>
+                                                <td class=3D"txt14 title1" =
+style=3D" padding:20px 5px; font-family:Arial, Helvetica, sans-serif; font-=
+size: 14px; color: #666666;" align=3D"center" valign=3D"middle">Demain sur =
+vente-privee....</td>
+                                             </tr>
+                                            =20
+                                             <!-- BEGIN : REPETITION BANDEA=
+U VENTE -->
+                                             <tr>
+                                                <td>
+                                                   <table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"fw">
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS09vJ4vTQHqqM=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[LTROPEZIEN9]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_LTROPEZIEN=
+9 - Sandales tendances et confortables pour se sentir belle tout au long de=
+ la journ=E9e..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_70816=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162=
+&amp;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_LTROPEZIEN9 - Sa=
+ndales tendances et confortables pour se sentir belle tout au long de la jo=
+urn=E9e..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a=
+>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0q9g&#43;dTFAwUY=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ETAM58]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ETAM58 - Un=
+e collection de pr=EAt-=E0-porter joyeuse, f=E9minine et accessible... " ta=
+rget=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/TPL_BRANDVISUAL_PICTO?$src=3D00_71246=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor2=3D-190,162=
+&amp;$picto2=3D72H_SMALL_BLANC_FR" width=3D"280" alt=3D"ope_ETAM58 - Une co=
+llection de pr=EAt-=E0-porter joyeuse, f=E9minine et accessible... " border=
+=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS01WUK59JR&#43;s0=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ECLOCK3]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ECLOCK3 - =
+Soyez connect=E9s avec Eclock ! " target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/3/00_71375_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_ECLOCK3 - Soyez connect=E9s avec Eclock !=
+ " border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS01SjRAuyR3KA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[CLAIREFONTAI41]-brand=
+visual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_CLAIREF=
+ONTAI41 - Tous les indispensables des fournitures scolaires ..." target=3D"=
+_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/TPL_BRANDVISUAL_PICTO?$src=3D00_71328=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162=
+&amp;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_CLAIREFONTAI41 -=
+ Tous les indispensables des fournitures scolaires ..." border=3D"0" style=
+=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0/2Vo1dxD6mQ=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[LITTLECELEBS2]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_LITTLECE=
+LEBS2 - V=EAtements =E9l=E9gants pour les enfants branch=E9s ..." target=3D=
+"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/TPL_BRANDVISUAL_PICTO?$src=3D00_70168=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162=
+&amp;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_LITTLECELEBS2 - =
+V=EAtements =E9l=E9gants pour les enfants branch=E9s ..." border=3D"0" styl=
+e=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0Vsnt0XqvEsA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPDECO39]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPDECO39 - As=
+sises, mobilier, d=E9coration et tapis pour un int=E9rieur chic et tendance=
+." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_68400_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPDECO39 - Assises, mobilier, d=E9coratio=
+n et tapis pour un int=E9rieur chic et tendance." border=3D"0" style=3D"ver=
+tical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0uCd0/qrsfoM=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ODLO15]-brandvisual&a=
+mp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ODLO15 - V=EAte=
+ments tout type de sport pour elle et lui..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_70475_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_ODLO15 - V=EAtements tout type de sport p=
+our elle et lui..." border=3D"0" style=3D"vertical-align: top;" class=3D"im=
+gfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS03cVqzF/abRg=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPT_TARATATA6]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPT_TARA=
+TATA6 - Taratata f=EAte ses 25 ans au Z=E9nith Paris-La Villette le samedi =
+23 septembre 2017 =E0 20h30... " target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_72119_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPT_TARATATA6 - Taratata f=EAte ses 25 an=
+s au Z=E9nith Paris-La Villette le samedi 23 septembre 2017 =E0 20h30... " =
+border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0I6A5HP&#43;BHyY=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[TLEUCHTEN13]-bran=
+dvisual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_TLEUCH=
+TEN13 - Luminaires design d=92int=E9rieur et d=92ext=E9rieur=85" target=3D"=
+_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/TPL_BRANDVISUAL_PICTO?$src=3D00_71550=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162=
+&amp;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_TLEUCHTEN13 - Lu=
+minaires design d=92int=E9rieur et d=92ext=E9rieur=85" border=3D"0" style=
+=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0YHwiwYE0p5M=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[WOODBRASS20]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_WOODBRASS2=
+0 - Instruments de musique et accessoires pour toute la famille..." target=
+=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/TPL_BRANDVISUAL_PICTO?$src=3D00_71192=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor2=3D-190,162=
+&amp;$picto2=3D72H_SMALL_BLANC_FR" width=3D"280" alt=3D"ope_WOODBRASS20 - I=
+nstruments de musique et accessoires pour toute la famille..." border=3D"0"=
+ style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0SLzzoEamYHw=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[JOURDAN1]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_JOURDAN1 - Bi=
+joux originaux et raffin=E9s pour elle &amp; lui..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/4/00_70547_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_JOURDAN1 - Bijoux originaux et raffin=E9s=
+ pour elle &amp; lui..." border=3D"0" style=3D"vertical-align: top;" class=
+=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0BAI5OAxwGNA=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ABRILFLOWERS2]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ABRILFLO=
+WERS2 - Chaussures en cuir " Madeinspain?pourcetautomne...?=3D"" target=3D"=
+_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/5/TPL_BRANDVISUAL_PICTO?$src=3D00_71154=
+_FR_brandvisualbrandvisualxlsoonv1fr&amp;qlt=3D93,1&amp;$anchor1=3D-190,162=
+&amp;$picto1=3D19H_SMALL_ROSE_FR" width=3D"280" alt=3D"ope_ABRILFLOWERS2 - =
+Chaussures en cuir " Madeinspain?pourcetautomne...?=3D"" border=3D"0" style=
+=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0/U6ir04kLXI=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[GOLFINO15]-brandvisua=
+l&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_GOLFINO15 - =
+La rencontre entre performance et =E9l=E9gance..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/3/00_70970_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_GOLFINO15 - La rencontre entre performanc=
+e et =E9l=E9gance..." border=3D"0" style=3D"vertical-align: top;" class=3D"=
+imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0/FsGlN&#43;2UkY=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[EMCPHERSON8]-bran=
+dvisual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_EMCPHE=
+RSON8 - Lingerie et nightwear..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71038_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_EMCPHERSON8 - Lingerie et nightwear..." b=
+order=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0AsGDrgUD5bo=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[REDFOOT3]-brandvisual=
+&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_REDFOOT3 - Ch=
+aussures de qualit=E9 pour homme et femme..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71029_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_REDFOOT3 - Chaussures de qualit=E9 pour h=
+omme et femme..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgf=
+w"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS069fgTU0mxjY=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[GOPTIQUE15]-brandvisu=
+al&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_GOPTIQUE15 =
+- La fin des lunettes ch=E8res..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/3/00_70942_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_GOPTIQUE15 - La fin des lunettes ch=E8res=
+..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0&#43;e/DOAodwgs=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[ATELBAIN1]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_ATELBAIN=
+1 - Baignoires, pare-bain et pare-douche..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_71062_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_ATELBAIN1 - Baignoires, pare-bain et pare=
+-douche..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a=
+>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0j234SWQ0ch4=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_SINRAMA93]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_SINR=
+AMA93 - D=E9couvrez les richesses du Vietnam et du Cambodge..." target=3D"_=
+blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72120_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_SINRAMA93 - D=E9couvrez les richesses=
+ du Vietnam et du Cambodge..." border=3D"0" style=3D"vertical-align: top;" =
+class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0FrEetWPiKLg=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_GOLIV17]-brandvis=
+ual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_GOLIV1=
+7 - Immersion totale pour apprendre une langue..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72147_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_GOLIV17 - Immersion totale pour appre=
+ndre une langue..." border=3D"0" style=3D"vertical-align: top;" class=3D"im=
+gfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0WjjJo3v5BDY=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_STRAVEL107]-brand=
+visual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_STR=
+AVEL107 - Partez vous ressourcer aux Antilles..." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72111_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_STRAVEL107 - Partez vous ressourcer a=
+ux Antilles..." border=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"=
+></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0CdmbV&#43;IGLrs=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_PV180]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_PV18=
+0 - S=E9jours partout en France, en bord de mer ou =E0 la campagne" target=
+=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72129_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_PV180 - S=E9jours partout en France, =
+en bord de mer ou =E0 la campagne" border=3D"0" style=3D"vertical-align: to=
+p;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0ZXluv6RKgfQ=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_H_HAPFEW9]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_H_HA=
+PFEW9 - Laissez-vous =E9merveiller par Meg=E8ve et ses paysages enneig=E9s.=
+.." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/4/00_72151_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_H_HAPFEW9 - Laissez-vous =E9merveille=
+r par Meg=E8ve et ses paysages enneig=E9s..." border=3D"0" style=3D"vertica=
+l-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                      <tr>
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 10px 20px 20px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf4&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0cjxN4I5St&#43;g=3D&=
+amp;SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_H_P_FLY456]-b=
+randvisual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV=
+_H_P_FLY456 - " target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/2/00_72153_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_H_P_FLY456 - " border=3D"0" style=3D"=
+vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                        =20
+                                                        =20
+                                                        =20
+                                                         <td align=3D"cente=
+r" style=3D"padding:0 20px 20px 10px;">
+                                                           =20
+                                                            <a href=3D"http=
+://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf7&amp;p1=3Dsecu=
+re.fr.vente-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/Qq=
+mPpAf9K6ocpTfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStsz=
+XDkubGYnd9PNQw9oOEaCGa&#43;UCCpyEmmtuMG0bOgrdJ8aQ8GROaS0/sYVoIp2HPE=3D&amp;=
+SiteId=3D1&amp;utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3Dquotidientoutesventesj0&amp;utm_content=3Dsale[VPV_MULTI1057]-brandv=
+isual&amp;member_id=3D46558698&amp;partnerid=3D15418" title=3D"ope_VPV_MULT=
+I1057 - Vos vacances au ski.." target=3D"_blank">
+                                                            <img src=3D"htt=
+ps://vp-eu.scene7.com/is/image/vpeu/1/00_72223_FR_brandvisualbrandvisualxls=
+oonv1fr" width=3D"280" alt=3D"ope_VPV_MULTI1057 - Vos vacances au ski.." bo=
+rder=3D"0" style=3D"vertical-align: top;" class=3D"imgfw"></a>
+                                                         </td>
+                                                        =20
+                                                      </tr>
+                                                     =20
+                                                     =20
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- END : REPETITION BANDEAU =
+VENTE -->
+                                          </table>
+                                          <!--[if (gte mso 9)|(IE)]>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <![endif]-->
+                              </td>
+                           </tr>              =20
+              =20
+               <!-- END :   Bloc Ventes du lendemain -->
+              =20
+                           <!-- Acc=E9der aux ventes en cours -->
+                           <tr>
+                              <td style=3D"padding: 10px 0 30px 0;" align=
+=3D"center" valign=3D"middle" width=3D"100%">
+                                 <a class=3D"txt14" href=3D"http://trkmid.v=
+enteprivee.com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf8&amp;p1=3Dsecure.fr.vente=
+-privee.com/ExternalLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/QqmPpAf9K6ocp=
+TfIKju7SRRYbj&#43;B0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStszXDkubGYnd34=
+LBR7tCTydxkGBOtLs&#43;Aiaq2UPU1X66WBp&#43;/fiQ1Ro&amp;SiteId=3D1&amp;utm_so=
+urce=3Dinvitations&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidientoute=
+sventesj0&amp;utm_content=3Dhome-hyperlink1&amp;member_id=3D46558698&amp;pa=
+rtnerid=3D15418" target=3D"_blank" _label=3D"Acc=E9der aux ventes en cours"=
+ style=3D"color:#ec008c; font-size: 14px; font-family: Arial; text-decorati=
+on: none;">Acc=E9der aux ventes en cours</a>
+                              </td>
+                           </tr>
+                           <!--fin - Acc=E9der aux ventes en cours -->
+                           <tr>
+                              <td style=3D"padding: 0 0 20px 0;" align=3D"c=
+enter">
+                                 <!--[if (gte mso 9)|(IE)]>
+                                 <table class=3D"banner" width=3D"100%" ali=
+gn=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                                    <tr>
+                                       <td>
+                                          <![endif]-->
+                                          <table class=3D"banner" style=3D"=
+margin: 0 auto; max-width:100%;" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+                                             <tr>
+                                                <td style=3D"padding: 0 0 2=
+0px;">
+                                                   <table class=3D"fw" styl=
+e=3D"margin:0 auto;" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" width=3D"442">
+                                                      <tr>
+                                                         <td class=3D"txt14=
+" style=3D"font-family:Arial, Helvetica, sans-serif; font-size: 14px; color=
+: #ffffff; padding: 10px;" align=3D"left" bgcolor=3D"#f21e8c" valign=3D"mid=
+dle"><strong>NOS BONS PLANS POUR VOS SORTIES</strong></td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td style=3D"padding:0 0 20=
+px">
+                                                   <table class=3D"fw" styl=
+e=3D"margin: 0 auto;" align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"442">
+                                                      <tr>
+                                                         <td class=3D"imgSa=
+les" style=3D"border:1px solid #b8b8b8;" height=3D"182" valign=3D"top">
+                                                            <a href=3D"http=
+s://www.panda-ticket.com/fr/?utm_medium=3Dvp-mail-invitation&amp;utm_source=
+=3Dvp&amp;utm_campaign=3Dbottom&amp;utm_term=3Dvp" title=3D"" target=3D"_bl=
+ank"><img src=3D"http://fr.vente-privee.com/vp4/_sales/VPTICKET1/custom/inv=
+itation/inv_bandeau.jpg" alt=3D"ticket-minute - D=E9couvrir" style=3D"verti=
+cal-align: top;" class=3D"imgfw" border=3D"0" height=3D"182" width=3D"442">=
+</a>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- BEGIN :   Bloc variable -=
+->
+                                            =20
+                                             <tr>
+                                                <td style=3D"padding: 0 0 2=
+0px 0;" align=3D"center">
+                                                   <table class=3D"promoSal=
+es" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"430">
+                                                      <tr>
+                                                         <td valign=3D"top"=
+ style=3D"border: 1px solid #b8b8b8;"><a href=3D"http://trkmid.venteprivee.=
+com/r/?id=3Dh6aff3dbb,3826cce7,3826ccf9&amp;p1=3Dfr.vente-privee.com/vp4/_s=
+ales/VPMARKET01/lePass/invitation/FrFR/redirection_apps.html?utm_source=3Di=
+nvitations&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidientoutesventesj=
+0&amp;utm_content=3DTicket-minute_visual1&amp;member_id=3D46558698&amp;part=
+nerid=3D15418" title=3D"" target=3D"_blank"><img src=3D"http://fr.vente-pri=
+vee.com/vp4/_sales/VPMARKET01/lePass/invitation/FrFR/inv_bandeau.jpg" width=
+=3D"428" height=3D"176" alt=3D"" border=3D"0" style=3D"vertical-align: top;=
+"></a></td>
+                                                      </tr>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                            =20
+                                          </table>
+                                          <!--[if (gte mso 9)|(IE)]>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <![endif]-->
+                              </td>
+                           </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                     </td>
+                  </tr>
+               </table>
+               <![endif]-->
+               <!--[if (gte mso 9)|(IE)]>
+               <![endif]-->
+            </td>
+         </tr>
+        =20
+
+
+
+<!--[if (gte mso 9)|(IE)]>
+<table class=3D"fw footer" width=3D"640" align=3D"center" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"margin:0 auto">
+  <tr>
+    <td>
+<![endif]-->
+<table class=3D"fw footer" style=3D"margin:0 auto;max-width:640px;" align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+>
+  <tr>
+    <td class=3D"titleSocialNetwork" style=3D"border-top: 4px solid #f21e8c=
+; border-bottom: 0; border-left: 0; border-right: 0;padding: 10px; text-tra=
+nsform:uppercase; font-family:Arial, Helvetica, sans-serif; font-size: 10px=
+; color: #464650;" align=3D"center">
+       REJOIGNEZ LA COMMUNAUT=C9
+    </td>
+  </tr>        =20
+  <tr>
+    <td align=3D"center" class=3D"socialLine">
+    <!--[if (gte mso 9)|(IE)]>
+      <table class=3D"fw socialBlock" width=3D"170" align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"margin:0 auto">
+        <tr>
+          <td>
+    <![endif]-->
+      <table class=3D"socialBlock" style=3D"max-width:170px;" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+      <tr>
+        <td align=3D"center" style=3D"padding: 0 5px;">
+          <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cc=
+e7,3826ccfa" title=3D"Facebook" target=3D"_blank"><img src=3D"http://vp-eu.=
+scene7.com/is/image/vpeu/00_INT_footer-facebook_01" width=3D"24" height=3D"=
+24" border=3D"0" alt=3D"Facebook">
+          </a>
+        </td>
+        <td align=3D"center" style=3D"padding: 0 5px;">
+          <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cc=
+e7,3826ccfb" title=3D"Twitter" target=3D"_blank"><img src=3D"http://vp-eu.s=
+cene7.com/is/image/vpeu/00_INT_footer-twitter_01" width=3D"24" height=3D"24=
+" border=3D"0" alt=3D"Twitter">
+          </a>
+        </td>
+        <td align=3D"center" style=3D"padding: 0 5px;">
+          <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cc=
+e7,3826ccfc" title=3D"Instagram" target=3D"_blank"><img src=3D"http://vp-eu=
+.scene7.com/is/image/vpeu/00_INT_footer-instagram_01" width=3D"24" height=
+=3D"24" border=3D"0" alt=3D"Instagram">
+          </a>
+        </td>
+        <td align=3D"center" style=3D"padding: 0 5px;">
+          <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cc=
+e7,3826ccfd" title=3D"Youtube" target=3D"_blank"><img src=3D"http://vp-eu.s=
+cene7.com/is/image/vpeu/00_INT_footer-youtube_01" width=3D"24" height=3D"24=
+" border=3D"0" alt=3D"YouTube">
+          </a>
+        </td>
+        <td align=3D"center" style=3D"padding: 0 5px;">
+          <a href=3D"http://trkmid.venteprivee.com/r/?id=3Dh6aff3dbb,3826cc=
+e7,3826ccfe" title=3D"pinterest" target=3D"_blank"><img src=3D"http://vp-eu=
+.scene7.com/is/image/vpeu/00_INT_footer-pinterest_01" width=3D"24" height=
+=3D"24" border=3D"0" alt=3D"pinterest">
+          </a>
+        </td>
+      </tr>
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+    <![endif]-->
+    </td>
+  </tr>
+  <tr>
+    <td class=3D"footerBloc">
+      <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" style=3D"margin:0 auto;" width=3D"100%">
+        <tr>
+      <td class=3D"linkFootLine" align=3D"center" style=3D"padding-top:10px=
+;font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#f21e8c;">
+      <a class=3D"dBlk linkFoot" href=3D"http://trkmid.venteprivee.com/r/?i=
+d=3Dh6aff3dbb,3826cce7,3826ccff&amp;p1=3Dsecure.fr.vente-privee.com/vp4/reg=
+istration/help.aspx?utm_source=3Dinvitations&amp;utm_medium=3Demail&amp;utm=
+_campaign=3Dquotidientoutesventesj0&amp;utm_content=3Dfooter_infoVente&amp;=
+member_id=3D46558698&amp;partnerid=3D15418" title=3D"" style=3D"color:#f21e=
+8c;">Informations sur les ventes</a>
+      <span class=3D"dNone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+      <a class=3D"dBlk linkFoot" href=3D"http://trkmid.venteprivee.com/r/?i=
+d=3Dh6aff3dbb,3826cce7,3826cd00&amp;p1=3Dsecure.fr.vente-privee.com/Externa=
+lLinks/AutoLoginSecure.ashx?i=3D3cDvwGyNMj/QqmPpAf9K6ocpTfIKju7SRRYbj&#43;B=
+0WBAqZunZ/58GcNS&#43;EVTFIzIGwAkK&#43;vNVStszXDkubGYnd/4pA3eK&#43;xgXx4cHJd=
+V9TjOJ4ju/SPLtEC&#43;sOePij5qV&#43;5hnyTQD7Tw=3D&amp;SiteId=3D1&amp;utm_sou=
+rce=3Dinvitations&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidientoutes=
+ventesj0&amp;utm_content=3Dfooter_parrainage&amp;member_id=3D46558698&amp;p=
+artnerid=3D15418" title=3D"" style=3D"color:#f21e8c;">Parrainer des amis</a=
+>
+     =20
+      <span class=3D"dNone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+      <a class=3D"dBlk linkFoot" href=3D"http://trkmid.venteprivee.com/r/?i=
+d=3Dh6aff3dbb,3826cce7,3826cd01&amp;p1=3Dsecure.fr.vente-privee.com/membera=
+ccount/communications/notloggued?i=3D3cDvwGyNMj/QqmPpAf9K6ocpTfIKju7SY6Z4QD=
+Y5M36lUUW9qtYRXY&#43;R7d5Scp&#43;S&amp;SiteId=3D1&amp;utm_source=3Dinvitati=
+ons&amp;utm_medium=3Demail&amp;utm_campaign=3Dquotidientoutesventesj0&amp;u=
+tm_content=3Dfooter_noOffre&amp;member_id=3D46558698&amp;partnerid=3D15418"=
+ title=3D"" style=3D"color:#f21e8c;">Ne plus recevoir les offres</a>
+         =20
+      </td>
+      </tr>
+        <tr>
+          <td class=3D"afw footerPhrase" align=3D"center" style=3D"padding:=
+10px 0;font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#38343=
+6;">Pour =EAtre s=FBr(e) de recevoir nos prochaines invitations, merci de c=
+opier/coller l'adresse suivante : <a style=3D"color: #f21e8c; text-decorati=
+on: underline;">invitation@venteprivee.com</a> dans votre carnet d'adresses=
+.</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+    </td>
+  </tr>
+</table>
+<![endif]-->
+      </table>
+   <img height=3D"0" width=3D"0" alt=3D"" src=3D"http://trkmid.venteprivee.=
+com/r/?id=3Dh6aff3dbb,3826cce7,1"></body>
+</html>
+
+------=_NextPart_234_F1457DC2.F1457DC2--

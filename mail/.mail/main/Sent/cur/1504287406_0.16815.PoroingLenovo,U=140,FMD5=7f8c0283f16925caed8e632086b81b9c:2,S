@@ -1,0 +1,181 @@
+X-TMN: [rUjr2EbDiGIyVBAtkoxbv/OWnUme6mGU]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <DUB123-W900FB371905EC13EC6EA8BA8C0@phx.gbl>
+Content-Type: multipart/alternative;
+	boundary="_5e249f5e-48d3-4d93-bee9-da42c4ceea82_"
+From: jean jouve <jean-18-09@hotmail.fr>
+To: Thomas DUFLOS <thomas_duflos@numericable.fr>
+Subject: RE: proposition calcul ajout de date.
+Date: Tue, 18 Jun 2013 20:22:34 +0200
+In-Reply-To: <97DBA637-4907-4F96-8253-735B8D822B1A@numericable.fr>
+References: <C95066B6-9BD1-49FC-9C42-5FADADDE189F@numericable.fr>
+ <DUB123-W34DFF70C2C3D0161338C21BA8C0@phx.gbl>,<97DBA637-4907-4F96-8253-735B8D822B1A@numericable.fr>
+MIME-Version: 1.0
+
+--_5e249f5e-48d3-4d93-bee9-da42c4ceea82_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Super !Merci beaucoups !
+
+From: thomas_duflos@numericable.fr
+Subject: Re: proposition calcul ajout de date.
+Date: Tue=2C 18 Jun 2013 20:12:20 +0200
+To: jean-18-09@hotmail.fr
+
+C'est tr=E8s bien Jean.j'ai vu quelques trucs =E0 corriger=2C on en parle d=
+emain.On regardera =E9galement comment le compiler et le tester.
+
+Le 18 juin 2013 =E0 19:42=2C jean jouve <jean-18-09@hotmail.fr> a =E9crit :=
+Je pense avoir finis la premiere fonctionJe te l'envoie donc pour que tu v=
+=E9rifie =3B)
+
+> From: thomas_duflos@numericable.fr
+> Subject: proposition calcul ajout de date.
+> Date: Mon=2C 17 Jun 2013 20:19:23 +0200
+> CC: thomas.duflos@cofidis.fr
+> To: jean-18-09@hotmail.fr
+>=20
+> Salut Jean=2C
+>=20
+> si tu y travailles comme tu me l'avais dit=2C que penses_tu de ce genre d=
+'algo.
+> On ne s'emb=EAte plus =E0 convertir la date en quanti=E8me et =E0 calcule=
+r le nombre de seconde=85.
+>=20
+> A demain
+> Thomas
+>=20
+>=20
+> ValidationDate.
+>=20
+> annee
+> mois
+> jour
+>=20
+> Findemois(12) =3D (31=2C28=2C31=2C30=2C31=2C30=2C31=2C31=2C30=2C31=2C30=
+=2C31)
+> +
+> Findemois(1) =3D 29 pour les ann=E9es=85
+>=20
+>=20
+> i le nombre de jour =E0 ajouter ou supprimer.
+>=20
+>=20
+> var_i =3D 1
+> var_annee =3D ann=E9e
+> var_mois =3D mois
+> var_jpur =3D jour
+>=20
+> Si i > 0 alors
+> tant que var_i <=3D i=20
+> var_i=3D var_i + 1
+> Si var_jour < Findemois(var_mois-1) alors=20
+> var_jour =3D var_jour+1
+> Sinon /* var_jour =3D Findemois(var_mois-1) alors */
+> var_jour =3D 1
+> Si var_mois < 12 alors
+> var_mois =3D var_mois+1
+> Sinon /*var_mois=3D12 alors */
+> var_mois =3D 1
+> var_annee =3D var_annee+1
+> Fin Si
+> Fin Si
+> Fin Tant que
+> Sinon /* i < 0)
+> tant que var_i >=3D i
+> var_1 =3D var_1 -1
+> Si var_jour > 1 alors
+> var_jour=3Dvar_jour-1
+> Sinon /* var_jour =3D 1 alors */
+> Si var_mois > 1 alors
+> var_jour=3D Findemois(var_mois-2)
+> var_mois=3Dvar_mois-1
+> Sinon /* var_mois =3D 1 alors */=20
+> var_jour =3D 31
+> var_mois =3D 12
+> var_annee =3D var_annee-1
+> Fin Si
+> Fin Si
+> Fin Tant que
+> Fin Si
+<IDTPDE.txt>
+ 		 	   		  =
+
+--_5e249f5e-48d3-4d93-bee9-da42c4ceea82_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252"><style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style></head>
+<body class=3D"hmmessage"><div dir=3D"ltr">Super !<div>Merci beaucoups !<br=
+><br><div><hr id=3D"stopSpelling">From: thomas_duflos@numericable.fr<br>Sub=
+ject: Re: proposition calcul ajout de date.<br>Date: Tue, 18 Jun 2013 20:12=
+:20 &#43;0200<br>To: jean-18-09@hotmail.fr<br><br>C'est tr=E8s bien Jean.<d=
+iv>j'ai vu quelques trucs =E0 corriger, on en parle demain.<div>On regarder=
+a =E9galement comment le compiler et le tester.</div><div><br></div><div><b=
+r><div><div>Le 18 juin 2013 =E0 19:42, jean jouve &lt;<a href=3D"mailto:jea=
+n-18-09@hotmail.fr">jean-18-09@hotmail.fr</a>&gt; a =E9crit :</div><br clas=
+s=3D"ecxApple-interchange-newline"><blockquote><div class=3D"ecxhmmessage" =
+style=3D"font-size:12pt;font-family:Calibri;font-style:normal;font-variant:=
+normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:=
+2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:n=
+ormal;widows:2;word-spacing:0px;"><div dir=3D"ltr">Je pense avoir finis la =
+premiere fonction<div>Je te l'envoie donc pour que tu v=E9rifie ;)</div><di=
+v><br><br><div>&gt; From:<span class=3D"ecxApple-converted-space">&nbsp;</s=
+pan><a href=3D"mailto:thomas_duflos@numericable.fr">thomas_duflos@numericab=
+le.fr</a><br>&gt; Subject: proposition calcul ajout de date.<br>&gt; Date: =
+Mon, 17 Jun 2013 20:19:23 &#43;0200<br>&gt; CC:<span class=3D"ecxApple-conv=
+erted-space">&nbsp;</span><a href=3D"mailto:thomas.duflos@cofidis.fr">thoma=
+s.duflos@cofidis.fr</a><br>&gt; To:<span class=3D"ecxApple-converted-space"=
+>&nbsp;</span><a href=3D"mailto:jean-18-09@hotmail.fr">jean-18-09@hotmail.f=
+r</a><br>&gt;<span class=3D"ecxApple-converted-space">&nbsp;</span><br>&gt;=
+ Salut Jean,<br>&gt;<span class=3D"ecxApple-converted-space">&nbsp;</span><=
+br>&gt; si tu y travailles comme tu me l'avais dit, que penses_tu de ce gen=
+re d'algo.<br>&gt; On ne s'emb=EAte plus =E0 convertir la date en quanti=E8=
+me et =E0 calculer le nombre de seconde=85.<br>&gt;<span class=3D"ecxApple-=
+converted-space">&nbsp;</span><br>&gt; A demain<br>&gt; Thomas<br>&gt;<span=
+ class=3D"ecxApple-converted-space">&nbsp;</span><br>&gt;<span class=3D"ecx=
+Apple-converted-space">&nbsp;</span><br>&gt; ValidationDate.<br>&gt;<span c=
+lass=3D"ecxApple-converted-space">&nbsp;</span><br>&gt; annee<br>&gt; mois<=
+br>&gt; jour<br>&gt;<span class=3D"ecxApple-converted-space">&nbsp;</span><=
+br>&gt; Findemois(12) =3D (31,28,31,30,31,30,31,31,30,31,30,31)<br>&gt; &#4=
+3;<br>&gt; Findemois(1) =3D 29 pour les ann=E9es=85<br>&gt;<span class=3D"e=
+cxApple-converted-space">&nbsp;</span><br>&gt;<span class=3D"ecxApple-conve=
+rted-space">&nbsp;</span><br>&gt; i le nombre de jour =E0 ajouter ou suppri=
+mer.<br>&gt;<span class=3D"ecxApple-converted-space">&nbsp;</span><br>&gt;<=
+span class=3D"ecxApple-converted-space">&nbsp;</span><br>&gt; var_i =3D 1<b=
+r>&gt; var_annee =3D ann=E9e<br>&gt; var_mois =3D mois<br>&gt; var_jpur =3D=
+ jour<br>&gt;<span class=3D"ecxApple-converted-space">&nbsp;</span><br>&gt;=
+ Si i &gt; 0 alors<br>&gt; tant que var_i &lt;=3D i<span class=3D"ecxApple-=
+converted-space">&nbsp;</span><br>&gt; var_i=3D var_i &#43; 1<br>&gt; Si va=
+r_jour &lt; Findemois(var_mois-1) alors<span class=3D"ecxApple-converted-sp=
+ace">&nbsp;</span><br>&gt; var_jour =3D var_jour&#43;1<br>&gt; Sinon /* var=
+_jour =3D Findemois(var_mois-1) alors */<br>&gt; var_jour =3D 1<br>&gt; Si =
+var_mois &lt; 12 alors<br>&gt; var_mois =3D var_mois&#43;1<br>&gt; Sinon /*=
+var_mois=3D12 alors */<br>&gt; var_mois =3D 1<br>&gt; var_annee =3D var_ann=
+ee&#43;1<br>&gt; Fin Si<br>&gt; Fin Si<br>&gt; Fin Tant que<br>&gt; Sinon /=
+* i &lt; 0)<br>&gt; tant que var_i &gt;=3D i<br>&gt; var_1 =3D var_1 -1<br>=
+&gt; Si var_jour &gt; 1 alors<br>&gt; var_jour=3Dvar_jour-1<br>&gt; Sinon /=
+* var_jour =3D 1 alors */<br>&gt; Si var_mois &gt; 1 alors<br>&gt; var_jour=
+=3D Findemois(var_mois-2)<br>&gt; var_mois=3Dvar_mois-1<br>&gt; Sinon /* va=
+r_mois =3D 1 alors */<span class=3D"ecxApple-converted-space">&nbsp;</span>=
+<br>&gt; var_jour =3D 31<br>&gt; var_mois =3D 12<br>&gt; var_annee =3D var_=
+annee-1<br>&gt; Fin Si<br>&gt; Fin Si<br>&gt; Fin Tant que<br>&gt; Fin Si<b=
+r></div></div></div><span>&lt;IDTPDE.txt&gt;</span></div></blockquote></div=
+><br></div></div></div></div> 		 	   		  </div></body>
+</html>=
+
+--_5e249f5e-48d3-4d93-bee9-da42c4ceea82_--

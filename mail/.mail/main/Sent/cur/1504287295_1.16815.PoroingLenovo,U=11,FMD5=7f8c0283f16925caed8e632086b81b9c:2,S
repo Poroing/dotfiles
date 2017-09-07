@@ -1,0 +1,82 @@
+X-TMN: [Q+u9CfbwK8uBg8mfTK4+nAAe5D5ZApbZ]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <BLU436-SMTP1168CAD0FC1E30624927AEEBAAB0@phx.gbl>
+Return-Path: jean-18-09@hotmail.fr
+Date: Sun, 14 Feb 2016 11:16:20 +0100
+From: Jean Jouve <jean-18-09@hotmail.fr>
+To: =?ISO-8859-1?Q?S=E9verine?= Duminy <duminy.severine@orange.fr>
+Subject: Re: DNS: Evidence d'un Lemme
+In-Reply-To: <ED2676FB-3B79-4E21-81E6-22F993144538@orange.fr>
+References: <BLU436-SMTP138682F91E11F8C8482AF76BAD60@phx.gbl>
+	<ED2676FB-3B79-4E21-81E6-22F993144538@orange.fr>
+X-Mailer: Sylpheed 3.4.3 (GTK+ 2.24.29; i686-pc-linux-gnu)
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-OriginalArrivalTime: 14 Feb 2016 10:16:17.0731 (UTC) FILETIME=[BE1F3930:01D16710]
+MIME-Version: 1.0
+
+Bonjour madame Duminy,
+
+Je vous remercie de m'avoir r=E9pondu si vite.
+Pour la question 3.b de la partie III
+Je n'arrive pas =E0 montrer que l'endomorphisme
+propos=E9e,
+
+	g(x) =3D 	x si x appartient =E0 Ker(f)
+		f'(x) si x appartient =E0 Im(f)
+=09
+	o=F9 f' est la fonction r=E9ciproque de la fonction
+	f restreinte =E0 Im(f)
+
+est le pseudo-inverse de f.
+Par contre, j'arrive =E0 montrer que l'endomorphisme
+
+	g(x) =3D	0 si x appartient =E0 Ker(f)
+		f'(x) si x appartient =E0 Im(f)
+
+	o=F9 f' est la fonction r=E9ciproque de la fonction
+	f restreinte =E0 Im(f)
+
+est le pseudo-inverse de f, ce qui pose probl=E8me
+vu qu'il y a unicit=E9 du pseudo-inverse.
+
+Je me demande donc si il y'a une erreur d'=E9nonc=E9,
+Ou si j'ai tr=E8s mal compris une partie de l'=E9nonc=E9.
+
+Cordialement
+
+On Tue, 9 Feb 2016 15:34:37 +0100
+S=E9verine Duminy <duminy.severine@orange.fr> wrote:
+
+> Bonjour,
+>=20
+> Inutile de r=E9diger la r=E9currence, c'est effectivement un cas de r=E9c=
+urrence =E9l=E9mentaire.
+>=20
+> Math=E9matiquement,
+> S.DUMINY
+>=20
+> Envoy=E9 de mon iPhone
+>=20
+> > Le 9 f=E9vr. 2016 =E0 14:09, Jean Jouve <jean-18-09@hotmail.fr> a =E9cr=
+it :
+> >=20
+> >=20
+> > Bonjour madame Duminy,
+> > Dans le DNS =E0 rendre pour la rentr=E9e,
+> > J'aimerais poser un Lemme qui est =E9nonc=E9 ainsi
+> >=20
+> >    Si f o g =3D g o f:
+> >    Pour tout (n, m) dans R^2, f^n o g^m =3D g^m o f^n
+> >=20
+> > Puis je dire qu'une r=E9curence simple d=E9montre ce Lemme,
+> > ou est-il important que je r=E9dige cette r=E9curence?
+> >=20
+> > Cordialement
+> > --=20
+> > Jean Jouve <jean-18-09@hotmail.fr>
+>=20
+
+
+--=20
+Jean Jouve <jean-18-09@hotmail.fr>

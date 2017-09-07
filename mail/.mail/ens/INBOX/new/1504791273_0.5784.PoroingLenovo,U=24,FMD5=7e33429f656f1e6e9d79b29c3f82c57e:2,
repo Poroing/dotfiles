@@ -1,0 +1,101 @@
+Return-Path: <tous.eleves-owner@listes.ens-rennes.fr>
+X-Original-To: jjouv422@eleves.ens-rennes.fr
+Delivered-To: jjouv422@eleves.ens-rennes.fr
+Received: from romarin.ens-rennes.fr (romarin.ens-rennes.fr [193.52.92.218])
+	by arum.ensr.local (Postfix) with ESMTP id 6E950A816B1;
+	Thu,  7 Sep 2017 12:09:10 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 3A3C91720BCF;
+	Thu,  7 Sep 2017 12:09:10 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from romarin.ens-rennes.fr ([127.0.0.1])
+	by localhost (romarin.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id X8TO3pC269aE; Thu,  7 Sep 2017 12:09:09 +0200 (CEST)
+Received: from atlas.ens-rennes.fr (atlas.ens-rennes.fr [193.52.92.36])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 31B0A1720BE3;
+	Thu,  7 Sep 2017 12:09:05 +0200 (CEST)
+Received: by atlas.ens-rennes.fr (Postfix, from userid 1001)
+	id F1E4A122A7A; Thu,  7 Sep 2017 12:09:07 +0200 (CEST)
+X-Original-To: tous.eleves@listes.ens-rennes.fr
+Delivered-To: tous.eleves@listes.ens-rennes.fr
+Received: from coucou.ens-rennes.fr (coucou.ens-rennes.fr [193.52.92.4])
+	by atlas.ens-rennes.fr (Postfix) with ESMTP id 0BBB9122A72
+	for <tous.eleves@listes.ens-rennes.fr>; Thu,  7 Sep 2017 10:33:51 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 06EAF86A0F
+	for <tous.eleves@listes.ens-rennes.fr>; Thu,  7 Sep 2017 10:33:51 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+X-Spam-Flag: NO
+X-Spam-Score: -1.901
+X-Spam-Level:
+X-Spam-Status: No, score=-1.901 required=4 tests=[BAYES_00=-1.9,
+	RP_MATCHES_RCVD=-0.001] autolearn=ham autolearn_force=no
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GW0VjL6hgtG5 for <tous.eleves@listes.ens-rennes.fr>;
+	Thu,  7 Sep 2017 10:33:50 +0200 (CEST)
+Received: from webmail.ens-rennes.fr (webmail.ens-rennes.fr [193.52.92.25])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id BEEA785F34
+	for <tous.eleves@listes.ens-rennes.fr>; Thu,  7 Sep 2017 10:33:50 +0200 (CEST)
+Received: from webmail.ens-rennes.fr (localhost [127.0.0.1])
+	by webmail.ens-rennes.fr (Postfix) with ESMTP id 8D9C14468A
+	for <tous.eleves@listes.ens-rennes.fr>; Thu,  7 Sep 2017 10:33:48 +0200 (CEST)
+Received: from 10.35.57.23
+        (SquirrelMail authenticated user smalt960)
+        by webmail.ens-rennes.fr with HTTP;
+        Thu, 7 Sep 2017 10:33:48 +0200
+Message-ID: <128f15443563fecb234e00195ef79484.squirrel@webmail.ens-rennes.fr>
+Date: Thu, 7 Sep 2017 10:33:48 +0200
+From: "Maltagliati Silvio" <Silvio.Maltagliati@ens-rennes.fr>
+To: tous.eleves@listes.ens-rennes.fr
+User-Agent: SquirrelMail/1.4.23 [SVN]
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Validation-by: fatou.faye@ens-rennes.fr
+Subject: [tous.eleves] =?ISO-8859-1?Q?Apr=E8m_BDS?=
+Reply-To: "Maltagliati Silvio" <Silvio.Maltagliati@ens-rennes.fr>
+X-Loop: tous.eleves@listes.ens-rennes.fr
+X-Sequence: 1105
+Errors-to: tous.eleves-owner@listes.ens-rennes.fr
+Precedence: list
+Precedence: bulk
+Sender: tous.eleves-request@listes.ens-rennes.fr
+X-no-archive: yes
+List-Id: <tous.eleves.listes.ens-rennes.fr>
+List-Archive: <http://listes.ens-rennes.fr/sympa/arc/tous.eleves>
+List-Help: <mailto:sympa@listes.ens-rennes.fr?subject=help>
+List-Owner: <mailto:tous.eleves-request@listes.ens-rennes.fr>
+List-Post: <mailto:tous.eleves@listes.ens-rennes.fr>
+List-Subscribe: <mailto:sympa@listes.ens-rennes.fr?subject=subscribe%20tous.eleves>
+List-Unsubscribe: <mailto:sympa@listes.ens-rennes.fr?subject=unsubscribe%20tous.eleves>
+
+Bonjour à tous,
+
+L’aprèm BDS c’est un peu comme l’Hiver dans Games Of Thrones : on t’en
+parle, on t’en parle mais quand elle arrive, ça finit par faire mal !
+
+Alors nous vous attendons très nombreux Samedi 9 Septembre à 14h sur le
+parking de l’ENS pour passer un moment fort en émotions !
+Après avoir brûlé les merveilleuses calories du brunch BDA lors d’une
+course d’orientation épique sur le campus, de nombreux défis sportifs
+t’attendent : course par relais, pyramides humaines, Morpion géant...
+Réflexion, ténacité mais surtout cohésion d’équipe seront les maîtres-mots
+si tu espères remporter la récompense promise aux grands vainqueurs...
+
+Bref, il y en aura pour tous les goûts et peu importe ton niveau sportif :
+le plaisir avant tout ! Alors, plus d’hésitation : l’aprèm BDS c’est ce
+samedi et il va y avoir du sport !
+
+PS : On nous dit dans l'oreillette que l'Amicale de la Pétanque et du
+Barbecue prépare déjà les braises alors venez vous restaurer en leur
+charmante compagnie juste après la fin de notre compétition !
+
+Sportivement.
+
+Ton frétillant BDS
+
+
+

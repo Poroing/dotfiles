@@ -1,0 +1,95 @@
+X-TMN: [9AFPPvD0pw0vwlIF6odY52zMBR7xBmgH]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <DUB131-W47724B5F0044BFCC950084BA680@phx.gbl>
+Return-Path: jean-18-09@hotmail.fr
+Content-Type: multipart/alternative;
+	boundary="_95519d84-22e1-4c9a-a786-1bfc4af36af1_"
+From: jean jouve <jean-18-09@hotmail.fr>
+To: Baptiste Defrance <baptiste.defrance.dev@gmail.com>
+Subject: RE: brainfuck
+Date: Sat, 20 Dec 2014 01:40:22 +0100
+In-Reply-To: <CADbkLsFO9Qf2pL5f_kYq7T9pjU+S6-E0SFhBh7drVp6KnWoUxQ@mail.gmail.com>
+References: <DUB131-W1CB7AC4806162F1718565BA6A0@phx.gbl>,<CADbkLsFO9Qf2pL5f_kYq7T9pjU+S6-E0SFhBh7drVp6KnWoUxQ@mail.gmail.com>
+MIME-Version: 1.0
+
+--_95519d84-22e1-4c9a-a786-1bfc4af36af1_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Pour perdre un peu de temps niveau runtime?
+Je comprend pas pourquoi.
+Mais merci de m'aider ^^
+Sinon je suis fier de mon premier repository.
+M=EAme si je pense que mon code devrait =EAtre divis=E9 en quelque fichier =
+:3
+https://github.com/Poroing/Brainfuck-Interpreter
+
+Date: Fri=2C 19 Dec 2014 20:34:03 +0100
+Subject: Re: brainfuck
+From: baptiste.defrance.dev@gmail.com
+To: jean-18-09@hotmail.fr
+
+Dans ton main()
+change:=20
+std::cout << "The command must be run like this:\nBFInterpreter -f \"file p=
+ath\" | -c | -b \"code\"\n"=3B
+par:
+std::cout << "The command must be run like this:\n" << argv[0] << "-f \"fil=
+e path\" | -c | -b \"code\"\n"=3B
+
+On 18 December 2014 at 23:23=2C jean jouve <jean-18-09@hotmail.fr> wrote:
+=0A=
+=0A=
+=0A=
+utzdafuiopd=E2zoituyk=E9za
+BRAINFUCK
+azpjdiohjvaZISQOUD
+hgueyaisdopza*d
+
+ 		 	   		  =0A=
+
+ 		 	   		  =
+
+--_95519d84-22e1-4c9a-a786-1bfc4af36af1_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style></head>
+<body class=3D"hmmessage"><div dir=3D"ltr">Pour perdre un peu de temps nive=
+au runtime?<br>Je comprend pas pourquoi.<br>Mais merci de m'aider ^^<br>Sin=
+on je suis fier de mon premier repository.<br>M=EAme si je pense que mon co=
+de devrait =EAtre divis=E9 en quelque fichier :3<br>https://github.com/Poro=
+ing/Brainfuck-Interpreter<br><br><div><hr id=3D"stopSpelling">Date: Fri, 19=
+ Dec 2014 20:34:03 &#43;0100<br>Subject: Re: brainfuck<br>From: baptiste.de=
+france.dev@gmail.com<br>To: jean-18-09@hotmail.fr<br><br><div dir=3D"ltr"><=
+div><div>Dans ton main()<br></div>change: <br>std::cout &lt;&lt; &quot;The =
+command must be run like this:\nBFInterpreter -f \&quot;file path\&quot; | =
+-c | -b \&quot;code\&quot;\n&quot;;<br></div>par:<br>std::cout &lt;&lt; &qu=
+ot;The command must be run like this:\n&quot; &lt;&lt; argv[0] &lt;&lt; &qu=
+ot;-f \&quot;file path\&quot; | -c | -b \&quot;code\&quot;\n&quot;;<br></di=
+v><div class=3D"ecxgmail_extra"><br><div class=3D"ecxgmail_quote">On 18 Dec=
+ember 2014 at 23:23, jean jouve <span dir=3D"ltr">&lt;<a href=3D"mailto:jea=
+n-18-09@hotmail.fr" target=3D"_blank">jean-18-09@hotmail.fr</a>&gt;</span> =
+wrote:<br><blockquote class=3D"ecxgmail_quote" style=3D"border-left:1px #cc=
+c solid;padding-left:1ex;">=0A=
+=0A=
+=0A=
+<div><div dir=3D"ltr">utzdafuiopd=E2zoituyk=E9za<br>BRAINFUCK<br>azpjdiohjv=
+aZISQOUD<br>hgueyaisdopza*d<br><br> 		 	   		  </div></div>=0A=
+</blockquote></div><br></div></div> 		 	   		  </div></body>
+</html>=
+
+--_95519d84-22e1-4c9a-a786-1bfc4af36af1_--

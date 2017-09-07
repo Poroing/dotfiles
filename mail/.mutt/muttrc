@@ -1,0 +1,27 @@
+set folder = "~/.mail"
+set sleep_time = 0 #To not wait when changing folder
+set editor = "vim"
+auto_view text/html
+source ~/.mutt/mailboxes
+
+source "~/.mutt/ens"
+folder-hook $folder "source ~/.mutt/ens"
+
+source "~/.mutt/main"
+folder-hook $folder "source ~/.mutt/main"
+
+macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/main<enter><change-folder>!<enter>'
+macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><change-folder>!<enter>'
+
+
+color normal color8 color15
+color prompt color8 color15
+color message color8 color15
+color status color15 color9
+color error color8 color15
+color header color0 color7 ""
+color body color8 color15 ""
+color attachment color0 color7
+color signature color0 color7
+color tilde color8 color15
+color quoted color2 color15

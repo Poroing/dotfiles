@@ -1,0 +1,15 @@
+# vim: ft=muttrc
+
+set folder = "~/.mail/ens"
+
+set spoolfile = "+INBOX"
+set postponed = "+INBOX.Drafts"
+set record = "+INBOX.Sent"
+
+set sendmail = "/usr/bin/msmtp -a ens-rennes"
+set realname = "Jouve Jean"
+set from = "Jean.Jouve@ens-rennes.fr"
+
+alias guillaume barbier.guillaume60@gmail.com
+alias martin martin.quinson@ens-rennes.fr
+alias luc luc.bouge@ens-rennes.fr

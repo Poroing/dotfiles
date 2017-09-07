@@ -1,0 +1,255 @@
+X-TMN: [eDQi4TjYbK31ZEeddCESDPDDymvqwPTm]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <DUB123-W34DFF70C2C3D0161338C21BA8C0@phx.gbl>
+Content-Type: multipart/mixed;
+	boundary="_3b71465b-4e34-432d-af5f-6e2d6d38d20e_"
+From: jean jouve <jean-18-09@hotmail.fr>
+To: Thomas DUFLOS <thomas_duflos@numericable.fr>
+Subject: RE: proposition calcul ajout de date.
+Date: Tue, 18 Jun 2013 19:42:58 +0200
+In-Reply-To: <C95066B6-9BD1-49FC-9C42-5FADADDE189F@numericable.fr>
+References: <C95066B6-9BD1-49FC-9C42-5FADADDE189F@numericable.fr>
+MIME-Version: 1.0
+
+--_3b71465b-4e34-432d-af5f-6e2d6d38d20e_
+Content-Type: multipart/alternative;
+	boundary="_8147fcbb-e890-4e61-9f4c-867588eaaaf0_"
+
+--_8147fcbb-e890-4e61-9f4c-867588eaaaf0_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Je pense avoir finis la premiere fonctionJe te l'envoie donc pour que tu v=
+=E9rifie =3B)
+
+> From: thomas_duflos@numericable.fr
+> Subject: proposition calcul ajout de date.
+> Date: Mon=2C 17 Jun 2013 20:19:23 +0200
+> CC: thomas.duflos@cofidis.fr
+> To: jean-18-09@hotmail.fr
+>=20
+> Salut Jean=2C
+>=20
+> si tu y travailles comme tu me l'avais dit=2C que penses_tu de ce genre d=
+'algo.
+> On ne s'emb=EAte plus =E0 convertir la date en quanti=E8me et =E0 calcule=
+r le nombre de seconde=85.
+>=20
+> A demain
+> Thomas
+>=20
+>=20
+> ValidationDate.
+>=20
+> annee
+> mois
+> jour
+>=20
+> Findemois(12) =3D (31=2C28=2C31=2C30=2C31=2C30=2C31=2C31=2C30=2C31=2C30=
+=2C31)
+> +
+> Findemois(1) =3D 29 pour les ann=E9es=85
+>=20
+>=20
+> i le nombre de jour =E0 ajouter ou supprimer.
+>=20
+>=20
+> var_i =3D 1
+> var_annee =3D ann=E9e
+> var_mois =3D mois
+> var_jpur =3D jour
+>=20
+> Si i > 0 alors
+> 	tant que var_i <=3D i=20
+> 		var_i=3D var_i + 1
+> 		Si var_jour < Findemois(var_mois-1) alors=20
+> 			var_jour =3D var_jour+1
+> 		Sinon /* var_jour =3D Findemois(var_mois-1) alors */
+> 			var_jour =3D 1
+> 			Si var_mois < 12 alors
+> 				var_mois =3D var_mois+1
+> 			Sinon  /*var_mois=3D12 alors */
+> 				var_mois =3D 1
+> 				var_annee =3D var_annee+1
+> 			Fin Si
+> 		Fin Si
+> 	Fin Tant que
+> Sinon /* i < 0)
+> 	tant que var_i >=3D i
+> 		var_1 =3D var_1 -1
+> 		Si var_jour > 1 alors
+> 			var_jour=3Dvar_jour-1
+> 		Sinon /* var_jour =3D 1 alors */
+> 			Si var_mois > 1 alors
+> 				var_jour=3D Findemois(var_mois-2)
+> 				var_mois=3Dvar_mois-1
+> 			Sinon /* var_mois =3D 1 alors */=20
+> 				var_jour =3D 31
+> 				var_mois =3D 12
+> 				var_annee =3D var_annee-1
+> 			Fin Si
+> 		Fin Si
+> 	Fin Tant que
+> Fin Si
+ 		 	   		  =
+
+--_8147fcbb-e890-4e61-9f4c-867588eaaaf0_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252"><style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style></head>
+<body class=3D"hmmessage"><div dir=3D"ltr">Je pense avoir finis la premiere=
+ fonction<div>Je te l'envoie donc pour que tu v=E9rifie ;)</div><div><br><b=
+r><div>&gt; From: thomas_duflos@numericable.fr<br>&gt; Subject: proposition=
+ calcul ajout de date.<br>&gt; Date: Mon, 17 Jun 2013 20:19:23 &#43;0200<br=
+>&gt; CC: thomas.duflos@cofidis.fr<br>&gt; To: jean-18-09@hotmail.fr<br>&gt=
+; <br>&gt; Salut Jean,<br>&gt; <br>&gt; si tu y travailles comme tu me l'av=
+ais dit, que penses_tu de ce genre d'algo.<br>&gt; On ne s'emb=EAte plus =
+=E0 convertir la date en quanti=E8me et =E0 calculer le nombre de seconde=
+=85.<br>&gt; <br>&gt; A demain<br>&gt; Thomas<br>&gt; <br>&gt; <br>&gt; Val=
+idationDate.<br>&gt; <br>&gt; annee<br>&gt; mois<br>&gt; jour<br>&gt; <br>&=
+gt; Findemois(12) =3D (31,28,31,30,31,30,31,31,30,31,30,31)<br>&gt; &#43;<b=
+r>&gt; Findemois(1) =3D 29 pour les ann=E9es=85<br>&gt; <br>&gt; <br>&gt; i=
+ le nombre de jour =E0 ajouter ou supprimer.<br>&gt; <br>&gt; <br>&gt; var_=
+i =3D 1<br>&gt; var_annee =3D ann=E9e<br>&gt; var_mois =3D mois<br>&gt; var=
+_jpur =3D jour<br>&gt; <br>&gt; Si i &gt; 0 alors<br>&gt; 	tant que var_i &=
+lt;=3D i <br>&gt; 		var_i=3D var_i &#43; 1<br>&gt; 		Si var_jour &lt; Finde=
+mois(var_mois-1) alors <br>&gt; 			var_jour =3D var_jour&#43;1<br>&gt; 		Si=
+non /* var_jour =3D Findemois(var_mois-1) alors */<br>&gt; 			var_jour =3D =
+1<br>&gt; 			Si var_mois &lt; 12 alors<br>&gt; 				var_mois =3D var_mois&#4=
+3;1<br>&gt; 			Sinon  /*var_mois=3D12 alors */<br>&gt; 				var_mois =3D 1<b=
+r>&gt; 				var_annee =3D var_annee&#43;1<br>&gt; 			Fin Si<br>&gt; 		Fin Si=
+<br>&gt; 	Fin Tant que<br>&gt; Sinon /* i &lt; 0)<br>&gt; 	tant que var_i &=
+gt;=3D i<br>&gt; 		var_1 =3D var_1 -1<br>&gt; 		Si var_jour &gt; 1 alors<br=
+>&gt; 			var_jour=3Dvar_jour-1<br>&gt; 		Sinon /* var_jour =3D 1 alors */<b=
+r>&gt; 			Si var_mois &gt; 1 alors<br>&gt; 				var_jour=3D Findemois(var_mo=
+is-2)<br>&gt; 				var_mois=3Dvar_mois-1<br>&gt; 			Sinon /* var_mois =3D 1 =
+alors */ <br>&gt; 				var_jour =3D 31<br>&gt; 				var_mois =3D 12<br>&gt; 	=
+			var_annee =3D var_annee-1<br>&gt; 			Fin Si<br>&gt; 		Fin Si<br>&gt; 	Fi=
+n Tant que<br>&gt; Fin Si<br></div></div> 		 	   		  </div></body>
+</html>=
+
+--_8147fcbb-e890-4e61-9f4c-867588eaaaf0_--
+
+--_3b71465b-4e34-432d-af5f-6e2d6d38d20e_
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="IDTPDE.txt"
+
+I2luY2x1ZGUgIklEVC1QREUtTUVTLmgiDQojaW5jbHVkZSA8c3RyaW5nPg0KDQogIGJvb2wgdmFs
+aWRhdGVEYXRlKGludCBhbm5lZSwgaW50IG1vaXMsIGludCBqb3VyKQ0KICB7DQoNCiAgaW50IGZp
+bkRlTW9pc1sxMl0gPSB7MzEsMjgsMzEsMzAsMzEsMzAsMzEsMzEsMzAsMzEsMzAsMzF9Ow0KICAN
+CiAgaWYgKChhbm5lZSAlIDQwMCA9PSAwICYmIGFubmVlJTEwMCAhPSAwKSB8fCAoYW5uZWUgJSA0
+ID09IDApKQ0KICAgZmluRGVNb2lzWzFdID0gMjk7DQogIA0KICBpZiAoIShqb3VyID4gMCAmJiBq
+b3VyIDw9IG1vaXNUZXN0W21vaXMgLSAxXSkpDQogICByZXR1cm4gZmFsc2U7DQoNCiAgaWYoISht
+b2lzID49IDEgJiYgbW9pcyA8PSAgMTIpKQ0KICAgcmV0dXJuIGZhbHNlOw0KDQogIGlmKCEoYW5u
+ZWUgPiAxMDAgJiYgYW5uZWUgPCA5OTk5KSkNCiAgIHJldHVybiBmYWxzZTsNCg0KICBlbHNlDQog
+ICByZXR1cm4gdHJ1ZTsNCg0KICB9DQoNCg0Kc3RyaW5nIGFkZGlwbShzdHJpbmcgSURUUERFLCBp
+bnQgaSkNCnsNCg0KIGludCB0eXBlKElEVFBFLnN1YnN0cigxLDEpKTsNCg0KIGlmICh0eXBlID09
+ICcwJykNCiB7DQoNCiAgaW50IGFubmVlKElEVFBERS5zdWJzdHIoMiw0KSk7DQogIGludCBtb2lz
+KElEVFBERS5zdWJzdHIoNSwyKSk7DQogIGludCBqb3VyKElEVFBERS5zdWJzdHIoNywyKSk7DQoN
+CiAgdmFsaWRhdGVEYXRlKGFubmVlLCBtb2lzLCBqb3VyKTsNCg0KICBpbnQgdmFyX2pvdXIoam91
+cik7DQogIGludCB2YXJfaSgwKTsNCiAgaW50IHZhcl9tb2lzKG1vaXMpOw0KICBpbnQgdmFyX2Fu
+bmVlKGFubmVlKTsNCg0KICBpZiAoaSA+IDApDQogIHsNCg0KICAgd2hpbGUgKHZhcl9pIDwgaSkN
+CiAgIHsNCg0KICAgIHZhcl9pKys7DQogICAgDQogICAgaWYgKHZhcl9qb3VyIDwgZmluRGVNb2lz
+W3Zhcl9tb2lzIC0gMV0pDQogICAgew0KDQogICAgIHZhcl9qb3VyKys7DQoNCiAgICB9DQogICAg
+ZWxzZSBpZiAodmFyX2pvdXIgPT0gZmluRGVNb2lzW3Zhcl9tb2lzIC0gMV0NCiAgICB7DQoNCiAg
+ICAgdmFyX2pvdXIgPSAxOw0KDQogICAgIGlmICh2YXItbW9pcyA8IDEyKQ0KICAgICB7DQoNCiAg
+ICAgIHZhcl9tb2lzKys7DQoNCiAgICAgfQ0KICAgICBlbHNlIGlmICh2YXJfbW9pcyA9PSAxMikN
+CiAgICAgew0KDQogICAgICB2YXJfbW9pcyA9IDE7DQogICAgICB2YXJfYW5uZWUrKzsNCiAgICAg
+IA0KICAgICAgaWYgKChhbm5lZSAlIDQwMCA9PSAwICYmIGFubmVlJTEwMCAhPSAwKSB8fCAoYW5u
+ZWUgJSA0ID09IDApKQ0KICAgICAgew0KDQogICAgICAgZmluRGVNb2lzWzFdID0gMjk7DQoNCiAg
+ICAgIH0NCg0KICAgICB9DQoNCiAgICB9DQoNCiAgIH0NCg0KICAgZWxzZSBpZiAoaSA8IDApDQog
+ICB7DQoNCiAgICB3aGlsZSAodmFyX2kgPiBpKQ0KICAgIHsNCg0KICAgICB2YXJfaS0tOw0KICAg
+ICANCiAgICAgaWYgKHZhcl9qb3VyID4gMSkNCiAgICAgew0KDQogICAgICB2YXJfam91ci0tOw0K
+ICAgDQogICAgICBpZiAodmFyX2pvdXIgPT0gMSkNCiAgICAgIHsNCg0KICAgICAgIGlmICh2YXJf
+bW9pcyA+IDEpDQogICAgICAgew0KDQogICAgICAgIHZhcl9qb3VyID0gZmluRGVNb2lzW3Zhcl9t
+b2lzIC0gMl07DQogICAgICAgIHZhcl9tb2lzLS07DQoNCiAgICAgICB9DQogICAgICAgZWxzZSBp
+ZiAodmFyX21vaXMgPT0gMSkNCiAgICAgICB7DQoNCiAgICAgICAgdmFyLWpvdXIgPSAzMTsNCiAg
+ICAgICAgdmFyX21vaXMgPSAxMjsNCiAgICAgICAgdmFyX2FubmVlLS07DQogICAgICAgIA0KICAg
+ICAgICBpZiAoKGFubmVlICUgNDAwID09IDAgJiYgYW5uZWUlMTAwICE9IDApIHx8IChhbm5lZSAl
+IDQgPT0gMCkpDQogICAgICAgIHsNCg0KICAgICAgICAgZmluRGVNb2lzWzFdID0gMjk7DQoNCiAg
+ICAgICAgfQ0KIA0KICAgICAgIH0NCg0KICAgICAgfQ0KDQogICAgIH0NCg0KICAgIH0NCg0KICAg
+fQ0KDQogIH0NCg0KICBzdHJpbmcgcmVzX2FubmVlKHZhcl9hbm5lZSk7DQogIA0KICBpZiAodmFy
+X21vaXMgPCAxMCkNCiAgew0KDQogICBzdHJpbmcgcmVzX21vaXMoJzAnICsgdmFyX21vaXMpOw0K
+DQogIH0NCiAgZWxzZQ0KICB7DQoNCiAgIHN0cmluZyByZXNfbW9pcyh2YXJfbW9pcyk7DQoNCiAg
+fQ0KICANCiAgaWYgKHZhcl9qb3VyIDwgMTApDQogIHsNCiAgIA0KICAgc3RyaW5nIHJlc19qb3Vy
+KCcwJyArIHZhcl9qb3VyKTsNCg0KICB9DQogIGVsc2UNCiAgew0KDQogICBzdHJpbmcgcmVzX2pv
+dXIodmFyX2pvdXIpOw0KDQogIH0NCiAgDQogIHN0cmluZyByZXNfSURUUERFKCcwJyArIHJlc19h
+bm5lZSArIHJlc19tb2lzICsgcmVzX2pvdXIpOw0KDQogIHJldHVybiByZXNfSURUUERFOw0KDQog
+fQ0KIGVsc2UgaWYgKHR5cGUgPT0gMSkNCiB7DQoNCiAgaW50IGFubmVlKElEVFBERS5zdWJzdHIo
+MSw0KTsNCiAgaW50IG1vaXMoSURUUERFLnN1YnRzcig1LDIpOw0KICBib29sIGZsYWcodHJ1ZSk7
+DQoNCiAgaWYgKGFubmVlIDwgMTAwIHx8IGFubmVlID4gOTk5OSkNCiAgew0KDQogICBmbGFnID0g
+ZmFsc2U7DQoNCiAgfQ0KDQogIGlmIChtb2lzID4gMTIgfHwgbW9pcyA8IDEpDQogIHsNCg0KICAg
+ZmxhZyA9IGZhbHNlOw0KDQogIH0NCg0KICBpbnQgdmFyX2FubmVlKGFubmVlKTsNCiAgaW50IHZh
+cl9tb2lzKG1vaXMpOw0KDQogIGlmIChpID4gMCkNCiAgew0KDQogICBmb3IgKGludCBqKDEpIDsg
+aiA8PSBpIDsgaisrKSAgDQogICB7DQoNCiAgICBpZiAodmFyX21vaXMgPCAxMikNCiAgICB7DQoN
+CiAgICAgdmFyX21vaXMrKzsNCiAgICANCiAgICB9DQogICAgZWxzZSBpZiAodmFyX21vaXMgPT0g
+MTIpDQogICAgew0KDQogICAgIHZhcl9hbm5lZSsrOw0KICAgICB2YXJfbW9pcyA9IDE7DQoNCiAg
+ICB9DQoNCiAgIH0NCg0KICB9DQogIGVsc2UgaWYgKGkgPCAwKQ0KICB7DQoNCiAgIGZvciAoaW50
+IGooLTEpIDsgaiA+PSBpIDsgai0tKSAgDQogICB7DQoNCiAgICBpZiAodmFyX21vaXMgPiAxKQ0K
+ICAgIHsNCg0KICAgICB2YXJfbW9pcy0tOw0KICAgIA0KICAgIH0NCiAgICBlbHNlIGlmICh2YXJf
+bW9pcyA9PSAxKQ0KICAgIHsNCg0KICAgICB2YXJfYW5uZWUtLTsNCiAgICAgdmFyX21vaXMgPSAx
+MjsNCg0KICAgIH0NCg0KICB9DQogIGVsc2UgaWYgKGkgPT0gMCkNCiAgew0KDQogICByZXR1cm4g
+SURUUERFOw0KDQogIH0NCg0KICBpZiAodmFyX21vaXMgPCAxMCkNCiAgew0KICAgDQogICBzdHJp
+bmcgcmVzX21vaXMoJzAnICsgdmFyX21vaXMpOw0KICAgIA0KICB9DQogIGVsc2UNCiAgew0KDQog
+ICBzdHJpbmcgcmVzX21vaXModmFyX21vaXMpOw0KDQogIH0NCg0KICBzdHJpbmcgcmVzX2FubmVl
+KHZhcl9hbm5lZSkNCiAgIA0KICBzdHJpbmcgcmVzX0lEVFBERSgnMScgKyByZXNfYW5uZWUgKyBy
+ZXNfbW9pcyArICIwMCIpDQoNCiAgcmV0dXJuIHJlc19JRFRQREU7DQoNCiB9DQogZWxzZSBpZiAo
+dHlwZSA9PSAzKQ0KIHsNCg0KICBpbnQgYW5uZWUoSURUUERFLnN1YnN0cigxLDQpKTsNCiAgaW50
+IHRyaW1lc3RyZShJRFRQREUuc3Vic3RyKDUsNCk7DQogIGJvb2wgZmxhZyh0cnVlKTsNCg0KICBp
+ZiAodHJpbWVzdHJlID4gNCB8fCB0cmltZXN0ZSA8IDEpDQogIHsNCg0KICAgZmxhZyA9IGZhbHNl
+Ow0KDQogIH0NCg0KICBpZiAoYW5uZWUgPCAxMDAgfHwgYW5uZWUgPiA5OTk5KQ0KICB7DQoNCiAg
+IGZsYWcgPSBmYWxzZTsNCg0KICB9DQoNCiAgaW50IHZhcl90cmltZXN0cmUodHJpbWVzdHJlKQ0K
+ICBpbnQgdmFyX2FubmVlKGFubmVlKQ0KICANCiAgaWYgKGkgPiAwKQ0KICB7DQoNCiAgIGZvciAo
+aW50IGooMSkgOyBqIDw9IGkgOyBqKyspICANCiAgIHsNCg0KICAgIGlmICh2YXJfdHJpbWVzdHJl
+IDwgNCkNCiAgICB7DQoNCiAgICAgdmFyX3RyaW1lc3RyZSsrOw0KICAgIA0KICAgIH0NCiAgICBl
+bHNlIGlmICh2YXJfdHJpbWVzdHJlID09IDQpDQogICAgew0KDQogICAgIHZhcl9hbm5lZSsrOw0K
+ICAgICB2YXJfdHJpbWVzdHJlID0gMTsNCg0KICAgIH0NCg0KICAgfQ0KDQogIH0NCiAgZWxzZSBp
+ZiAoaSA8IDApDQogIHsNCg0KICAgZm9yIChpbnQgaigtMSkgOyBqID49IGkgOyBqLS0pICANCiAg
+IHsNCg0KICAgIGlmICh2YXJfdHJpbWVzdHJlID4gMSkNCiAgICB7DQoNCiAgICAgdmFyX21vaXMt
+LTsNCiAgICANCiAgICB9DQogICAgZWxzZSBpZiAodmFyX3RyaW1lc3RyZSA9PSAxKQ0KICAgIHsN
+Cg0KICAgICB2YXJfYW5uZWUtLTsNCiAgICAgdmFyX3RyaW1lc3RyZSA9IDQ7DQoNCiAgICB9DQoN
+CiAgfQ0KICBlbHNlIGlmIChpID09IDApDQogIHsNCg0KICAgcmV0dXJuIElEVFBERTsNCg0KICB9
+DQoNCiAgc3RyaW5nIHJlc190cmltZXN0cmUoIjAwMCIgKyB2YXJfdHJpbWVzdHJlKTsNCg0KICBz
+dHJpbmcgcmVzX2FubmVlKHZhcl9hbm5lZSk7DQogICANCiAgc3RyaW5nIHJlc19JRFRQREUodHlw
+ZSArIHJlc19hbm5lZSArIHJlc190cmltZXN0cmUpOw0KDQogIHJldHVybiByZXNfSURUUERFOw0K
+DQogfQ0KIGVsc2UgaWYgKHR5cGUgPT0gNikNCiB7DQoNCiAgaW50IGFubmVlKElEVFBERS5zdWJz
+dHIoMSw0KSk7DQogIGludCBzZW1lc3RyZShJRFRQREUuc3Vic3RyKDUsNCk7DQogIGJvb2wgZmxh
+Zyh0cnVlKTsNCg0KICBpZiAoc2VtZXN0cmUgIT0gMiAmJiBzZW1lc3RyZSAhPSAxKQ0KICB7DQoN
+CiAgIGZsYWcgPSBmYWxzZTsNCg0KICB9DQoNCiAgaWYgKGFubmVlIDwgMTAwIHx8IGFubmVlID4g
+OTk5OSkNCiAgew0KDQogICBmbGFnID0gZmFsc2U7DQoNCiAgfQ0KDQogIGludCB2YXJfc2VtZXN0
+cmUoc2VtZXN0cmUpDQogIGludCB2YXJfYW5uZWUoYW5uZWUpDQogIA0KICBpZiAoaSA+IDApDQog
+IHsNCg0KICAgZm9yIChpbnQgaigxKSA7IGogPD0gaSA7IGorKykgIA0KICAgew0KDQogICAgaWYg
+KHZhcl9zZW1lc3RyZSA9PSAxKQ0KICAgIHsNCg0KICAgICB2YXJfc2VtZXN0cmUrKzsNCiAgICAN
+CiAgICB9DQogICAgZWxzZSBpZiAodmFyX3NlbWVzdHJlID09IDIpDQogICAgew0KDQogICAgIHZh
+cl9hbm5lZSsrOw0KICAgICB2YXJfc2VtZXN0cmUgPSAxOw0KDQogICAgfQ0KDQogICB9DQoNCiAg
+fQ0KICBlbHNlIGlmIChpIDwgMCkNCiAgew0KDQogICBmb3IgKGludCBqKC0xKSA7IGogPj0gaSA7
+IGotLSkgIA0KICAgew0KDQogICAgaWYgKHZhcl9zZW1lc3RyZSA9PSAyKQ0KICAgIHsNCg0KICAg
+ICB2YXJfbW9pcy0tOw0KICAgIA0KICAgIH0NCiAgICBlbHNlIGlmICh2YXJfc2VtZXN0cmUgPT0g
+MSkNCiAgICB7DQoNCiAgICAgdmFyX2FubmVlLS07DQogICAgIHZhcl9zZW1lc3RyZSA9IDI7DQoN
+CiAgICB9DQoNCiAgfQ0KICBlbHNlIGlmIChpID09IDApDQogIHsNCg0KICAgcmV0dXJuIElEVFBE
+RTsNCg0KICB9DQoNCiAgc3RyaW5nIHJlc19zZW1lc3RyZSgiMDAwIiArIHZhcl9zZW1lc3RyZSk7
+DQoNCiAgc3RyaW5nIHJlc19hbm5lZSh2YXJfYW5uZWUpOw0KICAgDQogIHN0cmluZyByZXNfSURU
+UERFKCc2JyArIHJlc19hbm5lZSArIHJlc19zZW1lc3RyZSk7DQoNCiAgcmV0dXJuIHJlc19JRFRQ
+REU7DQoNCiB9DQoNCiBlbHNlIGlmICh0eXBlID09IDkpDQogew0KDQogIGludCBhbm5lZShJRFRQ
+REUuc3Vic3RyKDEsNCkpOw0KICBib29sIGZsYWcodHJ1ZSk7DQoNCiAgaWYgKGFubmVlIDwgMTAw
+MCB8fCBhbm5lZSA+IDk5OTkpDQogIHsNCg0KICAgZmxhZyA9IGZhbHNlOw0KDQogIH0NCg0KICBp
+bnQgdmFyX2FubmVlKGFubmVlKQ0KICANCiAgdmFyX2FubmVlICs9IGkNCiAgIA0KICBzdHJpbmcg
+cmVzX0lEVFBERSgnOScgKyB2YXJfYW5uZWUgKyAiMDAwMCIpOw0KDQogIHJldHVybiByZXNfSURU
+UERFOw0KDQogfQ0KDQp9
+
+--_3b71465b-4e34-432d-af5f-6e2d6d38d20e_--

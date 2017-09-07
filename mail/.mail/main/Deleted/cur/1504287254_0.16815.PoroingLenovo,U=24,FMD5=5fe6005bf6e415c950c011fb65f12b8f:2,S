@@ -1,0 +1,140 @@
+Received: from CO1NAM03HT163.eop-NAM03.prod.protection.outlook.com
+ (2603:10a6:7:29::44) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0115.EURPRD02.PROD.OUTLOOK.COM; Thu, 31 Aug 2017 16:45:26 +0000
+Received: from CO1NAM03FT031.eop-NAM03.prod.protection.outlook.com
+ (10.152.80.59) by CO1NAM03HT163.eop-NAM03.prod.protection.outlook.com
+ (10.152.81.80) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1385.11; Thu, 31
+ Aug 2017 16:45:25 +0000
+Authentication-Results: spf=none (sender IP is 193.52.92.4)
+ smtp.mailfrom=listes.ens-rennes.fr; hotmail.fr; dkim=none (message not
+ signed) header.d=none;hotmail.fr; dmarc=none action=none
+ header.from=ens-rennes.fr;
+Received-SPF: None (protection.outlook.com: listes.ens-rennes.fr does not
+ designate permitted sender hosts)
+Received: from coucou.ens-rennes.fr (193.52.92.4) by
+ CO1NAM03FT031.mail.protection.outlook.com (10.152.80.171) with Microsoft SMTP
+ Server id 15.1.1385.11 via Frontend Transport; Thu, 31 Aug 2017 16:45:25
+ +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:62DE6EF8C1C0A55C528E1C10FA2EBD617A5F81F47FC966526D94D0566861F46F;UpperCasedChecksum:1418D4C60655D42137DB3CF5A01843FAC63E50D0506131423B2295FB5B0EC462;SizeAsReceived:3230;Count:40
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 3AC1685C20;
+	Thu, 31 Aug 2017 18:45:24 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id skg6eTqSPM8E; Thu, 31 Aug 2017 18:45:23 +0200 (CEST)
+Received: from atlas.ens-rennes.fr (atlas.ens-rennes.fr [193.52.92.36])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id BCE9F849D1;
+	Thu, 31 Aug 2017 18:45:23 +0200 (CEST)
+Received: by atlas.ens-rennes.fr (Postfix, from userid 1001)
+	id B5377122A25; Thu, 31 Aug 2017 18:45:23 +0200 (CEST)
+X-Original-To: info.2017@listes.ens-rennes.fr
+Delivered-To: info.2017@listes.ens-rennes.fr
+Received: from coucou.ens-rennes.fr (coucou.ens-rennes.fr [193.52.92.4])
+	by atlas.ens-rennes.fr (Postfix) with ESMTP id 995F212298C
+	for <info.2017@listes.ens-rennes.fr>; Thu, 31 Aug 2017 18:45:20 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 956A785BF2
+	for <info.2017@listes.ens-rennes.fr>; Thu, 31 Aug 2017 18:45:20 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kpCbVT56c3CL for <info.2017@listes.ens-rennes.fr>;
+	Thu, 31 Aug 2017 18:45:20 +0200 (CEST)
+Received: from webmail.ens-rennes.fr (webmail.ens-rennes.fr [193.52.92.25])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 13F83849D1
+	for <info.2017@listes.ens-rennes.fr>; Thu, 31 Aug 2017 18:45:20 +0200 (CEST)
+Received: from webmail.ens-rennes.fr (localhost [127.0.0.1])
+	by webmail.ens-rennes.fr (Postfix) with ESMTP id 66AB64191F
+	for <info.2017@listes.ens-rennes.fr>; Thu, 31 Aug 2017 18:45:16 +0200 (CEST)
+Received: from 77.136.15.214
+        (SquirrelMail authenticated user fvoor180)
+        by webmail.ens-rennes.fr with HTTP;
+        Thu, 31 Aug 2017 18:45:16 +0200
+Message-ID: <8d44af19ec3d93c248ef96bb69ab2fff.squirrel@webmail.ens-rennes.fr>
+Date: Thu, 31 Aug 2017 18:45:16 +0200
+From: Voorwinden Florian <Florian.Voorwinden@ens-rennes.fr>
+To: <info.2017@listes.ens-rennes.fr>
+User-Agent: SquirrelMail/1.4.23 [SVN]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+Subject: [info.2017] Groupe FB
+Reply-To: Voorwinden Florian <Florian.Voorwinden@ens-rennes.fr>
+X-Loop: info.2017@listes.ens-rennes.fr
+X-Sequence: 31
+Errors-to: info.2017-owner@listes.ens-rennes.fr
+Precedence: bulk
+Sender: <info.2017-request@listes.ens-rennes.fr>
+X-no-archive: yes
+List-Id: <info.2017.listes.ens-rennes.fr>
+List-Archive: <http://listes.ens-rennes.fr/sympa/arc/info.2017>
+List-Help: <mailto:sympa@listes.ens-rennes.fr?subject=help>
+List-Owner: <mailto:info.2017-request@listes.ens-rennes.fr>
+List-Post: <mailto:info.2017@listes.ens-rennes.fr>
+List-Subscribe: <mailto:sympa@listes.ens-rennes.fr?subject=subscribe%20info.2017>
+List-Unsubscribe: <mailto:sympa@listes.ens-rennes.fr?subject=unsubscribe%20info.2017>
+X-IncomingHeaderCount: 40
+Return-Path: info.2017-owner@listes.ens-rennes.fr
+X-MS-Exchange-Organization-Network-Message-Id: 607d7604-27ee-46b7-9afe-08d4f08fadec
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03FT031;1:aMPUf46QC1wIGObKL45w+Rf70Ztn+QgODZxzzQXLhC9M6uLvZKrdN4KfK2BzOSBX18FUlFfOSTHPvE+FjZ8aN8oYkST2EnpLdK2CPegaVD30fxoQJqiBrbAnxZwPeI7z
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:CO1NAM03HT163;H:coucou.ens-rennes.fr;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-AuthSource: CO1NAM03FT031.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 607d7604-27ee-46b7-9afe-08d4f08fadec
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(23075)(22001)(300000502095)(300135100095)(5000083)(610149)(8291501071);SRVR:CO1NAM03HT163;
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT163;3:87bq/YnhKfJTY1DhaNVz7Um9LgiUQKRSZDqAGqQsbSkkrykK7JbE9hd2jb2GSkfF6+bPsxlY6h7VJ0i0Thr9uurjUvZQu8P9AMDmMB0FvOoGGQgfgFwJ/GycoUbX3lqbZ7czQLAnL2gTafecLnxPttBahMul+5K68iSW532IDcyeiwL2VReFJfr8KZtR6WkVZKNB8NA0kVVP8A4lLOIaFpl+TfQ9k9cjm8Kj1IoW84fG3zAV6sgLdhp/a0PmLgbg6pnOK4CvtdEzmLOByuMdbtENnXpclP7kU66N3CLz0Z+A8TaBuGJJOiZOWCKBnYo0;25:hlAzwbPKjMdym5Y1p45XTKxkVNJV7TV2gIkwibAmpCNMnNFo7jOySBylEFbYtfrnaiFAM267fq+dcrcJ3M2oxwKzbJ4WZwxXi7RK9rQ8qxti2j1vGTXV+gjlya5rRyp2txlad3048jQCbjNEf592FMrZ+Kse8F499+RsEs7M2Kuldd4nYi05QJrNTD5PAYFCuHrAYncUmU/rJ0LN/S9hQigheBUPXhFR0WK2TcjTyiNrIiWSO6dT96sYgGAK1xy69tXlCOyqbGprj4lviV3RL7slDKzXQFIgKLE9r/pCrfm+Byt7gZ5u5pjylug09YW4/zF0Z5lkSZ2iHiVb4Pk7iw==;31:5wmI1a5GChWw/XMv+O1AkrsrS+lZMI0/ZPg2KYK8Sb1a/DawGJsJABwIqLR0uKmbRTnEAJH3sun5mwYWkKaOElDHsRL7KyS3g495NAtcnFvK83dcP7+KYGex0L2LoCwu72GVEvkF+SRLCpiHv0EkRtEPljpo8iMy05mpi9p2JnRxQ2NarPa2YJWPWw6PpaIfJL+dhoU5IJJu7/vy7riK1xqFwp/dofzyabxkMm5J1OQ=
+X-MS-TrafficTypeDiagnostic: CO1NAM03HT163:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 193.52.92.4
+X-SID-PRA: INFO.2017-REQUEST@LISTES.ENS-RENNES.FR
+X-SID-Result: NONE
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(86561027422486)(64217206974132);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(595095)(82015058);SRVR:CO1NAM03HT163;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:CO1NAM03HT163;
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT163;4:v2dEz0gerd7N0b2R+VFmDdueVpA07qXNwJwVttdwsjwSJYAH0KuB1tBvrTfIWCeEvJEzCEeuq8W1kyThCNNV0GLZ0WFHQPC9We5bt371x5ZlvLVQAgbanzlf5QEIqtNRt2kBwlCaOF335PkoaYlgiLfVwlHZn0eYAdOs+9212w32mnErljgp4yvO/pYxmfOLZ/kQR6ioi+Y9IXfHTw13+YgnLkbe6T7e9iLNUpeMwkvJdYPJRcYrCrOIlaXEpy+kCiFvsBEniAbzUU5qJ4jIT+60gqk39At35VAgVOyPC2nOO4zYkV/3LY64bnrArN09Yp8UHz3YgYMAGQ3DIlUSPA==;23:nAXH40Dya6fZlB4v6yjDJDLhtF9JZBSD3tVI3UPIvQKHevkPsZDhq6GHt0feR1fmFokmI9WfW1Rj5o3uHdHW/qxcJ3g7QPMojCED7XeES6sP29OnCRIUaJi5ZVsT52sPwFANjCLi9HZxZg3TysC+zW39vBRNpgDZ8tPa30es8PE=;6:+NLjxNJVxOjbpZ8C2O7JFVh7pDUqMUgGHFwWWaklMM0THRlTX+NYMbfePYIS/xiv2T6RIB1aQSUqugsYItmmQb/R1HPXtoBsSCjYoCkyIUJd8QzRcg/gRXJAGF2IR/ArWiHgL3ecmc9cEOjL++9F9szpNbG6HcXT/ot7lLUbUIGSaJbu5Acd70r+p/8KTHrleqvEKmBzUG4fBomSCOK31nEmPILPyziDXaig1e0twXk5bfqb00jNzR+s79Pf3sg6bsW0vMdcmf0NHDSema+MmGXWYQ6pCtHXmZKxRIz0usPymGIAGweDwDAMxFpakk0DFeGrubPP0flXnVfKjdVS9g==
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;CO1NAM03HT163;5:2niYUPhXTpFWh+49jg5D7ou5Ia4PUDAdF0gIEWo/QErC+XBfB6jc9CWxpiSO18ogDWEd1hXdSNtfUeCx1B7mXpt10y2VLpfDxbAF9w/Vp3qlkkuPpDMtfka8CuL1CZ4Rody4TG7QgL7O1A09WM6Gow==;24:l4KOS//tMKV6VFvfmvJFSstt1R+oU6Co0FoHwj8VE0iLwTMZktMWNfQLfrXLGoT3GDZxWd1MN2hb2370kHdgHnaEXCraa3Ek92ZDyJvGDdw=;7:ZacaAYD4CTyudNE78h+jlVqzPcIDk6VD2GrT97v39FzZQNG7Htb3ZR9FKKRi06RXfr+5WsDBJVaEF4UIEyF0r9qaEBgIsfSFv97cZOJN5zb6BNMSDPs98bSVaYn0G0PZmMFXNnztpi6ExYLcz0p4jIaqQoar8OTtQe7YmQT8X+r4UnPTjcmqDMwRU5d4900orXocam142P7YtP335u1pIJN9HHUxGRT9+0S/uwoH3WU=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 31 Aug 2017 16:45:25.2067
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM03HT163
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1043161
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.1385.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:7gsfRawcvwlWAXxDxbU9WAKD+mavVhpRH5hhCxkspMgfdX5EX28UJhd4cmarsix2GOYFJxFrCkxi6ZVpo5JO74tru2Yd3F720ijC7PXiHmzNRQZ3w7euVPbup/zBXexz
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6515079)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Message-Info:
+	5vMbyqxGkdcn/K8W+cJPhbjNbsMS+JiuPlRGnqBiIPkYRmcV2QtZOHIGUqDFXXCl//mfFd9xuPxmO6B1uQyWbaBAkycR6DAAnsHdrZP/zuI+sy/wb68j8yAfXNMG+/L4YkNw+9HwkF+NufYUiwep6C14ZGOnVw83RiN5yKf5faEFNDd6btBwZEbeo+wo/1eec7rLWCA/HYD9g0nYg7NzQw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	dyKkT3ch88Kd9kGTbSzhmrhGi7vVxR/GChjL3B0bBMCTjCyQoaCS8Zim5Y0AR/xfvbRcsWskNEJhlix3ggQ/B0qCeYmWq9HCXLJ2Ebn+qER1IdtFS7aDrXewYuAElBjuTn1BM67jV+59l90vhxMfrscxLVyezT05c6VkJ0sBxPX2pZ6P/BaFLqZ5EeMMF9VhzyBQHwRWHuyIwaymfBUKaIofr7VvzeF9yevfxooYk1wMJysogng2bjJQqJQsco07v44AATFT9ICO5CDb7yYS2Q==
+MIME-Version: 1.0
+
+Bonjour à vous !
+
+N'hésitez pas à demander l'adhésion au groupe fb du département.
+Au menu: des organisations de soirées pizza bière, des p'tites annonces
+steam, ce genre de trucs... Plus on est nombreux, plus il est pertinent.
+
+https://www.facebook.com/groups/306353566391027/
+(si ça marche pas, ce lien-ci:
+https://www.facebook.com/search/top/?q=infos%20-%20ens%20rennes)
+
+Excellente fin de rentrée à vous,
+
+-- 
+Florian Voorwinden
+Président du Bureau des Arts de l'ENS de Rennes (2017-2018)
+Responsable du club Musique de l'ENS de Rennes (2017-2018)
+06 49 09 22 15
+

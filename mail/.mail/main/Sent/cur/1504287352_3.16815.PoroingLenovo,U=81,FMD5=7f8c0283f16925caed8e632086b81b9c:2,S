@@ -1,0 +1,74 @@
+X-TMN: [qZwLrjaaJYiLIrYYxZyBBcBVmsOCA6bA]
+X-Originating-Email: [jean-18-09@hotmail.fr]
+Message-ID: <DUB131-W89726736B372D45F9FBA04BA580@phx.gbl>
+Return-Path: jean-18-09@hotmail.fr
+Content-Type: multipart/alternative;
+	boundary="_95f73d26-660b-4218-96a6-88f7cc1afd51_"
+From: jean jouve <jean-18-09@hotmail.fr>
+To: Baptiste Defrance <baptiste.defrance.dev@gmail.com>
+Subject: RE: CUBE
+Date: Mon, 5 Jan 2015 22:34:55 +0100
+In-Reply-To: <CADbkLsEs7jF7LHR57_OV1ikvJQDj0cObNYvG9yLFUp_p=OO=Lw@mail.gmail.com>
+References: <CADbkLsEs7jF7LHR57_OV1ikvJQDj0cObNYvG9yLFUp_p=OO=Lw@mail.gmail.com>
+MIME-Version: 1.0
+
+--_95f73d26-660b-4218-96a6-88f7cc1afd51_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Moi aussi j'arrive =E0 afficher que la fasse avant le probl=E8me arrive qua=
+nd on fait bouger un peu la camera=2C
+J'ai fait la m=EAme chose que toi sauf que j'ai utilis=E9 `pyglet.graphics.=
+draw_indexed()`
+Ca marche a peu pr=E8s comme un glDrawElements()
+Et j'ai rajout=E9 ce qui est cam=E8ra=2C
+On vera quand t'aura avancer un peu plus=2C
+voir si t'arrive =E0 faire le marche.
+Si jamais on y arrive pas on demandera de l'aide au Pros de ISN
+
+
+Date: Mon=2C 5 Jan 2015 21:49:21 +0100
+Subject: CUBE
+From: baptiste.defrance.dev@gmail.com
+To: jean-18-09@hotmail.fr
+
+Occupe-toi de la gestion de la camera=2C sinon=2C =E7a devrait marcher.
+(c'est une version que avec les lignes.)
+G=E9om=E9triquement parlant=2C =E7a a l'air d'=EAtre correcte (on voit que =
+la face avant)
+ 		 	   		  =
+
+--_95f73d26-660b-4218-96a6-88f7cc1afd51_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style></head>
+<body class=3D"hmmessage"><div dir=3D"ltr">Moi aussi j'arrive =E0 afficher =
+que la fasse avant le probl=E8me arrive quand on fait bouger un peu la came=
+ra,<br>J'ai fait la m=EAme chose que toi sauf que j'ai utilis=E9 `pyglet.gr=
+aphics.draw_indexed()`<br>Ca marche a peu pr=E8s comme un glDrawElements()<=
+br>Et j'ai rajout=E9 ce qui est cam=E8ra,<br>On vera quand t'aura avancer u=
+n peu plus,<br>voir si t'arrive =E0 faire le marche.<br>Si jamais on y arri=
+ve pas on demandera de l'aide au Pros de ISN<br><br><br><div><hr id=3D"stop=
+Spelling">Date: Mon, 5 Jan 2015 21:49:21 &#43;0100<br>Subject: CUBE<br>From=
+: baptiste.defrance.dev@gmail.com<br>To: jean-18-09@hotmail.fr<br><br><div =
+dir=3D"ltr"><div><div>Occupe-toi de la gestion de la camera, sinon, =E7a de=
+vrait marcher.<br></div>(c'est une version que avec les lignes.)<br></div>G=
+=E9om=E9triquement parlant, =E7a a l'air d'=EAtre correcte (on voit que la =
+face avant)<br></div></div> 		 	   		  </div></body>
+</html>=
+
+--_95f73d26-660b-4218-96a6-88f7cc1afd51_--

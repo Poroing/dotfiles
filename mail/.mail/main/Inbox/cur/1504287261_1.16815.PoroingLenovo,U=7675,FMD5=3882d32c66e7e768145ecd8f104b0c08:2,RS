@@ -1,0 +1,155 @@
+Received: from VE1EUR03HT070.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:7:29::45) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0116.EURPRD02.PROD.OUTLOOK.COM; Tue, 29 Aug 2017 08:07:56 +0000
+Received: from VE1EUR03FT013.eop-EUR03.prod.protection.outlook.com
+ (10.152.18.60) by VE1EUR03HT070.eop-EUR03.prod.protection.outlook.com
+ (10.152.19.212) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1341.15; Tue, 29
+ Aug 2017 08:07:56 +0000
+Authentication-Results: spf=pass (sender IP is 74.125.82.49)
+ smtp.mailfrom=gmail.com; hotmail.fr; dkim=pass (signature was verified)
+ header.d=gmail.com;hotmail.fr; dmarc=pass action=none header.from=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 74.125.82.49 as permitted sender) receiver=protection.outlook.com;
+ client-ip=74.125.82.49; helo= mail-wm0-f49.google.com;
+Received: from COL004-MC4F54.hotmail.com (10.152.18.53) by
+ VE1EUR03FT013.mail.protection.outlook.com (10.152.19.37) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1341.15 via Frontend Transport; Tue, 29 Aug 2017 08:07:55 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:C6AF41C0B8E07BE3E121E61DFC29AEBB256634C261CC858EDAB4500A130D8212;UpperCasedChecksum:CBC882ECB91D85E79D804D86C2547FE348D03A973CEC143CAA9BD98ECA0B7921;SizeAsReceived:2698;Count:17
+Received: from mail-wm0-f49.google.com ([74.125.82.49]) by COL004-MC4F54.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+	 Tue, 29 Aug 2017 01:07:54 -0700
+Received: by mail-wm0-f49.google.com with SMTP id b14so18276044wme.0
+        for <jean-18-09@hotmail.fr>; Tue, 29 Aug 2017 01:07:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=date:subject:message-id:importance:from:to:mime-version;
+        bh=oHLrIZ95FOIAzZe6l5fRBoG4kGqXa/HjUkzoAffRHvE=;
+        b=hZpI6FnWetkOGlCEaSDRBK3uUk3MZWCRxBuS7iWSUA1/AhaoTRToAVD8r4O5KwCMif
+         5DTMHREeMDX2XyjRlojSBVrHD78fzE8IEDJM+yIq3RnFoRvha8h0uxuJ/0ibjjE7UzT5
+         BjTbsyzCXrIfSPWb7oTHAFue2y7wNPhOvHxDkplIXCAipyZRQWzAuyh3iGItCM5NfYhp
+         /9QgcESCLapQ0QfcTgjX7rAflB2b2CJ2z0pEHP+DxiuVerWUL0f9LrSv+omGEcaSv1Or
+         ZJJzZH9I/XkqagAR7f2tbyq3F6aa7n7TN8Wnf9DR0CLLWZZeeTHBlkDZTys5VIwJMEUo
+         aiRQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:date:subject:message-id:importance:from:to
+         :mime-version;
+        bh=oHLrIZ95FOIAzZe6l5fRBoG4kGqXa/HjUkzoAffRHvE=;
+        b=cPC7G4cvUPU1PCqkO9IfSXcoOZhJps+UK4eWWRYRJmd8xOI6HkqMkgn+ONO1D62GR2
+         4HE2XH1ZCAqr1py2zdbKhC51RC0o8NfJXaRJx3tS5GOuwVmcHpMlA8J4o/v6nteYIjLH
+         /X8DVW5QX7uFTx3ZX91mMziQEu+0hFDvPWAQDqIeihF1zaaHUHYKVSnVlGjxmXDMWwsq
+         EyNCyQazlUlc93+eKW3LsOsm3d0k7gCHG+Z6Nwho/kWt2PMIKDZobgBh3ee1ZNEp0ZLI
+         JFZJIsG71/AEOe008t43imGzXTKtdaW39BCq5TZsbKu5m92ErbC9Uhj7IbFrAiUdxmmr
+         jEEw==
+X-Gm-Message-State: AHYfb5gp8mAinqdyTl3yCxfYyJhuEEI0xPInuw/Rd539Czbr7xfVb2GB
+	ygULNvGbtwX3N1/OVOk=
+X-Received: by 10.28.215.79 with SMTP id o76mr1741742wmg.85.1503994073486;
+        Tue, 29 Aug 2017 01:07:53 -0700 (PDT)
+Return-Path: ljouve7@gmail.com
+Received: from [10.138.119.7] ([80.12.37.7])
+        by smtp.gmail.com with ESMTPSA id d5sm3578441wma.6.2017.08.29.01.07.51
+        for <jean-18-09@hotmail.fr>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 29 Aug 2017 01:07:52 -0700 (PDT)
+Date: Tue, 29 Aug 2017 10:07:49 +0200
+Subject: =?ISO-8859-1?Q?Message_pour_toi_de_la_part_d'?=
+ =?ISO-8859-1?Q?une_de_mes_anciennes_coll=E8gues...?=
+Message-ID: <6ynooewb45wfcxnjo70yhlin.1503994069326@email.android.com>
+From: ljouve7 <ljouve7@gmail.com>
+To: "jean-18-09@hotmail.fr" <jean-18-09@hotmail.fr>
+Content-Type: multipart/alternative;
+	boundary="--_com.samsung.android.email_206673485146270"
+X-OriginalArrivalTime: 29 Aug 2017 08:07:54.0376 (UTC) FILETIME=[EAB80880:01D3209D]
+X-IncomingHeaderCount: 17
+X-MS-Exchange-Organization-Network-Message-Id: ff715dcf-a623-46c0-79d3-08d4eeb50e4b
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 74.125.82.49
+CMM-sending-ip: 74.125.82.49
+CMM-Authentication-Results: hotmail.com; spf=pass (sender IP is 74.125.82.49;
+ identity alignment result is pass and alignment mode is relaxed)
+ smtp.mailfrom=ljouve7@gmail.com; dkim=pass (identity alignment result is pass
+ and alignment mode is relaxed) header.d=gmail.com; x-hmca=pass
+ header.id=ljouve7@gmail.com
+CMM-X-SID-PRA: ljouve7@gmail.com
+CMM-X-AUTH-Result: PASS
+CMM-X-SID-Result: PASS
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0w
+CMM-X-Message-Info: gamVN+8Ez8V+RHg+F+brAeouWcpFp7D6dRLl1Z2zQ30dGag53YDEzbpYVa81+U7fIG4VEjZ1x6FAwa9/rJQ4LAEcK1IvqCgOPNWMzRBfheaJNsbxStG9hfljae1L6sUw37lviTDNO620ce9ijKpTID/uS1JtZHLzcWVa8GQcJ0HVRBHOoraobJb33FhjVScgm0pqoYVHMOye8a4sB9R53LKEtJt5iaikaByRZdg9e2381OiVdhuzExdNvap5M4uG
+X-MS-Exchange-Organization-PCL: 2
+X-MS-UserLastLogonTime: 8/28/2017 4:01:56 PM
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR03FT013;1:MpOSo+Og0Oq5h/9JMLcGHn4hO7nX/1pVd+OEeUU1ZC9LzsZS718BQxA1S8DCJRgUc6tLRcRbVUVKzbo1CiCGYd4duBW4RgJKJUiG4SqxoaekMXm7zJjWcHBatVdOvxuj
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:VE1EUR03HT070;H:COL004-MC4F54.hotmail.com;FPR:;SPF:None;LANG:fr;
+X-MS-Exchange-Organization-AuthSource: VE1EUR03FT013.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: ff715dcf-a623-46c0-79d3-08d4eeb50e4b
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(300000502095)(300135100095)(23075)(22001)(8291501071);SRVR:VE1EUR03HT070;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR03HT070;3:w+FQ9IA7+OxO2LAiLiqcZwVfWHBYmSuF4NvM7S0AZd2yB4plCQPoy6Ijc1QYBOjngr9UhwhWx3DYiRtvCSBQHCZGGJi69z4eWWhY8+hPx7tv+kifKuJvlMndb3JTQEhnZG9eTUbKD1BWtNWXEOPMDofftCtO5NjuKgE7xaDjL7zDbFlKOci9Xa+w+T8LfHgjdkQ9Y6QiAUF+y6SeiTKAYt6hClpcx/OO0dIqwATfiXrShjyjcNo/NFvxSHap1HN8DmY2AhR6qo+jUVUgaa7t6WfatLMmh0lDyzfCoc+7CDdgvyGz7p/q/9TD2OhYqKuo;25:KyUeS6GygmbQbOOV0DnwfnodADITSBNlc9IItbJneWWo8XbyRI2ikYoAv9d1T9LtcZuWpqXmhOD/AA1BTFiz9qN8rYPF43hU/U7ozKGELgndvNaM0nUQm9jxnwFbY6clzkdioAk5VH4ZlGuvD6P3ndUnfc/Q8MWCrhjN2zsXbS6pbbnabXB6Gi8AHIXU6fSZjHe1fzr9icBKobqzTy3YTdp91vDm4zsD4Xt9CSLZZmNeDSiEvqJO5NuraQkxz09TCY0M12Np1ACTAcuDP4z/N0+uC1igzEfUMvkhKt5ga0CpDcaK26E6LWkbhNyXFZ01Prf+XhZKXIwjFz/5neSTRw==;31:5ocSoKD8xa3EcKNlB7so7l5Bo20R/Zr/IaXBFJtr08j/dY0wqEp3EYTGTRfWPw6CgH/nZ/rvIS0Hxv6KYeIV7QZhQENPYYBsimufQ1usLcXPNZUi4LfJJ1jNEIgtEKzvH4TPS1jBdYHsdWh3aRpnqgfSp5C7hNUxV80DRGGQIlHckbma/W5WsQ/8F+2hnaeFATyQYGTMyug0KQ0tjYHtHQ28qdtx/BLNYQ1OaHmOsUA=
+X-MS-TrafficTypeDiagnostic: VE1EUR03HT070:
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(595095)(82015058);SRVR:VE1EUR03HT070;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:VE1EUR03HT070;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR03HT070;4:rgpw9dI+vHv64QUp3mcm1uO1KuKfGTZ1J+KMmrvx1XnTRcCqYpxB/cU8TeYlE779sftBma9nS+XpZIyEO+xE4jxbCLUj1PQo7RmKPdCW9u/JfUz6JCS2X5M+jDWqG50c8SnCP7eUA2E5TDi1dw/dIHPN1bSznyuirYcmaRazc1pUWDtmkGgLGWSkj/hE8teCoFeyPKHlQc4rhKRo34FW2OUgZdSSnqxPQShWyaKS025dBBGWkaD2fQBJ3YPsaKWz;23:FH2+b6lNV7DErRsdDuT7KBPJ9bgL4JtpWaGPFf32ScGzBR4Ms2xs56uE3coXapvLmrH3wtSqB4G+yZSEWl+23XJotH7NzoI48K69qBXdRCJ4HcQvDSvcmyOi4SSjFUNt1r2B/3NoTUqhOoXvPE3pK8mSdbt5kYEEwg3CsLH4wX0=;6:MwAadV8XsQyb5UhbucmJTjISNc90msDg+XzmagbkoQP3DGkieXUKk1UxcKezt1od6gbMAGGQfA5hnVWjbUgVKA2sKR4+0KDp99kzEZVsY5Z7mtbY/5UecmbtCQRyszW7G17GawI5QlYw1ry2dIpm6GEcJNCvmlfF99O06iJKsqWMpf1I8AcGHQrtK0XQlLYw+98pVCagUQuyqrEbFcxzk8fgUTDDaolMLhdEUtSKO8EiHcNEn0AlgjHzSnpLIVtecLhoJyAhdBP7uNprNdSycf3T8H+/USxEmyoAtupUt5pN+OwDHV+Gnsvbiz36ATM7DtaxNJlH5lRq9vEt6/EM/g==;5:KPL63u1OX2jBlRPgOlGcmbQFHeiok6QMTTkUe4VM/wJVekeBiM8/8AmM9yYNlQaJcpRjjsv2f/cTb//NhCq7oXL+ncD4TlydQ27lc41aCpBLtAJX4BiQiB8FM9YtbuUPn9AzZwtpOjz0JpWVu0D8uQ==
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR03HT070;24:SgQ6Z+lMmt0jLC4YmJRGJG6EnnFHRfiXbJz5E1oBstmZJ+m5xRvV6I+dAXPS48er3pO92sS8wPxy/ZOZtJ8IPJe5+J0fUmpBqLR0YFhzk/k=;7:F2O4y3jfAvfwLdbTCDxtuLt8Ge/igPMubcWIf1YZODVGwgDZBn9rdm4+QtF3Bvv+xWZInh9QorK/MfmFu0LtDN330jQf8dFOA7y7r7/fN32yHei9x/7XY2XYRWH0bezVkH9fIGATL68rp7WLk6ajOk5QcYWHfInoiYjSHOCLaHD6f1ckHg1YiQwac3IxlokZpPvDJjpVKdTxyI9c0umEP7JQDcNPgjmeS4vT/4Q+Yzg=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Aug 2017 08:07:55.4432
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR03HT070
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.4537253
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.1385.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:8etk4Xmj6XZOxP/aYzAsrNgJ6GrxfI2Q9Rnxf+bRxawjcA9lrY0+jKeVRo5hrsico83qDkf1cMKWKSmfaIw0uYtY5I4DL63nxpEXnpuZtLDw5KcmckVVjuVh1Wxw6JiA
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:1;rwl:0;ex:0;auth:1;dest:I;WIMS-SenderIP:74.125.82.49;WIMS-SPF:gmail%2ecom;WIMS-DKIM:gmail%2ecom;WIMS-822:ljouve7%40gmail%2ecom;WIMS-PRA:ljouve7%40gmail%2ecom;WIMS-AUTH:PASS;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(4950112)(560107);OFR:SenderInAddressBook;
+X-Microsoft-Antispam-Message-Info:
+	zotB4jvjujaY2uI3Qp4Nsxv7DuzO4XY6wsen8MP4DHhAoB14mblmKpFfG74bPhdKCABnmSX+4qHEEa4nkD6KaoUrlzBb8JRzaSl95NuOUpO0KaLK1APt8tdShrTCzO7r9/EWPE7BAUjvhzWK0e6ofCfHpDmZFLLzbRaGPMc3CO/AA0pZe5ygWYRY5Y+Ozgrb1VQFY1MWs4wr36SB8V2IpILt6HU/FkjAfPMIobK32Lc=
+MIME-Version: 1.0
+
+----_com.samsung.android.email_206673485146270
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:8etk4Xmj6XZOxP/aYzAsrNgJ6GrxfI2Q9Rnxf+bRxawjcA9lrY0+jKeVRo5hrsico83qDkf1cMKWKSmfaIw0uYtY5I4DL63nxpEXnpuZtLDw5KcmckVVjuVh1Wxw6JiA
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:1;rwl:0;ex:0;auth:1;dest:I;WIMS-SenderIP:74.125.82.49;WIMS-SPF:gmail%2ecom;WIMS-DKIM:gmail%2ecom;WIMS-822:ljouve7%40gmail%2ecom;WIMS-PRA:ljouve7%40gmail%2ecom;WIMS-AUTH:PASS;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(4950112)(560107);OFR:SenderInAddressBook;
+X-Microsoft-Antispam-Message-Info:
+	zotB4jvjujaY2uI3Qp4Nsxv7DuzO4XY6wsen8MP4DHhAoB14mblmKpFfG74bPhdKCABnmSX+4qHEEa4nkD6KaoUrlzBb8JRzaSl95NuOUpO0KaLK1APt8tdShrTCzO7r9/EWPE7BAUjvhzWK0e6ofCfHpDmZFLLzbRaGPMc3CO/AA0pZe5ygWYRY5Y+Ozgrb1VQFY1MWs4wr36SB8V2IpILt6HU/FkjAfPMIobK32Lc=
+
+Li4uIHF1aSBhdmFpdCBjaGVyY2hlIGRlcyBwaXN0ZXMgc3VyIHJlbm5lcyBwb3VyIGxlIGxvZ2Vt
+ZW50IDoKClNhbHV0IExhdXJlbmNlLCBqJ2FpIHByw6l2ZW51IG1vbiBjb250YWN0IFJlbm5haXMg
+cXVlIHZvdXMgYXZpZXogdHJvdXbDqSB1biBhcHBhcnQuIERhdmlkLCBwYXRyb24gZGUgc3RhcnQg
+dXAgZGFucyBsZSBtYXJrZXRpbmcgZGlnaXRhbCBtZW50aW9ubmUgcXVlIHRvbiBmaWxzIHBvdXJy
+YSBsZSBjb250YWN0ZXIgc2kgYmVzb2luLi4uIEdhcmRlIGNlbGEgZW4gdMOqdGUgZG9uYyA6LSkK
+CkVudm95w6kgZGUgbW9uIEdhbGF4eSBBNSBPcmFuZ2U=
+
+----_com.samsung.android.email_206673485146270
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:8etk4Xmj6XZOxP/aYzAsrNgJ6GrxfI2Q9Rnxf+bRxawjcA9lrY0+jKeVRo5hrsico83qDkf1cMKWKSmfaIw0uYtY5I4DL63nxpEXnpuZtLDw5KcmckVVjuVh1Wxw6JiA
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:1;rwl:0;ex:0;auth:1;dest:I;WIMS-SenderIP:74.125.82.49;WIMS-SPF:gmail%2ecom;WIMS-DKIM:gmail%2ecom;WIMS-822:ljouve7%40gmail%2ecom;WIMS-PRA:ljouve7%40gmail%2ecom;WIMS-AUTH:PASS;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(4950112)(560107);OFR:SenderInAddressBook;
+X-Microsoft-Antispam-Message-Info:
+	zotB4jvjujaY2uI3Qp4Nsxv7DuzO4XY6wsen8MP4DHhAoB14mblmKpFfG74bPhdKCABnmSX+4qHEEa4nkD6KaoUrlzBb8JRzaSl95NuOUpO0KaLK1APt8tdShrTCzO7r9/EWPE7BAUjvhzWK0e6ofCfHpDmZFLLzbRaGPMc3CO/AA0pZe5ygWYRY5Y+Ozgrb1VQFY1MWs4wr36SB8V2IpILt6HU/FkjAfPMIobK32Lc=
+
+PGh0bWw+PGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD11dGYtOCI+PC9oZWFkPjxib2R5PjxkaXY+Li4uIHF1aSBhdmFpdCBj
+aGVyY2hlIGRlcyBwaXN0ZXMgc3VyIHJlbm5lcyBwb3VyIGxlIGxvZ2VtZW50IDo8L2Rpdj48ZGl2
+Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PlNhbHV0IExhdXJlbmNlLCBqJ2FpIHByw6l2
+ZW51IG1vbiBjb250YWN0IFJlbm5haXMgcXVlIHZvdXMgYXZpZXogdHJvdXbDqSB1biBhcHBhcnQu
+IERhdmlkLCBwYXRyb24gZGUgc3RhcnQgdXAgZGFucyBsZSBtYXJrZXRpbmcgZGlnaXRhbCBtZW50
+aW9ubmUgcXVlIHRvbiBmaWxzIHBvdXJyYSBsZSBjb250YWN0ZXIgc2kgYmVzb2luLi4uIEdhcmRl
+IGNlbGEgZW4gdMOqdGUgZG9uYyA6LSk8L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rp
+dj48ZGl2IGlkPSJjb21wb3Nlcl9zaWduYXR1cmUiPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZTo4NSU7
+Y29sb3I6IzU3NTc1NyIgZGlyPSJhdXRvIj5FbnZvecOpIGRlIG1vbiBHYWxheHkgQTUgT3Jhbmdl
+PC9kaXY+PC9kaXY+PC9ib2R5PjwvaHRtbD4=
+
+----_com.samsung.android.email_206673485146270--

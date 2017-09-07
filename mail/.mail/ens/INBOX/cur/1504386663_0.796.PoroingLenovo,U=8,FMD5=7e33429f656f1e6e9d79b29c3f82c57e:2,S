@@ -1,0 +1,84 @@
+Return-Path: <barbier.guillaume60@gmail.com>
+X-Original-To: jjouv422@eleves.ens-rennes.fr
+Delivered-To: jjouv422@eleves.ens-rennes.fr
+Received: from romarin.ens-rennes.fr (romarin.ens-rennes.fr [193.52.92.218])
+	by arum.ensr.local (Postfix) with ESMTP id 3E408A8166A
+	for <jjouv422@eleves.ens-rennes.fr>; Sat,  2 Sep 2017 22:35:35 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 5D41A1720AB9
+	for <jjouv422@eleves.ens-rennes.fr>; Sat,  2 Sep 2017 22:35:39 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from romarin.ens-rennes.fr ([127.0.0.1])
+	by localhost (romarin.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id HmsdEOFvcCaN for <jjouv422@eleves.ens-rennes.fr>;
+	Sat,  2 Sep 2017 22:35:39 +0200 (CEST)
+Received: from coucou.ens-rennes.fr (coucou.ens-rennes.fr [193.52.92.4])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 48838172096E
+	for <jean.jouve@ens-rennes.fr>; Sat,  2 Sep 2017 22:35:39 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 77555863E7
+	for <jean.jouve@ens-rennes.fr>; Sat,  2 Sep 2017 22:35:39 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+X-Spam-Flag: NO
+X-Spam-Score: -1.747
+X-Spam-Level:
+X-Spam-Status: No, score=-1.747 required=4 tests=[BAYES_00=-1.9,
+	DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1,
+	FREEMAIL_ENVFROM_END_DIGIT=0.25, FREEMAIL_FROM=0.001,
+	HTML_MESSAGE=0.001, TVD_SPACE_RATIO=0.001]
+	autolearn=no autolearn_force=no
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 76mwJisnF_w0 for <jean.jouve@ens-rennes.fr>;
+	Sat,  2 Sep 2017 22:35:39 +0200 (CEST)
+Received: from mail-it0-f49.google.com (mail-it0-f49.google.com [209.85.214.49])
+	by coucou.ens-rennes.fr (Postfix) with ESMTPS id 0E488863A2
+	for <jean.jouve@ens-rennes.fr>; Sat,  2 Sep 2017 22:35:38 +0200 (CEST)
+Received: by mail-it0-f49.google.com with SMTP id j17so6695893iti.1
+        for <jean.jouve@ens-rennes.fr>; Sat, 02 Sep 2017 13:35:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=LwnVbaIpy0dENuzqk2iNwT0e2kzn7csNy7LcwBQsF9o=;
+        b=jmMbMMD53WUsV0BgHwq+Tha9cONRf3ypL1s+6Cdc0MNfd3S9VwB5lH1JMZewpoIO7F
+         Eqzz2mV54m3BHPZufO+tkWM/h9qw9YjheauIOEDQstqEzMO6p8aoYuVPcRZ+7x5ryIkb
+         7aU76dVPU06EIH04Yh7d9+8KvDUFu05Y9XrTLwrCjX43Smc5nxR/3i1p/90AJbZ4tDbZ
+         NWiRp8PBFHKV0JNflx58b+j1//79bMpkvHgZUgvprDmP9fGty7nNCiriU2FnOkaTD1Rw
+         X1ghwGoY4gX99Y5ePIPo5lvtBNLeS9Av0gK5PYM+OUZ22DGf7tE7ywx6BKopdOrpNF05
+         oZzA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=LwnVbaIpy0dENuzqk2iNwT0e2kzn7csNy7LcwBQsF9o=;
+        b=dMrOq7CNowIRLU0975cKTDGzCVhWlXiIyLCniaLyYO+OidrG+guN4OsZfxBkLfu1m4
+         /kt8TOhBPMpva+tjZEmBtiB8PqaAKLJTEEQqifRnduenVvYrVBNLiiywcW0gmQce/3XR
+         K8+Z55QqEhQW8IpDwUgehr6blak+6rGESv9IPqWtVlu2wNdPRIPn6zN+lQVVVBuakMoW
+         KWjhgVt+kT5+rsOKvOtbw/fulb6qlShi7ny8mkqTZnYiHF68KuGm4Ubm7riaIPVPFaZn
+         nqbL6fxgjN+NxofeBm9I5nfB5PhBK65ydrLcGl6Nn4zvVLjK2yX/Nqec2ITXiZbeURaL
+         Eqkg==
+X-Gm-Message-State: AHPjjUguns8bkgqKjNVzwObQw+8xUMxXQ1DO2h33LNDpgy1ay0QZBE7m
+	e4DW34TjwYXjsijgdIjKotcrhZmumg==
+X-Google-Smtp-Source: ADKCNb5IKbK+zHoqT+T/L0PYW7GmHOm+gA5Y8d7JCeOE1dcEDx24qTSeeZ7FSP+rqx5Mf9ZXDRC4EJm0ptkJ7ccVWt8=
+X-Received: by 10.36.37.139 with SMTP id g133mr2164153itg.54.1504384536904;
+ Sat, 02 Sep 2017 13:35:36 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.34.8 with HTTP; Sat, 2 Sep 2017 13:35:36 -0700 (PDT)
+Received: by 10.107.34.8 with HTTP; Sat, 2 Sep 2017 13:35:36 -0700 (PDT)
+From: Guillaume Barbier <barbier.guillaume60@gmail.com>
+Date: Sat, 2 Sep 2017 22:35:36 +0200
+Message-ID: <CAGEX-pNPhVHdB3eJBAZXek5TnQPviR-T2yz=G6HYpN01du3O9w@mail.gmail.com>
+Subject: 
+To: jean.jouve@ens-rennes.fr
+Content-Type: multipart/alternative; boundary="001a11444306ed881705583ad17a"
+
+--001a11444306ed881705583ad17a
+Content-Type: text/plain; charset="UTF-8"
+
+http://tvtropes.org/pmwiki/pmwiki.php/Main/EvilOverlordList
+
+--001a11444306ed881705583ad17a
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto"><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/EvilOverlordList">http://tvtropes.org/pmwiki/pmwiki.php/Main/EvilOverlordList</a></div>
+
+--001a11444306ed881705583ad17a--

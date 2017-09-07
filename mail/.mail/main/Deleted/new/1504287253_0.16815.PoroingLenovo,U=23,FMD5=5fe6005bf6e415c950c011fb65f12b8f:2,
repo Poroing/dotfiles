@@ -1,0 +1,1294 @@
+Received: from AM5EUR02HT103.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:7:29::25) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0096.EURPRD02.PROD.OUTLOOK.COM; Thu, 31 Aug 2017 18:03:22 +0000
+Received: from AM5EUR02FT059.eop-EUR02.prod.protection.outlook.com
+ (10.152.8.54) by AM5EUR02HT103.eop-EUR02.prod.protection.outlook.com
+ (10.152.9.92) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1341.15; Thu, 31
+ Aug 2017 18:03:21 +0000
+Authentication-Results: spf=pass (sender IP is 52.43.108.189)
+ smtp.mailfrom=mailer.humblebundle.com; hotmail.fr; dkim=pass (signature was
+ verified) header.d=mailer.humblebundle.com;hotmail.fr; dmarc=bestguesspass
+ action=none header.from=mailer.humblebundle.com;
+Received-SPF: Pass (protection.outlook.com: domain of mailer.humblebundle.com
+ designates 52.43.108.189 as permitted sender)
+ receiver=protection.outlook.com; client-ip=52.43.108.189; helo=
+ mta1b10.sp.crdl.io;
+Received: from BAY004-MC2F18.hotmail.com (10.152.8.55) by
+ AM5EUR02FT059.mail.protection.outlook.com (10.152.9.204) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1385.11 via Frontend Transport; Thu, 31 Aug 2017 18:03:20 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:2AA729F711D226452EA788DB8ECA4AE9DBCDDC27ED6408CA0F459066D9612C24;UpperCasedChecksum:50C48459E449B734800007CE1CD85CD4BBD7222D4F67FB3AA35D0E29503A1D59;SizeAsReceived:2648;Count:17
+Received: from mta1b10.sp.crdl.io ([52.43.108.189]) by BAY004-MC2F18.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+	 Thu, 31 Aug 2017 11:03:18 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mailer.humblebundle.com; s=scph0816; t=1504202598;
+	i=@mailer.humblebundle.com;
+	bh=6h82GjFT1nMV/7uB4BTkjXHQKwZfzRpEnkW8vM7LQRk=;
+	h=Content-Type:To:Message-ID:Date:Subject:From;
+	b=KNSMfHQgbabQzNahVXdxs184cr46gu+r5hINsCmLWwIW48MO3kUlaCRc1uAbCT4dy
+	 /vjcLSlR6y9XMeGkfKiUIXtDFG6HxFzG7BgxSm27hVzkrsO4bZj1Pg5+Il3sYtS2RR
+	 taibqx+0iNYS3QFHjSGkhUkoaaNqsz3Y/u8lE/sI=
+X-MSFBL: o520RYbCd5u/Yvrkz8s3immsxxCUnJzBvYa56O0ublg=|eyJiIjoiaXBfNTIuNDM
+	uMTA4LjE4OSIsImZyaWVuZGx5X2Zyb20iOiJjb250YWN0QG1haWxlci5odW1ibGV
+	idW5kbGUuY29tIiwidHJhbnNtaXNzaW9uX2lkIjoiNDg2MjE1Mjk1Njg5NjAwNzU
+	iLCJyY3B0X3RhZ3MiOlsgXSwic3ViYWNjb3VudF9pZCI6IjEzIiwidGVuYW50X2l
+	kIjoiY29yZGlhbCIsInIiOiJqZWFuLTE4LTA5QGhvdG1haWwuZnIiLCJyY3B0X21
+	ldGEiOnsgIm1jSUQiOiAiMTAyOjU5YTcxMzllZjBjMzYwNGM3ZGQyOTI5MDpvdDo
+	1OTE0YmQzOTY2ZDVkOTIwNTU1YmNmMmI6MSIsICJlbnYiOiAicHJvZHVjdGlvbiI
+	sICJiaW5kaW5nIjogImhiLWQiIH0sImciOiJoYi1kIiwidGVtcGxhdGVfdmVyc2l
+	vbiI6IjAiLCJ0ZW1wbGF0ZV9pZCI6InRlbXBsYXRlXzQ4NjIxNTI5NTY4OTYwMDc
+	1IiwibWVzc2FnZV9pZCI6IjAwMDI2NjRmYTg1OTE4NjFlYWQ2IiwiY3VzdG9tZXJ
+	faWQiOiIxIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: jean-18-09@hotmail.fr
+Message-ID: <AE.6D.24856.66F48A95@b.plat1.cordial.aws-usw2b.prd.sparkpost>
+Date: Thu, 31 Aug 2017 18:03:18 +0000
+Reply-To: <contact@humblebundle.com>
+Subject: Save up to 85% on terrifying horror games!
+X-Crdl-Mc: 102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1
+From: "Humble Bundle" <contact@mailer.humblebundle.com>
+List-Unsubscribe: <mailto:unsubscribe@sp.crdl.io?subject=unsubscribe:cKKkHAYFZBGioCs9aaYmk3g1D7g_KUDHdezzbNzt6PU~|eyAicmNwdF90byI6ICJqZWFuLTE4LTA5QGhvdG1haWwuZnIiLCAicmNwdF9tZXRhIjogIntcIm1jSURcIjpcIjEwMjo1OWE3MTM5ZWYwYzM2MDRjN2RkMjkyOTA6b3Q6NTkxNGJkMzk2NmQ1ZDkyMDU1NWJjZjJiOjFcIixcImVudlwiOlwicHJvZHVjdGlvblwiLFwiYmluZGluZ1wiOlwiaGItZFwifSIsICJmcmllbmRseV9mcm9tIjogImNvbnRhY3RAbWFpbGVyLmh1bWJsZWJ1bmRsZS5jb20iLCAibWVzc2FnZV9pZCI6ICIwMDAyNjY0ZmE4NTkxODYxZWFkNiIsICJtYWlsZnJvbSI6ICJib3VuY2VzK2plYW4tMTgtMDk9aG90bWFpbC5mckBtYWlsZXIuaHVtYmxlYnVuZGxlLmNvbSIsICJjdXN0b21lcl9pZCI6ICIxIiwgInRyYW5zbWlzc2lvbl9pZCI6ICI0ODYyMTUyOTU2ODk2MDA3NSIsICJ0ZW5hbnRfaWQiOiAiY29yZGlhbCIsICJzdWJhY2NvdW50X2lkIjogIjEzIiB9>
+List-Id: <cordial-1-13>
+Return-Path: bounces+jean-18-09=hotmail.fr@mailer.humblebundle.com
+X-OriginalArrivalTime: 31 Aug 2017 18:03:18.0943 (UTC) FILETIME=[6D0BDAF0:01D32283]
+X-IncomingHeaderCount: 17
+X-MS-Exchange-Organization-Network-Message-Id: accb2d4a-bc94-4093-c536-08d4f09a90ff
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 52.43.108.189
+CMM-sending-ip: 52.43.108.189
+CMM-Authentication-Results: hotmail.com; spf=pass (sender IP is
+ 52.43.108.189)
+ smtp.mailfrom=bounces+jean-18-09=hotmail.fr@mailer.humblebundle.com;
+ dkim=pass header.d=mailer.humblebundle.com; x-hmca=pass
+ header.id=contact@mailer.humblebundle.com
+CMM-X-SID-PRA: contact@mailer.humblebundle.com
+CMM-X-AUTH-Result: PASS
+CMM-X-SID-Result: PASS
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MTtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+CMM-X-Message-Info: NhFq/7gR1vTo0SGqsAxEHYhxLhwLgYtYPgndINNlCTe9zr8rmKXoo2mdjj6uXmXweRpu1HO73zRM7jBFfQ9sZNrFvgQVf6TS11LGhwaP9eN0XXztZmGzZF2inR7mf11wfkJbn9os9ATz521282HRjM8KKhUclAXIz/1caO97X7HkY70CyzQJkuj9tcmMezBhLE4FwhJ/eR0J1CRy9BH3ZZDF/WxB3cMGELu21AFEp5m+A/JMZRh3FMa/IifCRkfS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-UserLastLogonTime: 8/31/2017 5:40:42 PM
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02FT059;1:inczj6+3pEzJkRqQJJzVSP2Lc8Ix0B2I9/rWnxm0OT5M1cSy9xRzy2JRMZDMNcBoE5F9IPQFxrjRZfv1ut0YEwst4eTxDqL4As2+oc6jndi5W/OQI1WYWpjc8Ke+GMaA
+X-MS-Exchange-Organization-AuthSource: AM5EUR02FT059.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: accb2d4a-bc94-4093-c536-08d4f09a90ff
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(300000502095)(300135100095)(23075)(22001)(8291501071);SRVR:AM5EUR02HT103;
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT103;3:pvfPv5oEWaHOhrTGoOWB8KVQ8yKE1X7v97LnHRaasq0AWJZXvOnfS5vBrqPeX52TqLwekX+DmS0pp+6WaRZTrnG5SEkS3xo/U1x6pNIdXDdHkK+Wwkml/J/hjXp1BqN8MBzsF5K33qybGP5ktIFVYxYT+N7lS1aWHt20lnRs73UnuvXKjiy/6po8CzwPhO7wS8CUMF9NjU45XjsaQNaggm4yZavLhnCch1FYWMaKvpopAzsONE8khy4Ydk+E3e0LT0qsE3eMpuTJvCwO0DqeVbmKahN5BcYD5sSs+bBw+AyJI1w1wOKYmcan5SM5snow;25:Oyj5bU+bRHEBUZ+UGVA6BEu8NQ2ffMP3cunWZQ0bKfaBpjPAc4gfIxwVv3S4Yf2gFn30GqHP3mf1j6WfTeB8JggCEddOKMObf9prekCR8HjUrOFtJ4Y2P8QjPYX7LooBAvE9HEDOqrajONPeYbiqkopMFz02Wm55krz6TyrTtNsnNFNRrlbX0PRgirJgye3Au9pHQBJSVfAVEmL4S0ivvFIirb302aTwqBlXAv7EXq/6SyPTPbhriDw/vPcg47Xxx1luNhE2JhmzJT//dA9x4IZHyUdxHxsY6v+CQZCu0CYVTrLVPVJzGuT6I2U8PtlwKbIbUstFq6ZKrbHd9GWN3A==;31:Uby+jF1XOn/Uc14WiqRJKs8VQbzRR0TjmpnkNnlNp1uMVuw+xGuI4lNbr0/iXuXfMxEGz7gF2kXEq2boX0veL25LHB8j4Hjm0R9vP09BIoTFH+hIlqmEhMvyUIFHe8W/0S7vBPRPC4ea4uSVG8ZnuWgAGrHQB0OpCU96r4zP7lUlUmWgi1e2hxwfU7GmnLVtaWNRL+ZgfGVsIrCy38RRryv4HMKMU0L59ztN2SFbi7Y=
+X-MS-TrafficTypeDiagnostic: AM5EUR02HT103:
+X-Exchange-Antispam-Report-Test: UriScan:(148322886591682)(31418570063057)(183979573748752)(211936372134217)(80641642340047)(86561027422486)(81227570615382)(64217206974132)(170290950945281)(162078923652245);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(510095)(595095)(82015058);SRVR:AM5EUR02HT103;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM5EUR02HT103;
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT103;4:pajnTmxqTzMsOLGapBGdCZkRroxv24+8SEqI5/2KB3nmXXX67PFUI48y08SRo8WLQAS89DjBSOBBHbTDaNluf9UDG/FT+snYbeBdrmAeHvoGf0LGQoDJr0SO6NB1hKLRBlxKLcfBtknLrboloEYrxzUvoeRqH43w6Lz8SVfRU0f2aGxLRxBcOl2bxknVeQltZ0o+s8YxMdWrxwhPTI7xTdUqlO0Mbhl17zr6p0DmChD21jf4AN7ho+3nlqUUUQZD4DOm6xLvodHtG2KVoreIXKEJU/QEQA5vHMyx9oiob/OxSt9COJkUYX8K16yj8H5L2fYJpLpLEdMhskEfuoluROl1Q2Ks7GFSXxqAt2RrvpQ/3CSCOMqkeYzY638dM/SbDDiN24kCdLaWWptrftI8d/MYT7hFWynQlFC1n7YfTJdT0AK626O/3YCfdnCB9N1OX008kKLzNlKTYUOCapMVYa0u9otM0GSwyE3suBE+f/DP6yppPe7f45PUz+FA90UZDKgRektzXOmcoWA1KpuK0pswI9bWTOBrQAD2r3ZeXPATrE4GNj/t1h1uuIBgE3y0oKBX5XIkyC6dlD/r3OjIH1tNNtfa1GDZkil0TqG0QBo=;23:jcrkBLbnVQKVNptR5UqEMEpGSDVWwzayWESffgFRMo2Gun0/87TL6anfsxOWOtyrOJi/OKHzbXLzNBg02bzmzUR4xacTYd9QoP/kP5dHuZeaEKN79ZugYKl/iEz5i1k4s95Hn0Pvk7OqdUDWPNiA5E51XSv/jmvi2FyIeQn5sZw=
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:AM5EUR02HT103;H:BAY004-MC2F18.hotmail.com;FPR:;SPF:None;LANG:en;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT103;6:ZOsQOm1gCw82MwCLQ0jrieun4v54cN+VPZayRapVI2jgDILYpbsmjgO2ZvkRt0R5U/061Y+ZdLLmURH/Mnfl7iWYr4VezZdO/3CIviLisSaRqSp9ZzGzc8j0UBDN1jCWjrnsEEH209WbuodoJ5hq1yg9ayC9oBLCQ28biVe+B/k8kUVBJOAMblzjywRIc/1DaXNelEaUIolByQTH56H3Yii2iEr6FNLBBkuxmXEO+I7iai9M19kTUdGhHZ0aprymEGpuJ0JnqeT1zM+kdRPnFAlMQOltquZaogZZBclpblwRSgnaKUGWpwVbYmYOL3Wo9OD4TnLj2b+ZTMEm6S9NiQ==;5:seYr/s31qPsseWtx3NyF0WhdAnYZaY9ST+k8VnlDKqJYeGAUf0HdzB4JawfAC92+N3v25cEo+O3sXVHTBMSMPrasIb0mwaUZOOohfwJchziiiSZwyyXEQzFoLDocskqOtBaJxAJEvcMpbd8S4KXnJw==;24:DrTdMXR5+a5WZWiGfjVJbY0Mq0x9ykACMkZI+Ecc2n64xRf/98WMUHCxvB7GzRJvMvZR0iDjDzY1EB/HxwPow+9ZTeBtfteFSHQgVyxWBh4=;7:XPu/zrzM8Bocy/E1tmYwAcj5hF1OolI/E8JghinZbmGyf1NW7z7G5oNofwsqMuocyfKMpg2Phhe9iEZ9tOncO4FU3MbZGxMc+lklgpSXyFjql8euIa2vGET4sr/tQ5pQObyDwsrQLXM96JhF7RzvMx1J5wezZJsDMwEzjIKQiFWIDeeNR8VMRsgnBSRvFPWub+8MzJGanLYZi0UuLOPudHEqj8w0dPQpor4UJEOt1u8=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 31 Aug 2017 18:03:20.4237
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM5EUR02HT103
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9587607
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.1385.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:1iY3ZtAyl2ZfeQA7bY//MBQXW+Jrs6GaM0F0xOZyondcvU2lj4JzND0stScwDdGMqTDcS9lQQ4OQLkZ8yUt4CaPexF/Dr7bcNEgMUg6rLHCnkfig7PrdccGhg4S85xkC
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;WIMS-SenderIP:52.43.108.189;WIMS-SPF:mailer%2ehumblebundle%2ecom;WIMS-DKIM:mailer%2ehumblebundle%2ecom;WIMS-822:contact%40mailer%2ehumblebundle%2ecom;WIMS-PRA:contact%40mailer%2ehumblebundle%2ecom;WIMS-AUTH:PASS;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Microsoft-Antispam-Message-Info:
+	KQ8UV67hHEQaHmIVADZCsBZUz76tjlL5OVqPFR6TGR8zMr+hdes/+vvE7tywlUO7gQgEp0OrlNJOHO6cu+gIXBnQ8Ml8JHYIS3FEZhgxwcfKES4VmtOznXtxpnLtTDha18EzpU2jv86r7yjcvQU2//kvLxpnCh1MZjUvodY6UaNVuSnm/ay7hkXwf8IOGkPN
+MIME-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Humble Bundle</title>=0A=
+=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>=0A=
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+<style type=3D"text/css">=0A=
+    /* CLIENT-SPECIFIC STYLES */=0A=
+    =0A=
+    /* Force Outlook to provide a "view in browser" message */=0A=
+    #outlook a {=0A=
+      padding: 0;=0A=
+    }=0A=
+    =0A=
+     /* Force Hotmail to display emails at full width */=0A=
+    .ReadMsgBody {=0A=
+      width: 100%;=0A=
+    }=0A=
+    =0A=
+    .ExternalClass {=0A=
+      width: 100%;=0A=
+    }=0A=
+=0A=
+    /* Force Hotmail to display normal line spacing */=0A=
+    .ExternalClass,=0A=
+    .ExternalClass p,=0A=
+    .ExternalClass span,=0A=
+    .ExternalClass font,=0A=
+    .ExternalClass td,=0A=
+    .ExternalClass div {=0A=
+      line-height: 100%;=0A=
+    }=0A=
+    =0A=
+    /* Prevent WebKit and Windows mobile changing default text sizes */=0A=
+    body,=0A=
+    table,=0A=
+    td,=0A=
+    a {=0A=
+      -webkit-text-size-adjust: 100%;=0A=
+      -ms-text-size-adjust: 100%;=0A=
+    }=0A=
+    =0A=
+    /* Remove spacing between tables in Outlook 2007 and up */=0A=
+    table,=0A=
+    td {=0A=
+      padding: 0;=0A=
+      mso-table-lspace: 0pt;=0A=
+      mso-table-rspace: 0pt;=0A=
+    }=0A=
+    =0A=
+    /* Allow smoother rendering of resized image in Internet Explorer */=0A=
+    img {=0A=
+      -ms-interpolation-mode: bicubic;=0A=
+    }=0A=
+    =0A=
+    /* RESET STYLES */=0A=
+    body {=0A=
+      margin: 0;=0A=
+      padding: 0;=0A=
+    }=0A=
+    =0A=
+    img {=0A=
+      border: 0;=0A=
+      height: auto;=0A=
+      line-height: 100%;=0A=
+      outline: none;=0A=
+      text-decoration: none;=0A=
+    }=0A=
+    =0A=
+    table {=0A=
+      border-collapse: collapse !important;=0A=
+    }=0A=
+    =0A=
+    body {=0A=
+      height: 100% !important;=0A=
+      margin: 0;=0A=
+      padding: 0;=0A=
+      width: 100% !important;=0A=
+    }=0A=
+=0A=
+    a {=0A=
+      text-decoration: none;=0A=
+      font-weight: bold;=0A=
+    }=0A=
+    =0A=
+    =0A=
+    /* iOS BLUE LINKS */=0A=
+    .appleBody a {=0A=
+      color: #68440a;=0A=
+      text-decoration: none;=0A=
+    }=0A=
+=0A=
+    .appleFooter a {=0A=
+      color: #999999;=0A=
+      text-decoration: none;=0A=
+    }=0A=
+=0A=
+    /* Make table widths less succeptible to the whims of the user-agent */=
+=0A=
+    table,=0A=
+    td {=0A=
+      table-layout: fixed;=0A=
+    }=0A=
+=0A=
+    /*MOBILE STYLES */=0A=
+    @media screen and (max-width: 642px) {=0A=
+      /* ALLOWS FOR FLUID TABLES */=0A=
+      table[class=3D"wrapper"],=0A=
+      table.wrapper {=0A=
+        width: 100% !important;=0A=
+      }=0A=
+      /* ADJUSTS LAYOUT OF LOGO IMAGE */=0A=
+      td[class=3D"logo"],=0A=
+      td.logo {=0A=
+        text-align: left;=0A=
+        padding: 20px 0 20px 0 !important;=0A=
+      }=0A=
+      td[class=3D"logo"] img,=0A=
+      td.logo img {=0A=
+        margin: 0 auto!important;=0A=
+      }=0A=
+      /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */=0A=
+      td[class=3D"mobile-hide"],=0A=
+      td.mobile-hide {=0A=
+        display: none;=0A=
+      } /* This is highly redundant and should be fixed */=0A=
+      img[class=3D"mobile-hide"],=0A=
+      img.mobile-hide, =0A=
+      .mobile-hide {=0A=
+        display: none !important;=0A=
+      }=0A=
+      img[class=3D"img-max"],=0A=
+      img.img-max {=0A=
+        max-width: 100% !important;=0A=
+        height: auto !important;=0A=
+      }=0A=
+      img[class=3D"img-fill"],=0A=
+      img.img-fill {=0A=
+        width: 100% !important;=0A=
+        height: auto !important;=0A=
+      }=0A=
+      /* FULL-WIDTH TABLES */=0A=
+      table[class=3D"responsive-table"],=0A=
+      table.responsive-table {=0A=
+        width: 100% !important;=0A=
+      }=0A=
+      /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */=0A=
+      td[class=3D"padding"],=0A=
+      td.padding {=0A=
+        padding: 10px 5% 15px 5% !important;=0A=
+      }=0A=
+      td[class=3D"padding-copy"],=0A=
+      td.padding-copy {=0A=
+        padding: 10px 5% 10px 5% !important;=0A=
+        text-align: center;=0A=
+        display: block;=0A=
+      }=0A=
+      td[class=3D"padding-copy-left"],=0A=
+      td.padding-copy-left {=0A=
+        padding: 10px 5% 10px 5% !important;=0A=
+        text-align: left;=0A=
+        display: block;=0A=
+      }=0A=
+      td[class=3D"padding-meta"],=0A=
+      td.padding-meta {=0A=
+        padding: 30px 5% 0px 5% !important;=0A=
+        text-align: center;=0A=
+      }=0A=
+      td[class=3D"no-pad"],=0A=
+      td.no-pad {=0A=
+        padding: 0 0 20px 0 !important;=0A=
+      }=0A=
+      td[class=3D"no-padding"],=0A=
+      td.no-padding {=0A=
+        padding: 0 !important;=0A=
+      }=0A=
+      td[class=3D"section-padding"],=0A=
+      td.section-padding {=0A=
+        padding: 10px 10px 10px 10px !important;=0A=
+      }=0A=
+      td[class=3D"section-header"],=0A=
+      td.section-header {=0A=
+        padding: 10px 15px 10px 15px !important;=0A=
+      }=0A=
+      td[class=3D"section-padding-bottom-image"],=0A=
+      td.section-padding-bottom-image {=0A=
+        padding: 50px 15px 0 15px !important;=0A=
+      }=0A=
+      /* ADJUST BUTTONS ON MOBILE */=0A=
+      td[class=3D"mobile-wrapper"],=0A=
+      td.mobile-wrapper {=0A=
+        padding: 10px 5% 15px 5% !important;=0A=
+      }=0A=
+      /* TEMPLATE-SPECIFIC STYLES */=0A=
+      /* Smoothly collapse store grid from 2 to 1 column layout */=0A=
+      div[class=3D"griditem"],=0A=
+      div.griditem {=0A=
+        padding-right: 0px !important;=0A=
+      }=0A=
+      /* Smoothly collapse monthly value items to a vertical layout */=0A=
+      td[class=3D"monthly-value"],=0A=
+      td.monthly-value {=0A=
+        width: 100% !important;=0A=
+        padding: 0 !important;=0A=
+      }=0A=
+      /* Switch from left-right justified logo+text to centered logo above =
+text */=0A=
+      td[class=3D"store-header"],=0A=
+      td.store-header {=0A=
+        text-align: center !important;=0A=
+        display: inline-block !important;=0A=
+        width: 100% !important;=0A=
+      }=0A=
+    }=0A=
+  </style>=0A=
+</head>=0A=
+<body style=3D"margin:0; padding:0; background-color:#e4e7ed;">=0A=
+=0A=
+=0A=
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgco=
+lor=3D"#e4e7ed"><tr>=0A=
+<td align=3D"center" valign=3D"top" style=3D"padding:10px;"> =0A=
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"622px" class=3D"responsive-table"><tr>=0A=
+<td align=3D"center" valign=3D"top" width=3D"100%">=0A=
+        =0A=
+        =0A=
+        =0A=
+        =0A=
+        =0A=
+                =0A=
+        =0A=
+                =0A=
+        =0A=
+        =0A=
+        =0A=
+                =0A=
+        =0A=
+                =0A=
+        =0A=
+        =0A=
+         =0A=
+        =0A=
+                        =0A=
+        <div style=3D"display: none; font-size: 1px; font-family: Helvetica=
+, Arial, sans-serif; height: 0px; width: 0px; opacity: 0; overflow: hidden;=
+">=0A=
+  =0A=
+</div>=0A=
+=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"margin-bottom:6px;"><tr>=0A=
+<td align=3D"center">=0A=
+=0A=
+<table width=3D"622" style=3D"border-collapse:collapse; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, sans-serif;" class=3D"responsive-ta=
+ble"><tr>=0A=
+<td width=3D"111" style=3D"text-align:left;" class=3D"store-header">=0A=
+    <div id=3D"header-wrapper">=0A=
+      <a data-crdl-variant=3D"" href=3D"http://track.cordial.io/c/102:59a71=
+39ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1/c4975165/af63fb8fc9d7ba94=
+1bbd652fe62f4d36//"><img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/1=
+45x26/1c751f9f-235f-47b7-9c0c-2217825b96be.png" alt=3D"Humble Store"></a>=
+=0A=
+      <div class=3D"clear"></div>=0A=
+    </div>=0A=
+    </td>=0A=
+    <td width=3D"511" style=3D"text-align:right" class=3D"store-header">=0A=
+<a data-crdl-variant=3D"" style=3D"text-decoration:none;" href=3D"http://tr=
+ack.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1=
+/c8155fc9/7b775ecca653d49fb66333ebeed66900//">=0A=
+     <div id=3D"header-text-subhead" style=3D"display:inline-block; color:#=
+A1A7B2; font-size:12px;">=0A=
+      <strong>Great games. Fantastic prices.</strong><br><span style=3D"fon=
+t-weight: normal">Up to 10% of proceeds support your charity of choice.</sp=
+an>=0A=
+      </div>=0A=
+        </a>=0A=
+      </td>=0A=
+  </tr></table>=0A=
+</td>=0A=
+</tr></table>=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse: collapse; font-family: &quot;Helvetica Neue&quot;, He=
+lvetica, Arial, sans-serif"><tr>=0A=
+<td name=3D"wrapper-datum" style=3D"text-align: center;">=0A=
+=0A=
+      <table>=0A=
+<tr>=0A=
+<td>=0A=
+              <!--- *BANNER CODE* -->=0A=
+                <div>=0A=
+                    <a data-crdl-variant=3D"" href=3D"http://track.cordial.=
+io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1/ee29ea57/27=
+742970c2baa3990be813e2e3fd3dbe//">=0A=
+                        <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/1=
+02/600x170/horrorsale-newsletter-600x170.png" width=3D"622" style=3D"displa=
+y: block; border: 0;" alt=3D"Get fantastic games on the Humble Store!" clas=
+s=3D"img-max"></a>=0A=
+                </div>=0A=
+          </td>=0A=
+        </tr>=0A=
+<tr>=0A=
+<td height=3D"8" style=3D"font-size:8px; line-height:8px;">&nbsp;</td>=0A=
+      </tr>=0A=
+</table>=0A=
+</td>=0A=
+  </tr></table>=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse: collapse; font-family: &quot;Helvetica Neue&quot;, He=
+lvetica, Arial, sans-serif">=0A=
+<tr>=0A=
+<td width=3D"100%" name=3D"wrapper-datum" style=3D"text-align: center;">=0A=
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" style=3D"display:inline-block; max-width:622px; border-collapse:collapse;=
+ table-layout:fixed; text-align:left;">=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/outlast-2?linkID=3D&amp;m=
+cID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_so=
+urce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_camp=
+aign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/8fbab53d1a=
+3de674ccb71a5ed2115de56385a460.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D5e279427cc6e76aaad10c34c08e6b=
+bf3" alt=3D"outlast-2" width=3D"100%" border=3D"0" style=3D"display:block; =
+height:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px =
+8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -50%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/darkwood?linkID=3D&amp;mc=
+ID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sou=
+rce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/f1ea324b4c=
+2697722362c07a9cc3c7d8a4b71c24.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D1f7a3e3385ed386f685d6dcb40b95=
+77f" alt=3D"darkwood" width=3D"100%" border=3D"0" style=3D"display:block; h=
+eight:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8=
+px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -10%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/plague-inc-evolved?linkID=
+=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&a=
+mp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp=
+;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/45dd3d84f8=
+2b1f1fec54db43f3f36d287387b018.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D7704758417df6e3d88a1af51219f8=
+aa1" alt=3D"plague-inc-evolved" width=3D"100%" border=3D"0" style=3D"displa=
+y:block; height:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius=
+:0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -55%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/oxenfree?linkID=3D&amp;mc=
+ID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sou=
+rce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/77ae96b9fb=
+e9c53875686f72a8ce242dc9ed37dd.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D5d5cee541ea35ba037cbc6be33d44=
+f49" alt=3D"oxenfree" width=3D"100%" border=3D"0" style=3D"display:block; h=
+eight:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8=
+px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -75%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/soma?linkID=3D&amp;mcID=
+=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sourc=
+e=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/d6d09c5681=
+153f304a420b9d1f5091c1f103023a.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D1495ec23f046287183cda4dd3bc07=
+48a" alt=3D"soma" width=3D"100%" border=3D"0" style=3D"display:block; heigh=
+t:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8px;=
+ vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -70%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/sherlock-holmes-the-devil=
+s-daughter?linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d=
+5d920555bcf2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_m=
+edium=3Demail&amp;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_conten=
+t=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/34459a8b64=
+b015cd80131cc7d3ca967520a79a52.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3Ddae62560a6cbf02878a395bfd275e=
+6fe" alt=3D"sherlock-holmes-the-devils-daughter" width=3D"100%" border=3D"0=
+" style=3D"display:block; height:auto;"></a><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin=
+:0; border-radius:0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -50%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/observer?linkID=3D&amp;mc=
+ID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sou=
+rce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/308x176/observer.=
+jpg" alt=3D"observer" width=3D"100%" border=3D"0" style=3D"display:block; h=
+eight:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8=
+px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -10%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/crawl?linkID=3D&amp;mcID=
+=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sourc=
+e=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/626cde45ca=
+853346cc2f9ccd291b9f425272233d.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3De234301bd9cd7252faef278023401=
+e5c" alt=3D"crawl" width=3D"100%" border=3D"0" style=3D"display:block; heig=
+ht:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8px;=
+ vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -33%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+</table>=0A=
+</td>=0A=
+  </tr>=0A=
+<tr>=0A=
+<td height=3D"20" style=3D"font-size:20px; line-height:20px;">&nbsp;</td>=
+=0A=
+  </tr>=0A=
+</table>=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tr>=
+=0A=
+<td align=3D"center" width=3D"100%" style=3D"text-align:center;">=0A=
+=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"622" class=
+=3D"responsive-table">=0A=
+<tr>=0A=
+<td width=3D"100%" height=3D"20" style=3D"border-top-right-radius:6px; bord=
+er-top-left-radius:6px; background:#ffffff;">=0A=
+    </td>=0A=
+  </tr>=0A=
+<!--  BUNDLE ITEM MAIN CONTENT WRAPPER  --><tr>=0A=
+<td width=3D"100%" style=3D"background:#ffffff;">=0A=
+<!-- -->=0A=
+=0A=
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A=
+<tr>=0A=
+<td align=3D"center" style=3D"text-align:center; padding: 10px 8px 10px 8px=
+; font-size: x-large; line-height: 25px; font-family: Helvetica, Arial, san=
+s-serif; color: #666666;" class=3D"padding-copy">=0A=
+        To date, more than $98 million has been donated to charity thanks t=
+o people like you!=0A=
+      </td>=0A=
+    </tr>=0A=
+<tr>=0A=
+<td align=3D"center" style=3D"text-align:center; padding: 15px 0 15px 0;">=
+=0A=
+        <!-- BULLETPROOF BUTTON -->=0A=
+        <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center"><tr>=0A=
+<td align=3D"center" style=3D"padding: 5px 0 10px 0;">=0A=
+                            <a data-crdl-variant=3D"" target=3D"_blank" sty=
+le=3D"font-size:x-large; font-family:Helvetica, Arial, sans-serif; font-wei=
+ght:normal; color:#ffffff; text-decoration:none; background-color:#adcc52; =
+border-top:12px solid #adcc52; border-bottom:12px solid #adcc52; border-lef=
+t:26px solid #adcc52; border-right:26px solid #adcc52; border-radius:3px; -=
+webkit-border-radius:3px; -moz-border-radius:3px; display:inline-block; tex=
+t-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);" href=3D"https://www.humblebundle.c=
+om/store?linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d=
+920555bcf2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_med=
+ium=3Demail&amp;utm_campaign=3D2017_08_31_HorrorSale_store&amp;linkID=3D&am=
+p;utm_content=3Dcta_button">=0A=
+                Shop Now!=0A=
+              </a>=0A=
+            </td>=0A=
+          </tr></table>=0A=
+</td>=0A=
+    </tr>=0A=
+</table>=0A=
+<!--  BUNDLE ITEM MAIN CONTENT WRAPPER  -->=0A=
+</td>=0A=
+</tr>=0A=
+<!-- --><tr>=0A=
+<td align=3D"center" style=3D"text-align:center; padding: 10px 0 0 0; backg=
+round:#f4f5f7;">=0A=
+      <!-- COPY -->=0A=
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tr>=0A=
+<td align=3D"center" style=3D"text-align:center; padding: 20px 0 20px 0; fo=
+nt-size: large; line-height: 25px; font-family: Helvetica, Arial, sans-seri=
+f; color: #666666;" class=3D"padding-copy"></td>=0A=
+        </tr></table>=0A=
+</td>=0A=
+  </tr>=0A=
+<tr>=0A=
+<!-- IMAGE --><td align=3D"center" style=3D"text-align:center; padding: 0; =
+background:#f4f5f7;">=0A=
+            <a data-crdl-variant=3D"" target=3D"_blank" href=3D"https://www=
+.humblebundle.com/store?linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:o=
+t:5914bd3966d5d920555bcf2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newslet=
+ter&amp;utm_medium=3Demail&amp;utm_campaign=3D2017_08_31_HorrorSale_store&a=
+mp;linkID=3D&amp;utm_content=3Dcharity_logos"><img src=3D"https://d1ok0qgeb=
+ci2d3.cloudfront.net/102/600x70/Charity_Banner_List_t2.png" width=3D"536" b=
+order=3D"0" alt=3D"Choose Your Own Charity" style=3D"padding: 0;" class=3D"=
+img-max"></a>=0A=
+    </td>=0A=
+  </tr>=0A=
+<tr>=0A=
+<td height=3D"26" style=3D"font-size:26px; line-height:26px; border-bottom-=
+right-radius:6px; border-bottom-left-radius:6px; background:#f4f5f7;">&nbsp=
+;</td>=0A=
+  </tr>=0A=
+<tr>=0A=
+<td height=3D"40" style=3D"font-size:40px; line-height:40px;">&nbsp;</td>=
+=0A=
+  </tr>=0A=
+</table>=0A=
+</td>=0A=
+</tr></table>=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse: collapse; font-family: &quot;Helvetica Neue&quot;, He=
+lvetica, Arial, sans-serif"><tr>=0A=
+<td name=3D"wrapper-datum" style=3D"text-align: center;">=0A=
+=0A=
+      <table>=0A=
+<tr>=0A=
+<td>=0A=
+              <!--- *BANNER CODE* -->=0A=
+                <div>=0A=
+                    <a data-crdl-variant=3D"" href=3D"http://track.cordial.=
+io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1/41da541d/64=
+60af7069fa722e0a3ba2f5adf79296//">=0A=
+                        <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/1=
+02/600x170/destiny2-store-preorder-newsletter-600x170.png" width=3D"622" st=
+yle=3D"display: block; border: 0;" alt=3D"Get fantastic games on the Humble=
+ Store!" class=3D"img-max"></a>=0A=
+                </div>=0A=
+          </td>=0A=
+        </tr>=0A=
+<tr>=0A=
+<td height=3D"8" style=3D"font-size:8px; line-height:8px;">&nbsp;</td>=0A=
+      </tr>=0A=
+</table>=0A=
+</td>=0A=
+  </tr></table>=0A=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"border-collapse: collapse; font-family: &quot;Helvetica Neue&quot;, He=
+lvetica, Arial, sans-serif">=0A=
+<tr>=0A=
+<td width=3D"100%" name=3D"wrapper-datum" style=3D"text-align: center;">=0A=
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" style=3D"display:inline-block; max-width:622px; border-collapse:collapse;=
+ table-layout:fixed; text-align:left;">=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/sonic-mania?linkID=3D&amp=
+;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_=
+source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_ca=
+mpaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/c3db6102c8=
+5527bd8045adee935204c0e15db29b.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D6a2e8014435131e88077f9b4f7ed4=
+b19" alt=3D"sonic-mania" width=3D"100%" border=3D"0" style=3D"display:block=
+; height:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8p=
+x 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/xcom-2-war-of-the-chosen?=
+linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf=
+2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Dema=
+il&amp;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Im=
+age">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/0bfef201cc=
+d047c1d55c68610a5aa86fa069deb2.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3Dbe1648c580135eea6f0b99d50cccd=
+ded" alt=3D"xcom-2-war-of-the-chosen" width=3D"100%" border=3D"0" style=3D"=
+display:block; height:auto;"></a><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-=
+radius:0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/life-is-strange-before-th=
+e-storm?linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d9=
+20555bcf2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medi=
+um=3Demail&amp;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=
+=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/085b59b79f=
+f1bfd4802235c7585dcf74f7276b3c.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D4d6ea9a9429a62c8fd8dead2351fe=
+c55" alt=3D"life-is-strange-before-the-storm" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block; height:auto;"></a><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0;=
+ border-radius:0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/battlestar-galactica-dead=
+lock?linkID=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d9205=
+55bcf2b:1&amp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=
+=3Demail&amp;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DG=
+rid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/376d8bbaee=
+3010c40dc06113b54d3a4aadabf7d5.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D36b99ab73dae4fa218963aa8bb1d5=
+309" alt=3D"battlestar-galactica-deadlock" width=3D"100%" border=3D"0" styl=
+e=3D"display:block; height:auto;"></a><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; bo=
+rder-radius:0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/warriors-allstars?linkID=
+=3D&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&a=
+mp;utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp=
+;utm_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/aa74ae64ca=
+3e1fb5a011754d7301327eeb479131.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D667ea3f0a22bfb163f088f3a05c68=
+2c2" alt=3D"warriors-allstars" width=3D"100%" border=3D"0" style=3D"display=
+:block; height:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:=
+0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/absolver?linkID=3D&amp;mc=
+ID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sou=
+rce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/802e6a049c=
+a4b1f51096454e54bfc13b4d85da0b.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3De31b2aa47998e7a41e432ca1b341d=
+6b3" alt=3D"absolver" width=3D"100%" border=3D"0" style=3D"display:block; h=
+eight:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8=
+px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+<tr>=0A=
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/ys-seven?linkID=3D&amp;mc=
+ID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;utm_sou=
+rce=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/035cb6f8ee=
+be4bc50eefb290625a49691369c53c.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3Dc790ea6be9811b3e7be8604079f1c=
+ed2" alt=3D"ys-seven" width=3D"100%" border=3D"0" style=3D"display:block; h=
+eight:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:0 0 8px 8=
+px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #7e992e; color: #7e992e;">
+            Out Now
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -10%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            <td width=3D"2%">&nbsp;</td>                                   =
+                                                                           =
+       =20
+
+
+
+
+=20
+ =20
+ =20
+     =20
+   =20
+
+<td width=3D"49%" style=3D"padding-bottom:0.5em; margin:0;">
+        <a data-crdl-variant=3D"" style=3D"text-decoration:none;  display:b=
+lock;" href=3D"https://www.humblebundle.com/store/osiris-new-dawn?linkID=3D=
+&amp;mcID=3D102:59a7139ef0c3604c7dd29290:ot:5914bd3966d5d920555bcf2b:1&amp;=
+utm_source=3DHumble&#43;Bundle&#43;Newsletter&amp;utm_medium=3Demail&amp;ut=
+m_campaign=3D2017_08_31_HorrorSale_store&amp;utm_content=3DGrid_Image">
+    <img src=3D"https://humblebundle.imgix.net/misc/files/hashed/2c99a9d473=
+363ec03134f3d431f4b5e86e535bb4.jpg?auto=3Dformat&amp;fit=3Dcrop&amp;h=3D176=
+&amp;w=3D308&amp;ixlib=3Dpython-0.2.0&amp;s=3D1f95686db27e6bc8b93a2d4461b29=
+7a2" alt=3D"osiris-new-dawn" width=3D"100%" border=3D"0" style=3D"display:b=
+lock; height:auto;"></a><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin:0; border-radius:=
+0 0 8px 8px; vertical-align:middle;"><tr>=0A=
+<td align=3D"left" valign=3D"middle" width=3D"65%" style=3D"padding:8px 0 8=
+px 8px;">
+          <span style=3D"display:inline-block; padding:7px 5%; vertical-ali=
+gn:middle; border-radius:3px; font-size:12px; font-weight:bold; background-=
+color:#ffffff; border:1px solid #d0021b; color: #d0021b;">
+            On Sale
+                    </span>
+        </td>
+        <td align=3D"right" valign=3D"middle" width=3D"35%" style=3D"paddin=
+g:8px 8px 8px 0;">
+                  <span style=3D"display:inline-block; padding:7px 7%; vert=
+ical-align:middle; border-radius:3px; font-size:12px; font-weight:bold; bac=
+kground-color:#747b87; border:1px solid #747b87; color:#ffffff;">
+            -30%
+          </span>        </td>
+      </tr></table>=0A=
+</td>=0A=
+            </tr>=0A=
+</table>=0A=
+</td>=0A=
+  </tr>=0A=
+<tr>=0A=
+<td height=3D"20" style=3D"font-size:20px; line-height:20px;">&nbsp;</td>=
+=0A=
+  </tr>=0A=
+</table>=0A=
+<!-- SOCIAL LINKS --><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"100%"><tr>=0A=
+<td align=3D"center">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"=
+ class=3D"responsive-table"><tr>=0A=
+<td>
+            =0A=
+=0A=
+<table id=3D"social-link-table" width=3D"100%"><tr>=0A=
+<td class=3D"social-link-image-wrapper" width=3D"25%" style=3D"text-align: =
+center;">=0A=
+      <!--<a href=3D"{$button.url}" data-crdl-realurl=3D"http://www.faceboo=
+k.com/humblebundle" data-crdl-variant=3D"" style=3D"display:block; backgrou=
+nd-color:white; background-image:url(https://d1ok0qgebci2d3.cloudfront.net/=
+102/29x20/FB_LOGO.png); background-position:center; background-repeat:no-re=
+peat; border:none; border-radius:50%; height:40px; width:40px; margin:0 aut=
+o;" title=3D"facebook"></a>-->=0A=
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in:auto;"><tr>=0A=
+<td width=3D"40" height=3D"40" align=3D"center" valign=3D"middle" bgcolor=
+=3D"#ffffff" style=3D"background-color:white; border:none; -webkit-border-r=
+adius:50%; -moz-border-radius:50%; border-radius:50%; text-align:center; ve=
+rtical-align:middle;">=0A=
+            <a data-crdl-variant=3D"" target=3D"_blank" style=3D"display:in=
+line-block; text-decoration:none; -webkit-border-radius: 50%; -moz-border-r=
+adius: 50%; border-radius: 50%; border:1px solid #ffffff;" title=3D"faceboo=
+k" href=3D"http://track.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd=
+3966d5d920555bcf2b:1/496f84fc/2429baf74e3b52b8b40577251c527d43//">=0A=
+              <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/29x20/F=
+B_LOGO.png" style=3D"vertical-align:bottom;"></a>=0A=
+          </td>=0A=
+        </tr></table>=0A=
+</td>=0A=
+        <td class=3D"social-link-image-wrapper" width=3D"25%" style=3D"text=
+-align: center;">=0A=
+      <!--<a href=3D"{$button.url}" data-crdl-realurl=3D"http://www.twitter=
+.com/humble" data-crdl-variant=3D"" style=3D"display:block; background-colo=
+r:white; background-image:url(https://d1ok0qgebci2d3.cloudfront.net/102/28x=
+21/TW_LOGO.png); background-position:center; background-repeat:no-repeat; b=
+order:none; border-radius:50%; height:40px; width:40px; margin:0 auto;" tit=
+le=3D"twitter"></a>-->=0A=
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in:auto;"><tr>=0A=
+<td width=3D"40" height=3D"40" align=3D"center" valign=3D"middle" bgcolor=
+=3D"#ffffff" style=3D"background-color:white; border:none; -webkit-border-r=
+adius:50%; -moz-border-radius:50%; border-radius:50%; text-align:center; ve=
+rtical-align:middle;">=0A=
+            <a data-crdl-variant=3D"" target=3D"_blank" style=3D"display:in=
+line-block; text-decoration:none; -webkit-border-radius: 50%; -moz-border-r=
+adius: 50%; border-radius: 50%; border:1px solid #ffffff;" title=3D"twitter=
+" href=3D"http://track.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd3=
+966d5d920555bcf2b:1/c6ca205a/e090bb777287f001e95b416547179e99//">=0A=
+              <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/28x21/T=
+W_LOGO.png" style=3D"vertical-align:bottom;"></a>=0A=
+          </td>=0A=
+        </tr></table>=0A=
+</td>=0A=
+        <td class=3D"social-link-image-wrapper" width=3D"25%" style=3D"text=
+-align: center;">=0A=
+      <!--<a href=3D"{$button.url}" data-crdl-realurl=3D"https://plus.googl=
+e.com/+humblebundle" data-crdl-variant=3D"" style=3D"display:block; backgro=
+und-color:white; background-image:url(https://d1ok0qgebci2d3.cloudfront.net=
+/102/28x20/GPLUS_LOGO.png); background-position:center; background-repeat:n=
+o-repeat; border:none; border-radius:50%; height:40px; width:40px; margin:0=
+ auto;" title=3D"google+"></a>-->=0A=
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in:auto;"><tr>=0A=
+<td width=3D"40" height=3D"40" align=3D"center" valign=3D"middle" bgcolor=
+=3D"#ffffff" style=3D"background-color:white; border:none; -webkit-border-r=
+adius:50%; -moz-border-radius:50%; border-radius:50%; text-align:center; ve=
+rtical-align:middle;">=0A=
+            <a data-crdl-variant=3D"" target=3D"_blank" style=3D"display:in=
+line-block; text-decoration:none; -webkit-border-radius: 50%; -moz-border-r=
+adius: 50%; border-radius: 50%; border:1px solid #ffffff;" title=3D"google&=
+#43;" href=3D"http://track.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:591=
+4bd3966d5d920555bcf2b:1/a184ea64/57794540113e73f346bd2bc63c5d1ba4//">=0A=
+              <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/28x20/G=
+PLUS_LOGO.png" style=3D"vertical-align:bottom;"></a>=0A=
+          </td>=0A=
+        </tr></table>=0A=
+</td>=0A=
+        <td class=3D"social-link-image-wrapper" width=3D"25%" style=3D"text=
+-align: center;">=0A=
+      <!--<a href=3D"{$button.url}" data-crdl-realurl=3D"http://steamcommun=
+ity.com/groups/HumbleBundleOfficial" data-crdl-variant=3D"" style=3D"displa=
+y:block; background-color:white; background-image:url(https://d1ok0qgebci2d=
+3.cloudfront.net/102/28x20/ST_LOGO.png); background-position:center; backgr=
+ound-repeat:no-repeat; border:none; border-radius:50%; height:40px; width:4=
+0px; margin:0 auto;" title=3D"steam"></a>-->=0A=
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in:auto;"><tr>=0A=
+<td width=3D"40" height=3D"40" align=3D"center" valign=3D"middle" bgcolor=
+=3D"#ffffff" style=3D"background-color:white; border:none; -webkit-border-r=
+adius:50%; -moz-border-radius:50%; border-radius:50%; text-align:center; ve=
+rtical-align:middle;">=0A=
+            <a data-crdl-variant=3D"" target=3D"_blank" style=3D"display:in=
+line-block; text-decoration:none; -webkit-border-radius: 50%; -moz-border-r=
+adius: 50%; border-radius: 50%; border:1px solid #ffffff;" title=3D"steam" =
+href=3D"http://track.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd396=
+6d5d920555bcf2b:1/4a1f8cbe/9aa80b67b2c67aa4f45c3e5a1b6b5402//">=0A=
+              <img src=3D"https://d1ok0qgebci2d3.cloudfront.net/102/28x20/S=
+T_LOGO.png" style=3D"vertical-align:bottom;"></a>=0A=
+          </td>=0A=
+        </tr></table>=0A=
+</td>=0A=
+      </tr></table>=0A=
+</td>
+        </tr></table>=0A=
+</td>
+  </tr></table>=0A=
+<!-- FOOTER --><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" align=3D"center" style=3D"background-color: transparent;"><tr>=
+=0A=
+<td style=3D"padding: 20px 0px;" align=3D"center">
+    <!-- UNSUBSCRIBE COPY -->
+    <table width=3D"500" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" a=
+lign=3D"center" class=3D"responsive-table"><tr>=0A=
+<td align=3D"center" class=3D"padding-copy" style=3D"font-size: 12px; line-=
+height: 18px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sa=
+ns-serif; color: #606060;">
+              <br>=20
+			This email was sent to jean-18-09@hotmail.fr <br><a class=3D"footer-link=
+" href=3D"https://track.cordial.io/optout/index.php?mcID=3D102:59a7139ef0c3=
+604c7dd29290:ot:5914bd3966d5d920555bcf2b:1" data-crdl-notrack=3D"true" styl=
+e=3D"color: black;">unsubscribe</a>  | <a data-crdl-variant=3D"" style=3D"c=
+olor: black;" href=3D"https://track.cordial.io/c/102:59a7139ef0c3604c7dd292=
+90:ot:5914bd3966d5d920555bcf2b:1/18d01466/deda4c95a571da98a38b2d124ca042c9/=
+/">email preferences</a> | <a data-crdl-variant=3D"" style=3D"color: black;=
+" href=3D"https://track.cordial.io/c/102:59a7139ef0c3604c7dd29290:ot:5914bd=
+3966d5d920555bcf2b:1/24734249/5ebb56df58676f7d7f8362c5895eb280//">contact s=
+upport</a><br>
+			=C2=A9 2017 Humble Bundle Inc. | 201 Post Street 11th Floor | San Franci=
+sco, CA | 94108<br><br>=0A=
+</td>
+      </tr></table>=0A=
+</td>
+</tr></table>=0A=
+</td>=0A=
+</tr></table>=0A=
+</td>=0A=
+</tr></table>=0A=
+<img src=3D"http://track.cordial.io/o/p/102:59a7139ef0c3604c7dd29290:ot:591=
+4bd3966d5d920555bcf2b:1/351588157f9dcdf461b611f8482005ee" height=3D"1" widt=
+h=3D"1">
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://sptrack.m=
+ailer.humblebundle.com/q/BzvESGSOn2DntG_mCJcHHg~~/AAAAAQA~/RgRbitRmPkEIAKy9=
+BgZk3ktXB2NvcmRpYWxYBAAAAA1CCgACZk-oWRhh6tZSFWplYW4tMTgtMDlAaG90bWFpbC5mcgl=
+RBAAAAABHaXsiYmluZGluZyI6ImhiLWQiLCJlbnYiOiJwcm9kdWN0aW9uIiwibWNJRCI6IjEwMj=
+o1OWE3MTM5ZWYwYzM2MDRjN2RkMjkyOTA6b3Q6NTkxNGJkMzk2NmQ1ZDkyMDU1NWJjZjJiOjEif=
+Q~~">
+</body>=0A=
+</html>
+

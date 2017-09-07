@@ -1,0 +1,16 @@
+[calendars]
+
+    [[school]]
+        path = ~/.calendar/school_calendar
+        readonly = True
+
+[view]
+dynamic_days = True
+theme = light
+
+[locale]
+timeformat = %H:%M
+dateformat = %d/%m/%Y
+longdateformat = %d/%m/%Y
+datetimeformat = %d/%m/%Y %H:%M
+longdatetimeformat = %d/%m/%Y %H:%M

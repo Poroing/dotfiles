@@ -1,0 +1,210 @@
+Return-Path: <tous.eleves-owner@listes.ens-rennes.fr>
+X-Original-To: jjouv422@eleves.ens-rennes.fr
+Delivered-To: jjouv422@eleves.ens-rennes.fr
+Received: from romarin.ens-rennes.fr (romarin.ens-rennes.fr [193.52.92.218])
+	by arum.ensr.local (Postfix) with ESMTP id 47B1AA81682;
+	Mon,  4 Sep 2017 16:15:35 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 91FFC1720BDF;
+	Mon,  4 Sep 2017 16:15:33 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+Received: from romarin.ens-rennes.fr ([127.0.0.1])
+	by localhost (romarin.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id v9qVVz71pYnD; Mon,  4 Sep 2017 16:15:33 +0200 (CEST)
+Received: from atlas.ens-rennes.fr (atlas.ens-rennes.fr [193.52.92.36])
+	by romarin.ens-rennes.fr (Postfix) with ESMTP id 681CF1720BDD;
+	Mon,  4 Sep 2017 16:15:33 +0200 (CEST)
+Received: by atlas.ens-rennes.fr (Postfix, from userid 1001)
+	id A7C20122A54; Mon,  4 Sep 2017 16:15:36 +0200 (CEST)
+X-Original-To: tous.eleves@listes.ens-rennes.fr
+Delivered-To: tous.eleves@listes.ens-rennes.fr
+Received: from coucou.ens-rennes.fr (coucou.ens-rennes.fr [193.52.92.4])
+	by atlas.ens-rennes.fr (Postfix) with ESMTP id 2B5CD122A29
+	for <tous.eleves@listes.ens-rennes.fr>; Mon,  4 Sep 2017 11:26:51 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 2B2F185FF7
+	for <tous.eleves@listes.ens-rennes.fr>; Mon,  4 Sep 2017 11:26:51 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at ens-rennes.fr
+X-Spam-Flag: NO
+X-Spam-Score: -1.64
+X-Spam-Level:
+X-Spam-Status: No, score=-1.64 required=4 tests=[BAYES_00=-1.9,
+	HTML_MESSAGE=0.001, HTML_OBFUSCATE_05_10=0.26, RP_MATCHES_RCVD=-0.001]
+	autolearn=ham autolearn_force=no
+Received: from coucou.ens-rennes.fr ([127.0.0.1])
+	by localhost (coucou.ens-rennes.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Nt996g3-okRc for <tous.eleves@listes.ens-rennes.fr>;
+	Mon,  4 Sep 2017 11:26:50 +0200 (CEST)
+Received: from fermat.ens-rennes.fr (fermat.ens-rennes.fr [193.52.92.28])
+	by coucou.ens-rennes.fr (Postfix) with ESMTP id 645C685BEC
+	for <tous.eleves@listes.ens-rennes.fr>; Mon,  4 Sep 2017 11:26:50 +0200 (CEST)
+Received: from [10.35.6.230] (unknown [10.35.6.230])
+	by fermat.ens-rennes.fr (Postfix) with ESMTPSA id 61E301FE6A
+	for <tous.eleves@listes.ens-rennes.fr>; Mon,  4 Sep 2017 11:26:50 +0200 (CEST)
+To: tous.eleves@listes.ens-rennes.fr
+From: Rozenn Texier-Picard <rozenn.texier@ens-rennes.fr>
+Message-ID: <0d88b9b7-68d4-228c-754c-0c3f96aa9e20@ens-rennes.fr>
+Date: Mon, 4 Sep 2017 11:26:50 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
+ Thunderbird/52.2.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------830D810E04FBFBCD43C2BC53"
+Content-Language: fr
+X-Validation-by: mathieu.bauchard@ens-rennes.fr
+Subject: [tous.eleves] =?UTF-8?Q?Devenez_=C3=A9claireur-euse_Frateli_!?=
+Reply-To: Rozenn Texier-Picard <rozenn.texier@ens-rennes.fr>
+X-Loop: tous.eleves@listes.ens-rennes.fr
+X-Sequence: 1098
+Errors-to: tous.eleves-owner@listes.ens-rennes.fr
+Precedence: list
+Precedence: bulk
+Sender: tous.eleves-request@listes.ens-rennes.fr
+X-no-archive: yes
+List-Id: <tous.eleves.listes.ens-rennes.fr>
+List-Archive: <http://listes.ens-rennes.fr/sympa/arc/tous.eleves>
+List-Help: <mailto:sympa@listes.ens-rennes.fr?subject=help>
+List-Owner: <mailto:tous.eleves-request@listes.ens-rennes.fr>
+List-Post: <mailto:tous.eleves@listes.ens-rennes.fr>
+List-Subscribe: <mailto:sympa@listes.ens-rennes.fr?subject=subscribe%20tous.eleves>
+List-Unsubscribe: <mailto:sympa@listes.ens-rennes.fr?subject=unsubscribe%20tous.eleves>
+
+This is a multi-part message in MIME format.
+--------------830D810E04FBFBCD43C2BC53
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+
+Engagée depuis 12 ans pour l'égalité des chances dans les études 
+supérieures, l'association Frateli 
+<http://www.frateli.org/page_developpement.php> développe et encadre le 
+parrainage de plus de 2000 étudiant-e-s boursier-ère-s par des 
+professionnels et ce, sur l'ensemble du territoire.
+
+Dans le cadre de son programme d’aide à l’orientation, Frateli 
+accompagne également les élèves des classes de 1ère et de Terminale dans 
+leur choix de formation post-bac. Pour cela, elle a lancé avec l'aide de 
+La France s'engage <http://lafrancesengage.fr/> une plateforme web: 
+Inspire <http://www.inspire-orientation.org/> ! Sur le site, 
+les lycéen-ne-s peuvent se renseigner sur l'ensemble des filières 
+post-bac, obtenir des recommandations d'études personnalisées et 
+échanger avec des étudiant-e-s avancé-e-s (BAC + 2 et plus).
+
+Frateli cherche actuellement des élèves de l'ENS Rennes prêts à 
+témoigner sur leur parcours. Si vous êtes intéressé-es par le fait 
+d'aider les lycéen-nes à s'orienter, rendez-vous sur 
+Inspire-orientation.org <http://Inspire-orientation.org>.
+
+Pour mieux comprendre de quoi il s’agit nous vous invitons à regarder 
+cette vidéo <https://www.youtube.com/watch?v=wu7zYQ-qY7s>et à consulter 
+le flyer du programme Inspire 
+<http://www.ens-rennes.fr/medias/fichier/flyer-eclaireur-inspire_1500390608944-pdf?INLINE=FALSE> 
+et la charte d'engagement 
+<http://www.ens-rennes.fr/medias/fichier/charte-de-l-eclaireur-inspire_1500390577115-pdf?INLINE=FALSE> 
+disponibles sur le site de l'école. Je reste également disponible pour 
+plus de précisions.
+
+
+Cordialement,
+
+-- 
+Rozenn Texier-Picard
+Vice-présidente diversité et responsabilité sociétale
+École normale supérieure de Rennes
+avenue Robert Schuman
+35170 Bruz
+tel. 02 99 05 93 09
+fax 02 99 05 93 28
+
+
+--------------830D810E04FBFBCD43C2BC53
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p style="margin:0in;font-family:Calibri;font-size:11pt;color:black"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Bonjour,</span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt;color:black"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> </span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="color:black;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Engagée
+        d</span><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">epuis
+        12 ans pour l'égalité des chances dans les études supérieures,
+        l'association </span><a
+        href="http://www.frateli.org/page_developpement.php"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Frateli</span></a><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> développe et
+        encadre le parrainage de plus de 2000 étudiant-e-s
+        boursier-ère-s par des professionnels et ce, sur l'ensemble du
+        territoire.</span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> </span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Dans
+        le cadre de son programme d’aide à l’orientation, Frateli
+        accompagne également les élèves des classes de 1ère et de
+        Terminale dans leur choix de formation post-bac. Pour cela, elle
+        a lancé avec l'aide de </span><a
+        href="http://lafrancesengage.fr/"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">La
+          France s'engage</span></a><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> une
+        plateforme web: </span><a
+        href="http://www.inspire-orientation.org/"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Inspire</span></a><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> ! Sur
+        le site, le</span><span
+style="color:rgb(31,73,125);background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">s</span><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"> lycéen-ne-s
+        peuvent se renseigner sur l'ensemble des filières post-bac,
+        obtenir des recommandations d'études personnalisées et échanger
+        avec des étudiant-e-s avancé-e-s (BAC + 2 et plus). </span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"> </p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Frateli
+        cherche actuellement des élèves de l'ENS Rennes prêts à
+        témoigner sur leur parcours. </span><span style="font-size:11pt">Si
+        vous êtes intéressé-es par le fait d'aider les lycéen-nes à
+        s'orienter, rendez-vous sur <a
+          href="http://Inspire-orientation.org">Inspire-orientation.org</a>.</span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Pour
+        mieux comprendre de quoi il s’agit nous vous invitons à regarder
+        cette </span><a
+        href="https://www.youtube.com/watch?v=wu7zYQ-qY7s"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">vidéo</span></a><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">
+        et à consulter le </span><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">
+        <a
+href="http://www.ens-rennes.fr/medias/fichier/flyer-eclaireur-inspire_1500390608944-pdf?INLINE=FALSE">flyer
+          du programme Inspire</a> et la <a moz-do-not-send="true"
+href="http://www.ens-rennes.fr/medias/fichier/charte-de-l-eclaireur-inspire_1500390577115-pdf?INLINE=FALSE">charte
+          d'engagement</a> disponibles sur le site de l'école. Je reste
+        également disponible pour plus de précisions.<br>
+      </span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"><span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial"><br>
+      </span></p>
+    <p style="margin:0in;font-family:Calibri;font-size:11pt"> </p>
+    <span
+style="background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial">Cordialement, </span><br>
+    <pre class="moz-signature" cols="72">-- 
+Rozenn Texier-Picard
+Vice-présidente diversité et responsabilité sociétale
+École normale supérieure de Rennes
+avenue Robert Schuman
+35170 Bruz
+tel. 02 99 05 93 09
+fax 02 99 05 93 28</pre>
+  </body>
+</html>
+
+--------------830D810E04FBFBCD43C2BC53--

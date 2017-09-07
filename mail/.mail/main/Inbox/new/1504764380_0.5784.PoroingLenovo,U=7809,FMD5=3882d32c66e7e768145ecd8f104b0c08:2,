@@ -1,0 +1,139 @@
+Received: from DB5EUR01HT059.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:7:29::15) by HE1PR08MB2809.eurprd08.prod.outlook.com with HTTPS
+ via HE1PR02CA0086.EURPRD02.PROD.OUTLOOK.COM; Wed, 6 Sep 2017 23:04:07 +0000
+Received: from DB5EUR01FT013.eop-EUR01.prod.protection.outlook.com
+ (10.152.4.60) by DB5EUR01HT059.eop-EUR01.prod.protection.outlook.com
+ (10.152.5.163) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1385.11; Wed, 6
+ Sep 2017 23:04:06 +0000
+Authentication-Results: spf=pass (sender IP is 193.164.197.152)
+ smtp.mailfrom=leboncoin.fr; hotmail.fr; dkim=pass (signature was verified)
+ header.d=leboncoin.fr;hotmail.fr; dmarc=pass action=none
+ header.from=leboncoin.fr;
+Received-SPF: Pass (protection.outlook.com: domain of leboncoin.fr designates
+ 193.164.197.152 as permitted sender) receiver=protection.outlook.com;
+ client-ip=193.164.197.152; helo= lbcmailer.leboncoin.fr;
+Received: from COL004-MC3F40.hotmail.com (10.152.4.60) by
+ DB5EUR01FT013.mail.protection.outlook.com (10.152.4.239) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1385.11 via Frontend Transport; Wed, 6 Sep 2017 23:04:06 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:789DEAC5011AE94E48B1480E4922D5E075FB6C0028DB65CCE81971F42B63A3B2;UpperCasedChecksum:45D3913DB0269AC568E261F9D6902C8E41798BED3039732F00FD0658F650A17D;SizeAsReceived:1335;Count:13
+Received: from lbcmailer.leboncoin.fr ([193.164.197.152]) by COL004-MC3F40.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+	 Wed, 6 Sep 2017 16:04:04 -0700
+Received: from vptrans10.leboncoin.lan (vptrans10.leboncoin.lan [10.4.51.55])
+	by lbcmailer.leboncoin.fr (Postfix) with ESMTP id E664D4AE
+	for <jean-18-09@hotmail.fr>; Thu,  7 Sep 2017 01:04:02 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=leboncoin.fr; s=mail;
+	t=1504739042; bh=9vgKCd+li7wcj+YiNgpoAJNegbfE7ZtqGvPw2HqvbXs=;
+	h=From:Subject:To:Date:From:Subject;
+	b=P2yuE4rIo1nxvI9mf0KC2as7dCCUcUop0VEaZSzOsGD6smx1JRBi27tttGdI8cOHs
+	 3gBI+XYpLoV5g421MCwAldEL+gKExyyopideJv4ZaAwWQRB463oxBWZH3UhIA3UE87
+	 q11nIfPZm2g+8lVwMbZ9Rjnv6GLI9jG001MVMxeQ=
+Received: by vptrans10.leboncoin.lan (Postfix, from userid 500)
+	id D391A1D1D; Thu,  7 Sep 2017 01:04:02 +0200 (CEST)
+From: =?windows-1252?Q?leboncoin?= <no.reply@leboncoin.fr>
+Subject: Vos alertes sur leboncoin.fr
+To: jean-18-09@hotmail.fr
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <20170906230402.D391A1D1D@vptrans10.leboncoin.lan>
+Date: Thu,  7 Sep 2017 01:04:02 +0200 (CEST)
+Return-Path: no.reply@leboncoin.fr
+X-OriginalArrivalTime: 06 Sep 2017 23:04:04.0692 (UTC) FILETIME=[6FA12140:01D32764]
+X-IncomingHeaderCount: 13
+X-MS-Exchange-Organization-Network-Message-Id: b886018c-f327-404b-1f0d-08d4f57b9360
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 193.164.197.152
+CMM-sending-ip: 193.164.197.152
+CMM-Authentication-Results: hotmail.com; spf=pass (sender IP is
+ 193.164.197.152; identity alignment result is pass and alignment mode is
+ relaxed) smtp.mailfrom=no.reply@leboncoin.fr; dkim=pass (identity alignment
+ result is pass and alignment mode is relaxed) header.d=leboncoin.fr;
+ x-hmca=pass header.id=no.reply@leboncoin.fr
+CMM-X-SID-PRA: no.reply@leboncoin.fr
+CMM-X-AUTH-Result: PASS
+CMM-X-SID-Result: PASS
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+CMM-X-Message-Info: NhFq/7gR1vQRHV6jbdvQfj78RRbHIsgK1hLH/9kB6NkUdTKzM/S60qSoM0ZICRQi9VCBH4GTtef4mWfyWunhFekh/IoslMyeKnJJwPz7RloYPTzi/J6jgtVANyQOVfTssodwsxwL5fYPUv5gjogusWuRSfSuZNTpDwOi06ArDztH9Dmq+chnx5uqcwyMCi6JAhl7OBV1cVtCHLrTUtuq1Scyx+x1efGOij8AxuOkMxgr7nU2U1elzqGLOw/h22jq
+X-MS-Exchange-Organization-PCL: 2
+X-MS-UserLastLogonTime: 9/6/2017 10:19:57 PM
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR01FT013;1:d49ZKfsDMbwP9j57LxKK8Np6J1l2xIRFomZ4Gy7Bn9uoHPgbxfOfyhW7vthPTHsoMizp5uIHrCRFxurd42nuhH5yaFxvNlyBreyndDFndHAZIKU368PAq3fRFGQD7vHv
+X-MS-Exchange-Organization-AuthSource: DB5EUR01FT013.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b886018c-f327-404b-1f0d-08d4f57b9360
+X-Microsoft-Antispam: BCL:2;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(300000502095)(300135100095)(22001)(23075)(8291501071);SRVR:DB5EUR01HT059;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR01HT059;3:8bxX3XeGLVbPEP6NrtO1MMcfejU7bt9kEEN753x9+K83gEm4KEnM7k90TmbXr5CN84I7lec3txRzuyHSwuJuak+2Tuk6mKU2Of76fH2/+E2sIb0SbydujEln7Eoy+fk7D3c3XGoYCijPw7/XupdZri418TZ3qPq+rrFsDl6jjyRWgv8fTUd/c7oaJzyQt54OH7ykSQFlhKMMEZtNT6CUbr33WpX9dJIX/305KW7KyADiX6fw1Aca/1jCyleDCxLmAgopjtA3dI7RJ168bK+cbI22A0rVCSnMLp+LvjYRes8oA48mMgYsg2ArXuMxeP/H;25:bWTQB7J0r+zesfNhOr0wtKcvsJHhP8+fvFB32+nm31CyPWLD+YvBYNUUVQQwrz9WkzTz5Mlvwk8mSG6XB76GVWhgA96MJn9tfKDS8x6XIwgyBJ2crq0o7nESIyysZlAHNs7fzsIpn/tlOusYsZugdlkpHX2KCuVMoZzVAqVqx7GF1zgFDOi8ClQA2+T/WY/kUM8K2jCeooJftl6laaPawpHI8/neN0DIZolFEuRUvAI83pk+kyhDUWX3pIO9YTOcA/tOYvt/jQcYXlKfSinoiWH7FkxWGxe2K1LgszZuq+o4XPQ7DiX9hEpmHXzOtQBv3RB8sy4G8I2G+pfLajvJmw==;31:RrBhkTrDunJQNnzpzO6h87SmM4YdA9FvAlOy/SA1kdlAJgjsVgEFyTT5m41YJI2h1kg/vFIuPKyH6rqALqmh29tQjeeUSpa1lX9KYSVGThXDopcexnC5Fmqm9mKKBsqQkGpA/DwUbyiyPfjC+CUuw8P7tkU3juD2UXSbcbhpseaUVADWR9fd9cWBhd6Y7sIBL1qEgMM6dE0OoXpux/ytHN/OJ5baO/EuK1n9pR1/znw=
+X-MS-TrafficTypeDiagnostic: DB5EUR01HT059:
+X-Exchange-Antispam-Report-Test: UriScan:(246739872151787)(138715449503926)(186489830969913);
+X-Exchange-Antispam-Report-CFA-Test: BCL:2;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444111536)(595095)(82015058);SRVR:DB5EUR01HT059;BCL:2;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DB5EUR01HT059;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR01HT059;4:1NsaHiub+WSeu39+Pnq4NMi44fwiy/QfZzYUSo36bPKgyv1dh2JLxlQyf2fW/5xKVQVdAYdlTzN66rVXRPEfGmUcSY3wTIAbLgckfUJpa7FL8UZRx5coBMnVp7QdI0VHO+MuaQZvKWloLh1BIfVY3exox+Xby7b9o08x2D3QtMYKIs9ce5HUNkqf4eRJdOsiOh8uP8A6IeKUSj0zCkJMqYXac0PKaD9X8LmzTZI34TXQP/hYPeL+EWpShpUp7IDa+6i1E1k8l2PmNHS71tBZNPjB6ngfQ46bIbkAIejAgOBtlvcRJzONt/shbFMIWX/SszID7zIW/C4IuvAglUGAumH7jeavhbKpoOq71hFbfqiHP/jlKjjDyXSLHvOxmTHi;23:HqTqKe+5YgS7QTylGk1fdyQE94u9XmjGd4Vw6AQO9yfnlALMeh5xEpat9cQPHEbB1Det0vHSkA9bKBROS9WMcTASFNkCC9/U/B/bbiwBgM0Kmr6yyfeDTqEyci9Ig0kNu5ZSnSky9kjg1Zo0TgQvQscGiLtmibeVBF7ZgIToFSU=;6:tcuJnLvjUpsJvcp6ATtf/nBAlTKGNCtjZP1mBcWU5TKk2/MaosFZsfLiQ5XUEqMPEDzOIVp+nzhS9xwxtXpQlWun1HlYNsOSwTPCJ8AlMaAeRvggQU9+NiU66n67MLLpLxPQ6uuSaHgppN9IR0fIg2oQ4wnwt3JMW+YGBt/Thlf2bW+U3G1kg20GKp2HMHv+d7isCQT/7WDLYcq9+eIs4EM1ZR+YPz0FMfLnk70AbssKtY8rrvlSoWCVM3nKOOzI33bPHsB3z33mY1SJLyfIMEII2NX+WgDs8xZRkPtyVD56C/5EPCynelhZifLuK8xMs/ULWiJR4KTCc6Am6ABF6A==
+X-Forefront-Antispam-Report: SFV:NSPM;SFS:(98901004);DIR:INB;SFP:;SCL:1;SRVR:DB5EUR01HT059;H:COL004-MC3F40.hotmail.com;FPR:;SPF:None;LANG:;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR01HT059;5:OZAMgNXaToDWUjDd1iYnvYVk0Fu8kCq8fHmsMmyHG22DFYrLAuOkYGsoCfQEiJ/3KDpIe3MA5oNXksG/OBOnmdVRg2PWQ+Z3S6u741s131C349HDa4Hx54Fz5YcLwqvm/uJ6JWrAk0ciA9970qD7wQ==;24:qM0FBO6gSbD3ygDuUso9FrmzOZBUXjGxTaUl81+rAlkewPcTHNDeNajqmm7k7wC22GrBdCVQrqxbin6Q2D5lWwZRL3qwEM679Ow/YyvfWYI=;7:6T5MaOYydBeAOO7dvOeFRj3y73hPGFXd7yiSSJW4A+iJGfUiguOK7akqXQIHA6RHkmG5dP3mwQdOO3PDAmOjy/BUwLQxPDGo7uK20oXboBldLAM2z0dq0erJpPJyaF4I4o6/3N57uwYiai1pJMzKLOh3oMa4zEQ6QXSKX/aURICqFTwAulRbYvOIV1V9J2vEsDB1NS15dvDlH9aDJplyCgPy5KazejmRwoO68DesfOY=
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: Default:2
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Sep 2017 23:04:06.0290
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR01HT059
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3896185
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0013.014
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR08MB2809;27:qTLOZsdF5OLM50j7EkDNGrv8O7TDcCA6PH2p2afQjU1xx0pvC6UDETwfPubZuNdFq88+kQ1pJ84cGZVRQLMdcoxntJfMza7O49iHKaA4UcvrdA2/O8HGw83Jmhx7+vPg
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:I;WIMS-SenderIP:193.164.197.152;WIMS-SPF:leboncoin%2efr;WIMS-DKIM:leboncoin%2efr;WIMS-822:no%2ereply%40leboncoin%2efr;WIMS-PRA:no%2ereply%40leboncoin%2efr;WIMS-AUTH:PASS;ENG:(400001000128)(400125000095)(5062000261)(5061607266)(5061608174)(4900095)(4921089)(4950112)(4990090)(400001001223)(400125100095)(61617095)(400001002128)(400125200095);
+X-Microsoft-Antispam-Message-Info:
+	/DonsNbIQtWWwJYtF0rhhrqT5DytSwSC9Z6rrB5NPL4V/TuNPwyALvQST6tD6ELMrvLKWEf/GJ131P7vZPTXwkyfQXLxx7s5806iN6jx+/B1T3CciaXEjPNTBQO0i/cpTGB7sgLk1ar/dGNdGT1DPTCKlFS4JeQGJH7eQ03LVbk51NztDuJoEIsKGq1XKV9w
+MIME-Version: 1.0
+
+Bonjour ,
+
+Voici les derni=E8res annonces correspondant =E0 votre alerte "Immobilier".
+
+Studio meubl=E9 centre ville
+Rennes
+390 =80
+https://www.leboncoin.fr/locations/1186204063.htm
+
+
+Studio meubl=E9 20m2 - Avenue Janvier - proche gare
+Rennes
+395 =80
+https://www.leboncoin.fr/locations/1186143659.htm
+
+
+Location d'un meubl=E9
+Rennes
+400 =80
+https://www.leboncoin.fr/locations/1186256021.htm
+
+
+Voir toutes les annonces :
+http://www.leboncoin.fr/li?ca=3D6_s&c=3D10&f=3Da&mre=3D500&sqs=3D1&ret=3D2&=
+location=3DRennes+35000&alert=3D1
+
+
+Vos crit=E8res :
+
+Locations offres, Appartement, plus de 20 m=B2, moins de 500 =80, Rennes 35=
+000
+
+
+Modifier ou supprimer cette alerte?
+https://compteperso.leboncoin.fr/account/my-alerts.html
+
+
+Merci de votre confiance et =E0 tr=E8s bient=F4t,
+
+L'=E9quipe leboncoin
+www.leboncoin.fr
+
+PS: Ceci est un email automatique, merci de ne pas y r=E9pondre.
+
+
