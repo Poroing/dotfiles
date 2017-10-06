@@ -1,6 +1,7 @@
 URxvt.font: xft:xos4 Terminus:size=10:antialias=false
 URxvt.scrollBar: false
 !URxvt.internalBorder:10
+URxvt.perl-ext-common: resize-font
 
 *background:    #ddf3f7
 *foreground:    #47645b

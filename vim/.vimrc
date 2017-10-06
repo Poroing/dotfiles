@@ -22,6 +22,14 @@ let g:ycm_confirm_extra_conf = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python2'
 
+"===========================
+" Merlin
+"===========================
+
+let g:opamshare = substitute(system('opam config var share'), '\n$', '', '''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+
 "============================
 " Rainbow
 "===========================
@@ -136,10 +144,6 @@ au FileType make setlocal noexpandtab
 
 "Markdown
 au FileType markdown setlocal noexpandtab
-
-"Caml
-au BufNewFile,BufRead *.ml setlocal filetype=caml
-au BufNewFile,BufRead *.mli setlocal filetype=caml
 
 "Latex
 au BufNewFile,BufRead *.tex setlocal filetype=tex
