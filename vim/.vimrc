@@ -10,9 +10,18 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'chiel92/vim-autoformat'
+Plugin 'hsanson/vim-android'
+"Plugin 'ocamlpro/ocp-indent'
+Plugin 'let-def/ocp-indent-vim'
 
 call vundle#end()
 filetype plugin on
+
+"=========================
+" Android
+"==========================
+
+let g:android_sdk_path = '/opt/android-sdk/'
 
 "=========================
 " YouCompleteMe
@@ -126,7 +135,11 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-filetype indent off
+filetype indent on
+
+"Ocaml
+au FileType ocaml setlocal tabstop=2
+au FileType ocaml setlocal shiftwidth=2
 
 "XML
 au FileType xml setlocal tabstop=2
