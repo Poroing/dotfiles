@@ -1,6 +1,6 @@
 # $Id$
 
-text/html; links -dump %s; copiousoutput
+text/html; links -codepage utf-8 -dump %s; copiousoutput
 image/gif; feh %s
 image/jpg; feh %s
 image/png; feh %s

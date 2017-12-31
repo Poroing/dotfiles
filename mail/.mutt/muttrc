@@ -1,7 +1,6 @@
 set folder = "~/.mail"
 set sleep_time = 0 #To not wait when changing folder
 set editor = "vim"
-auto_view text/html
 source ~/.mutt/mailboxes
 
 source "~/.mutt/ens"

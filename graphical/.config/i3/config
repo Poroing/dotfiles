@@ -209,12 +209,13 @@ bindsym $mod+Shift+f mode "floating"
 
 #MPD
 set $mpd Mod1
+set $mpc mpc -h 127.0.0.1
 
-bindsym $mpd+c exec mpc toggle
-bindsym $mpd+b exec mpc next
-bindsym $mpd+x exec mpc prev
-bindsym $mpd+Left exec mpc volume -2
-bindsym $mpd+Right exec mpc volume +2
+bindsym $mpd+c exec $mpc toggle
+bindsym $mpd+b exec $mpc next
+bindsym $mpd+x exec $mpc prev
+bindsym $mpd+Left exec $mpc volume -2
+bindsym $mpd+Right exec $mpc volume +2
 
 #Keyboard
 set $keyboard Mod1+Shift

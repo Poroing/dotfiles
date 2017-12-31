@@ -21,7 +21,7 @@ battery () {
 }
 
 current_song () {
-    echo -n $(mpc -f '%time% #| [[[%albumartist%]|[%artist%]]: ][%album% - ][[%title%]|[%file%]]' current)
+    echo -n $(mpc -h 127.0.0.1 -f '%time% #| [[[%albumartist%]|[%artist%]]: ][%album% - ][[%title%]|[%file%]]' current)
 }
 
 thermal () {

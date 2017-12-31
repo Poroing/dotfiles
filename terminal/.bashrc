@@ -9,6 +9,9 @@ alias ls='ls --color=auto'
 alias info='info --vi-keys'
 alias desmume='primusrun desmume'
 alias winejap='LC_ALL="ja_JP.utf8" wine'
+alias cb='xsel | xsel -b'
+
+export PATH=/opt/android-sdk/platform-tools/:$PATH
 
 RED_FOREGROUND="\[$(tput setaf 9)\]"
 RED_BACKGROUND="\[$(tput setab 9)\]"

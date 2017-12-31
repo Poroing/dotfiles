@@ -13,7 +13,7 @@ BATTERY_LOW_LEVEL=10
 BATTERY_HIGH_LEVEL=90
 
 i=1
-for value in $(acpi -b | awk '{ print $3, $4, $5}'); do
+for value in $(acpi -b | awk '/Battery 0/ { print $3, $4, $5}'); do
     case $i in
         1) battery_status=${value};;
         2) battery_level=${value};;
