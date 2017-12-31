@@ -1,0 +1,6 @@
+[Unit]
+Description=Issue a battery low alert if battery is under 10%
+
+[Service]
+Type=simple
+ExecStart=/home/jean/.config/personal/battery_low_alert.sh
