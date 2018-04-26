@@ -21,4 +21,6 @@ RESET="\[$(tput sgr0)\]"
 
 BROWSER=/usr/bin/firefox
 
-PS1="${RED_BACKGROUND}${WHITE_FOREGROUND}▓▒░ \W ░▒▓${RESET} "
+#PS1="${RED_BACKGROUND}${WHITE_FOREGROUND}▓▒░ \W ░▒▓${RESET} "
+
+[[ $- = *i* ]] && source /usr/bin/liquidprompt
