@@ -245,8 +245,8 @@ for_window [title="Alert"] border pixel 1
 for_window [title="Alert"] floating enable
 
 #Gaps
-gaps inner 40
-gaps outer 30
+gaps inner 15
+gaps outer 15
 
 exec ~/.fehbg
 exec compton -b

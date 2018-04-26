@@ -11,7 +11,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'chiel92/vim-autoformat'
 Plugin 'hsanson/vim-android'
-"Plugin 'ocamlpro/ocp-indent'
 Plugin 'let-def/ocp-indent-vim'
 
 call vundle#end()
@@ -28,8 +27,20 @@ let g:android_sdk_path = '/opt/android-sdk/'
 "========================
 
 let g:ycm_confirm_extra_conf = 0
-let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_python_binary_path = '/usr/bin/python2'
 let g:ycm_server_python_interpreter = '/usr/bin/python2'
+let g:EclimCompletionMethod = 'omnifunc'
+
+"===========================
+" UltiSnips
+"===========================
+
+let g:UltiSnipsUsePythonVersion = 3
+let g:UltiSnipsListSnippets = '<C-l>'
+let g:UltiSnipsExpandTrigger = '<C-l>'
+let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+
 
 "===========================
 " Merlin
@@ -63,6 +74,7 @@ endfunc
 "============================
 
 let mapleader = ','
+let maplocalleader = ','
 
 "Remove trailing white space
 map <Leader>rs mr:%s/\s\+$//g<CR>'r
@@ -126,9 +138,9 @@ syntax on
 set background=light
 set t_co=256
 set encoding=utf-8
+let &colorcolumn="80"
 
 set ttimeoutlen=50
-
 set nowrap
 set number
 
@@ -162,3 +174,5 @@ au FileType markdown setlocal noexpandtab
 au BufNewFile,BufRead *.tex setlocal filetype=tex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
 au FileType tex nmap <Leader>m :w<CR> :!latexmk -pdf %<CR>
+
+command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis

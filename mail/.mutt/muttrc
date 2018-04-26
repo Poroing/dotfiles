@@ -13,6 +13,9 @@ macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/main<enter><
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><change-folder>!<enter>'
 
 
+alternative_order text/plain text/html
+auto_view text/html
+
 color normal color8 color15
 color prompt color8 color15
 color message color8 color15
@@ -24,3 +27,13 @@ color attachment color0 color7
 color signature color0 color7
 color tilde color8 color15
 color quoted color2 color15
+alias dylan_bellier Dylan Bellier <Dylan.Bellier@ens-rennes.fr>
+alias guillaume_mescoff Guillaume Mescoff <Guillaume.Mescoff@ens-rennes.fr>
+alias joseph_cabrita Joseph Cabrita <Joseph.Cabrita@ens-rennes.fr>
+alias thibault_seve Thibault Seve-Minnaert <Thibault.Seve-Minnaert@ens-rennes.fr>
+alias romain_ferrand Romain Ferrand <Romain.Ferrand@ens-rennes.fr>
+alias morgane_caradec CARADEC Morgane <noracaradec@gmail.com>
+alias anne-cecile.orgerie Anne-Cecile Orgerie <anne-cecile.orgerie@irisa.fr>
+alias mamie Francoise Casier <francoise.casier@wanadoo.fr>
+alias Jean-michel.Gorius Gorius Jean-michel <Jean-michel.Gorius@ens-rennes.fr>
+alias gurvan.cabon Gurvan Cabon <gurvan.cabon@inria.fr>
