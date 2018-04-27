@@ -16,17 +16,17 @@ macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><c
 alternative_order text/plain text/html
 auto_view text/html
 
-color normal color8 color15
-color prompt color8 color15
-color message color8 color15
+color normal color8 default
+color prompt color8 default
+color message color8 default
 color status color15 color9
-color error color8 color15
+color error color8 default
 color header color0 color7 ""
-color body color8 color15 ""
+color body color8 default ""
 color attachment color0 color7
 color signature color0 color7
-color tilde color8 color15
-color quoted color2 color15
+color tilde color8 default
+color quoted color2 default
 alias dylan_bellier Dylan Bellier <Dylan.Bellier@ens-rennes.fr>
 alias guillaume_mescoff Guillaume Mescoff <Guillaume.Mescoff@ens-rennes.fr>
 alias joseph_cabrita Joseph Cabrita <Joseph.Cabrita@ens-rennes.fr>
