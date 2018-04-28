@@ -1,6 +1,7 @@
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _expand _complete _ignored
+zstyle ':completion:*' menu select
 zstyle :compinstall filename '/home/jean/.zshrc'
 
 autoload -Uz compinit
@@ -24,3 +25,5 @@ alias cb='xsel | xsel -b'
 BROWSER=/usr/bin/firefox
 
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
