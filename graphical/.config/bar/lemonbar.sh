@@ -50,7 +50,7 @@ mails() {
     if (( ml > 0 )); then
         echo -en "New mails: $ml"
     else
-        echo "0"
+        echo "No new mails"
     fi
 }
 
