@@ -1,1 +1,1 @@
-mailboxes "+ENS/INBOX" "+ENS/Sent" "+Main/Archive" "+Main/Deleted" "+Main/Drafts" "+Main/Inbox" "+Main/Junk" "+Main/Notes" "+Main/Outbox" "+Main/Sent"
+mailboxes "+ENS/Drafts" "+ENS/INBOX" "+ENS/Sent" "+ENS/Trash" "+Main/Archive" "+Main/Deleted" "+Main/Drafts" "+Main/Inbox" "+Main/Junk" "+Main/Notes" "+Main/Outbox" "+Main/Sent"

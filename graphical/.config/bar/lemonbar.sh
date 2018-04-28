@@ -44,11 +44,21 @@ current_wifi() {
     echo -n "Wifi: $($CURRENT_WIFI_SCRIPT)"
 }
 
+mails() {
+    maildirs="$HOME/.mail/*/INBOX/new/"
+    ml="$(find $maildirs -type f | wc -l)"
+    if (( ml > 0 )); then
+        echo -en "New mails: $ml"
+    else
+        echo "0"
+    fi
+}
+
 while true; do
     echo "\
 %{l}%{O20}$(current_workspace)%{O40}$(current_song)\
 %{c}$(clock)\
-%{r}$(trasmission)%{O10}|%{O10}$(current_wifi)%{O10}|%{O10}$(keyboard_map)%{O10}|%{O10}$(thermal)%{O10}|%{O10}$(battery)%{O40}"
+%{r}$(trasmission)%{O10}|%{O10}$(mails)%{O10}|%{O10}$(current_wifi)%{O10}|%{O10}$(keyboard_map)%{O10}|%{O10}$(thermal)%{O10}|%{O10}$(battery)%{O40}"
 
     sleep 1
 done |
