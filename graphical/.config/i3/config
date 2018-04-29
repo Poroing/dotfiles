@@ -216,6 +216,8 @@ bindsym $mpd+b exec $mpc next
 bindsym $mpd+x exec $mpc prev
 bindsym $mpd+Left exec $mpc volume -2
 bindsym $mpd+Right exec $mpc volume +2
+bindsym $mpd+l exec /home/jean/.local/bin/toggle_lyrics.sh
+
 
 #Keyboard
 set $keyboard Mod1+Shift
@@ -236,6 +238,8 @@ bindsym $mod+y exec mpv $(xsel)
 
 #Lock
 bindsym $mod+o exec i3lock -i ~/Media/Pictures/Wallpaper/Country.png
+
+popup_during_fullscreen leave_fullscreen
 
 
 #Remove window title bar
