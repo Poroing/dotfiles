@@ -1,0 +1,9 @@
+[Unit]
+Description=Notification for mails
+
+[Service]
+Type=simple
+ExecStart=/home/jean/.local/bin/maildir_watch.sh
+
+[Install]
+WantedBy=default.target

@@ -1,17 +1,19 @@
 set folder = "~/.mail"
 set sleep_time = 0 #To not wait when changing folder
 set editor = "vim"
+set move = yes
 source ~/.mutt/mailboxes
-
-source "~/.mutt/ens"
-folder-hook $folder "source ~/.mutt/ens"
 
 source "~/.mutt/main"
 folder-hook $folder "source ~/.mutt/main"
 
+source "~/.mutt/ens"
+folder-hook $folder "source ~/.mutt/ens"
+
+macro index,pager A '<sync-mailbox><change-folder>><enter>'
+
 macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/main<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><change-folder>!<enter>'
-
 
 alternative_order text/plain text/html
 auto_view text/html

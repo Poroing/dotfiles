@@ -1,6 +1,9 @@
 # vim: ft=muttrc
 
 set folder = "~/.mail/main"
+set mbox = "+Archive"
+
+mbox-hook +Inbox "+Archive"
 
 set spoolfile = "+Inbox"
 set record = "+Sent\ Items"
