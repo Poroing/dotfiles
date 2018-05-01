@@ -7,7 +7,7 @@ light_red="#c48c7d"
 red_yellow="#bd8072"
 light_red_yellow="#cb9f92"
 
-green="#508451a"
+green="#508451"
 light_green="#75b27b"
 
 blue="#0a6fd4"

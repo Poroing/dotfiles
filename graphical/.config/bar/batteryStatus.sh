@@ -1,16 +1,23 @@
 #!/usr/bin/bash
-
+#Author: Jean Jouve
 #This script needs acpi
 
 source $HOME/.config/colors.sh
 
 BATTERY_STATUS_COLOR=$white
-BATTERY_LOW_COLOR=$black
-BATTERY_HIGH_COLOR=$light_grey
+BATTERY_LOW_COLOR=$dark_grey
+BATTERY_HIGH_COLOR=$dark_grey
 BATTERY_MIDDLE_COLOR=$dark_grey
-BATTERY_TIME_COLOR=$very_light_violet
-BATTERY_LOW_LEVEL=10
-BATTERY_HIGH_LEVEL=90
+BATTERY_TIME_COLOR=$dark_grey
+BATTERY_LOW_LEVEL=30
+BATTERY_HIGH_LEVEL=80
+BATTERY_ICON_LOW_LEVEL_COLOR=$red
+BATTERY_ICON_HIGH_LEVEL_COLOR=$green
+BATTER_ICON_MIDDLE_LEVEL_COLOR=$light_green
+CHARGING_ICON=""
+BATTERY_LOW_LEVEL_ICON=""
+BATTERY_MEDIUM_LEVEL_ICON=""
+BATTERY_HIGH_LEVEL_ICON=""
 
 i=1
 for value in $(acpi -b | awk '/Battery 0/ { print $3, $4, $5}'); do
@@ -34,13 +41,26 @@ battery_status_text="%{F${BATTERY_STATUS_COLOR}}$battery_status%{F-}"
 
 if (( $battery_level > $BATTERY_HIGH_LEVEL )); then
     battery_level_color=$BATTERY_HIGH_COLOR;
+    battery_icon=$BATTERY_HIGH_LEVEL_ICON;
+    battery_icon_color=$BATTERY_ICON_HIGH_LEVEL_COLOR;
 elif (( $battery_level < $BATTERY_LOW_LEVEL )); then
     battery_level_color=$BATTERY_LOW_COLOR;
+    battery_icon=$BATTERY_LOW_LEVEL_ICON;
+    battery_icon_color=$BATTERY_ICON_LOW_LEVEL_COLOR;
 else
     battery_level_color=$BATTERY_MIDDLE_COLOR;
+    battery_icon=$BATTERY_MEDIUM_LEVEL_ICON;
+    battery_icon_color=$BATTER_ICON_MIDDLE_LEVEL_COLOR;
 fi
+
+if [[ $battery_status == "Charging" ]]; then
+    battery_icon=$CHARGING_ICON;
+fi
+
 battery_level_text="%{F$battery_level_color}$battery_level%%{F-}"
 
 battery_time_text="%{F$BATTERY_TIME_COLOR}$battery_time%{F-}"
 
-echo "$battery_level_text $battery_status_text $battery_time_text"
+battery_icon="%{F$battery_icon_color}$battery_icon%{F-}"
+
+echo "$battery_icon$battery_level_text $battery_time_text"

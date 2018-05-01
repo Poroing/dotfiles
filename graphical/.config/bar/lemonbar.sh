@@ -7,10 +7,19 @@ DATE_PATH=$HOME/.config/bar/date.sh
 TORRENT_STATUS_SCRIPT=$HOME/.config/bar/transmission.sh
 CURRENT_WORKSPACE_SCRIPT=$HOME/Programation/Scripts/current_workspace.py
 CURRENT_WIFI_SCRIPT=$HOME/Programation/Scripts/current_wifi.sh
-
-BACKGROUND_COLOR=$light_red
-FOREGROUND_COLOR=$white
-FONT="-xos4-terminus-medium-r-normal--0-0-72-72-c-0-iso8859-1"
+VOLUME_SCRIPT=$HOME/.config/bar/get_volume_status_test.sh
+THERMAL_ICON=""
+WORKSPACE_ICON=""
+WIFI_ICON=""
+MAIL_ICON=""
+LAYOUT_ICON=""
+RAM_ICON=""
+CPU_ICON=""
+BACKGROUND_COLOR=$white
+FOREGROUND_COLOR=$dark_grey
+FONT1="xos4 Terminus:pixelsize=13:antialias=false"
+FONT2="Wuncon Siji:pixelsize=12"
+HEIGHT="23"
 
 clock () {
     echo -n "$($DATE_PATH)"
@@ -25,7 +34,7 @@ current_song () {
 }
 
 thermal () {
-    echo -n "$(acpi -t | awk '/Thermal 0/ { print $4 }') °C, $(acpi -t | awk '/Thermal 1/ { print $4 }') °C"
+    echo -n "$THERMAL_ICON$(acpi -t | awk '/Thermal 0/ { print $4 }') °C, $(acpi -t | awk '/Thermal 1/ { print $4 }') °C"
 }
 
 trasmission () {
@@ -33,33 +42,51 @@ trasmission () {
 }
 
 keyboard_map() {
-    echo -n $(setxkbmap -query | awk '/layout/ { print $2 }')
+    echo -n "$LAYOUT_ICON$(setxkbmap -query | awk '/layout/ { print $2 }')"
 }
 
 current_workspace() {
-    echo -n "workspace: $($CURRENT_WORKSPACE_SCRIPT)"
+    echo -n "$WORKSPACE_ICON$($CURRENT_WORKSPACE_SCRIPT)"
 }
 
 current_wifi() {
-    echo -n "Wifi: $($CURRENT_WIFI_SCRIPT)"
+    echo -n "$WIFI_ICON$($CURRENT_WIFI_SCRIPT)"
 }
 
 mails() {
     maildirs="$HOME/.mail/*/INBOX/new/"
     ml="$(find $maildirs -type f | wc -l)"
-    if (( ml > 0 )); then
-        echo -en "New mails: $ml"
-    else
-        echo "No new mails"
-    fi
+    echo -en "$MAIL_ICON%{O3}$ml"
 }
+
+ram() {
+    echo -n "$RAM_ICON$(free -h | awk '/Mem/ { print $4; }')"
+}
+
+volume() {
+    echo -n $($VOLUME_SCRIPT)
+}
+
+RIGHT_SEPARATOR="%{F$SEPARATOR_COLOR}%{T3}$RIGHT_SEPARATOR%{T-}%{F-}"
+LEFT_SEPARATOR="%{F$SEPARATOR_COLOR}%{T3}$LEFT_SEPARATOR%{T-}%{F-}"
 
 while true; do
     echo "\
-%{l}%{O20}$(current_workspace)%{O40}$(current_song)\
+%{l}%{O20}$(current_workspace)%{O10}\
+$(volume)\
 %{c}$(clock)\
-%{r}$(trasmission)%{O10}|%{O10}$(mails)%{O10}|%{O10}$(current_wifi)%{O10}|%{O10}$(keyboard_map)%{O10}|%{O10}$(thermal)%{O10}|%{O10}$(battery)%{O40}"
+%{r}$(trasmission)%{O10}\
+$(ram)%{O10}\
+$(mails)%{O10}\
+$(current_wifi)%{O10}\
+$(keyboard_map)%{O8}\
+$(thermal)%{O10}\
+$(battery)%{O40}"
 
     sleep 1
 done |
-lemonbar -f "$FONT" -p -B "$BACKGROUND_COLOR" -F "$FOREGROUND_COLOR"
+lemonbar \
+-g "x$HEIGHT" \
+-f "$FONT1" -f "$FONT2" -f "$SEPARATOR_FONT" \
+-p \
+-B "$BACKGROUND_COLOR" -F "$FOREGROUND_COLOR"
