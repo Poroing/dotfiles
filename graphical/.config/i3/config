@@ -243,9 +243,9 @@ popup_during_fullscreen leave_fullscreen
 
 
 #Remove window title bar
-for_window [class="^.*"] border pixel 4
+for_window [class="^.*"] border pixel 0
 
-for_window [title="Alert"] border pixel 1
+for_window [title="Alert"] border pixel 0
 for_window [title="Alert"] floating enable
 
 #Gaps
