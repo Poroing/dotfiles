@@ -9,7 +9,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'chiel92/vim-autoformat'
 Plugin 'hsanson/vim-android'
 Plugin 'let-def/ocp-indent-vim'
 
@@ -32,21 +31,20 @@ let g:ycm_server_python_interpreter = '/usr/bin/python2'
 let g:EclimCompletionMethod = 'omnifunc'
 
 "===========================
-" UltiSnips
+" UltiSnips (Not installed)
 "===========================
 
-let g:UltiSnipsUsePythonVersion = 3
-let g:UltiSnipsListSnippets = '<C-l>'
-let g:UltiSnipsExpandTrigger = '<C-l>'
-let g:UltiSnipsJumpForwardTrigger = '<C-j>'
-let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+"let g:UltiSnipsUsePythonVersion = 3
+"let g:UltiSnipsListSnippets = '<C-l>'
+"let g:UltiSnipsExpandTrigger = '<C-l>'
+"let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+"let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 
 "=============================
 " Eclim
 "============================
 
 let g:EclimProjectRefreshFiles = 0
-
 
 "===========================
 " Merlin
@@ -57,7 +55,7 @@ execute "set rtp+=" . g:opamshare . "/merlin/vim"
 
 
 "============================
-" Rainbow
+" Rainbow (Not installed)
 "===========================
 
 " let g:rainbow_active = 1
@@ -85,6 +83,8 @@ let maplocalleader = ','
 "Remove trailing white space
 map <Leader>rs mr:%s/\s\+$//g<CR>'r
 map <Leader>t :TagbarToggle<CR>
+
+"Copy selected in clipboard
 vmap <Leader>c <Esc>`>a<CR><Esc>`<i<CR><Esc>V!xsel -b<CR>kJJ
 
 nmap <Leader>gd :YcmCompleter GoTo<CR>
@@ -94,6 +94,8 @@ nmap <Leader>d :YcmCompleter GetDoc<CR>
 nmap <Leader>cn :cn<CR>
 nmap <Leader>cp :cp<CR>
 nmap <Leader>cr :cdo normal .<CR>
+
+nmap <Leader>f :ClangFormat<CR>
 
 "=============================
 "Vim-airline configuration
@@ -113,15 +115,11 @@ let g:airline_section_z='%p%% %l/%L : %c'
 au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%L : %c'
 
 "=========================
-"Syntastic confiuration
+"Syntastic confiuration (Not installed)
 "========================
 
 "let g:syntastic_cpp_compiler = 'clang++'
 "let g:syntastic_cpp_checkers = [ 'gcc' ]
-
-"===============================
-" Syntastic
-"===============================
 
 
 "set statusline+=%#warningmsg#
@@ -181,4 +179,5 @@ au BufNewFile,BufRead *.tex setlocal filetype=tex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
 au FileType tex nmap <Leader>m :w<CR> :!latexmk -pdf %<CR>
 
+"See the difference between saved file and buffer
 command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis
