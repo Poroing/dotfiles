@@ -21,6 +21,7 @@ alias info='info --vi-keys'
 alias desmume='primusrun desmume'
 alias winejap='LC_ALL="ja_JP.utf8" wine'
 alias cb='xsel | xsel -b'
+alias discord='PATH="" /usr/bin/discord'
 
 BROWSER=/usr/bin/firefox
 
