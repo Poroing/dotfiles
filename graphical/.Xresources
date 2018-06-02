@@ -2,7 +2,7 @@ URxvt.font: xft:xos4 Terminus:size=10:antialias=false, \
             xft:Material Icons:antialias=false, \
             xft:Code2000:antialias=false
 URxvt.scrollBar: false
-URxvt.internalBorder:10
+!URxvt.internalBorder:10
 URxvt.perl-ext-common: resize-font
 URxvt.transparent: true
 URxvt.tintColor: #ddf3f7

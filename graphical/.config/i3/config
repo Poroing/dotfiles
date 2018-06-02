@@ -62,10 +62,8 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+A kill
 
 # start the program launcher
-bindsym $mod+d exec dmenu_run -nb $white -nf $black -sb $light_grey -sf $blue \
-    -fn "xos4 Terminus:size=14" \
-    -l 4 -x 640 -y 360 -w 640 -h 30 \
-    -p ":"
+
+bindsym $mod+d exec rofi -show run
 
 set $left h
 set $right l
