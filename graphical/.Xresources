@@ -6,7 +6,7 @@ URxvt.scrollBar: false
 URxvt.perl-ext-common: resize-font
 URxvt.transparent: true
 URxvt.tintColor: #ddf3f7
-URxvt.shading: 182
+URxvt.shading: 190
 URxvt.blurRadius: 0
 
 
