@@ -11,15 +11,12 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'hsanson/vim-android'
 Plugin 'let-def/ocp-indent-vim'
+Plugin 'rhysd/vim-grammarous'
+Plugin 'the-lambda-church/coquille'
+Plugin 'let-def/vimbufsync'
 
 call vundle#end()
 filetype plugin on
-
-"=========================
-" Android
-"==========================
-
-let g:android_sdk_path = '/opt/android-sdk/'
 
 "=========================
 " YouCompleteMe
@@ -45,14 +42,6 @@ let g:EclimCompletionMethod = 'omnifunc'
 "============================
 
 let g:EclimProjectRefreshFiles = 0
-
-"===========================
-" Merlin
-"===========================
-
-let g:opamshare = substitute(system('opam config var share'), '\n$', '', '''')
-execute "set rtp+=" . g:opamshare . "/merlin/vim"
-
 
 "============================
 " Rainbow (Not installed)
@@ -114,6 +103,14 @@ let g:airline_section_z='%p%% %l/%L : %c'
 
 au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%L : %c'
 
+"===============
+" Coquille
+"===============
+
+hi CheckedByCoq ctermbg=7
+hi SendToCoq ctermbg=12
+let g:coquille_auto_move = 'true'
+
 "=========================
 "Syntastic confiuration (Not installed)
 "========================
@@ -146,7 +143,7 @@ let &colorcolumn="80"
 
 set ttimeoutlen=50
 set nowrap
-set number
+set relativenumber
 
 set tabstop=4
 set shiftwidth=4
@@ -179,5 +176,11 @@ au BufNewFile,BufRead *.tex setlocal filetype=tex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
 au FileType tex nmap <Leader>m :w<CR> :!latexmk -pdf %<CR>
 
+"Coq
+au FileType coq nmap <C-j> :CoqNext<CR>
+au FileType coq nmap <C-k> :CoqUndo<CR>
+au FileType coq nmap <C-L> :CoqToCursor<CR>
+
+
 "See the difference between saved file and buffer
-command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis
+"command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis

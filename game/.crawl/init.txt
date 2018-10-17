@@ -44,6 +44,8 @@
 # so you can save time typing it.
 #
 
+include = Programation/Project/CrawlBot/bot.lua
+
 ##### Other files ###################################################
 # You can include other files from your options file using the 'include'
 # option. Crawl will treat it as if you copied the whole text of that file

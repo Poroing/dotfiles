@@ -17,13 +17,14 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 
 alias ls='ls --color=auto'
+alias la='ls --color=auto -a'
 alias info='info --vi-keys'
 alias desmume='primusrun desmume'
 alias winejap='LC_ALL="ja_JP.utf8" wine'
 alias cb='xsel | xsel -b'
 alias discord='PATH="" /usr/bin/discord'
 
-BROWSER=/usr/bin/firefox
+BROWSER=/usr/bin/qutebrowser
 
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
 

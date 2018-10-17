@@ -13,6 +13,6 @@ fileext = ".ics"
 
 [storage school_calendar_remote]
 type = "http"
-url = "https://planning.univ-rennes1.fr/jsp/custom/modules/plannings/cal.jsp?data=8241fc387320021482df6554a2bdc54dbd72d825015315fe4c16582305308c9fec7f554d6ed7ba1bbad7b9bdf5b7bdb2a22dfaf791dad2b7a3b3f4c7cc4cd75b8af069ff1fd12df9a41ecf7689e573028edd3cda7b61e593"
+url = "https://planning.univ-rennes1.fr/jsp/custom/modules/plannings/cal.jsp?data=8241fc387320021480b3937b52a8b1eabd72d825015315fe78f9ccfd31e8991bec7f554d6ed7ba1bbad7b9bdf5b7bdb2b6e425f4064b0d24a3b3f4c7cc4cd75b8af069ff1fd12df9c54e500f9eb327528edd3cda7b61e593"
 username = "18012419"
-password = "1809wwj,"
+password = "YuBWp.5zK73:GBqYzN"
