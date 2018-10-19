@@ -5,8 +5,8 @@ source $HOME/.config/colors.sh
 BATTERY_STATUS_SCRIPT_PATH=$HOME/.config/bar/batteryStatus.sh
 DATE_PATH=$HOME/.config/bar/date.sh
 TORRENT_STATUS_SCRIPT=$HOME/.config/bar/transmission.sh
-CURRENT_WORKSPACE_SCRIPT=$HOME/Programation/Scripts/current_workspace.py
-CURRENT_WIFI_SCRIPT=$HOME/Programation/Scripts/current_wifi.sh
+CURRENT_WORKSPACE_SCRIPT=$HOME/.local/bin/current_workspace.py
+CURRENT_WIFI_SCRIPT=$HOME/.local/bin/current_wifi.sh
 VOLUME_SCRIPT=$HOME/.config/bar/get_volume_status_test.sh
 THERMAL_ICON=""
 WORKSPACE_ICON=""
