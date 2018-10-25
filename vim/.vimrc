@@ -14,6 +14,8 @@ Plugin 'let-def/ocp-indent-vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'the-lambda-church/coquille'
 Plugin 'let-def/vimbufsync'
+Plugin 'jceb/vim-orgmode'
+Plugin 'tpope/vim-speeddating'
 
 call vundle#end()
 filetype plugin on
