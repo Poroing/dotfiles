@@ -23,6 +23,7 @@ alias desmume='primusrun desmume'
 alias winejap='LC_ALL="ja_JP.utf8" wine'
 alias cb='xsel | xsel -b'
 alias discord='PATH="" /usr/bin/discord'
+alias glances='glances --theme-white -1'
 
 BROWSER=/usr/bin/qutebrowser
 
