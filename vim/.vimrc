@@ -10,7 +10,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'hsanson/vim-android'
-Plugin 'let-def/ocp-indent-vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'the-lambda-church/coquille'
 Plugin 'let-def/vimbufsync'
