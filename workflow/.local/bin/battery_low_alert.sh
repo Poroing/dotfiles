@@ -6,6 +6,7 @@ source /home/jean/.config/colors.sh
 #the middle of the screen
 
 ICON="$HOME/.config/personal/battery_low_alert_icon.svg"
+EXPIRE_TIME=10000
 
 minimum_battery_level=10
 
@@ -42,4 +43,5 @@ fi
 notify-send \
     --urgency=critical \
     -i "$ICON" "Battery low: $(battery_level)%" \
+    --expire-time=$EXPIRE_TIME \
     "The laptop battery is low, you should recharge it"
