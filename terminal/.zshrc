@@ -25,7 +25,7 @@ alias cb='xsel | xsel -b'
 alias discord='PATH="" /usr/bin/discord'
 alias glances='glances --theme-white -1'
 
-BROWSER=/usr/bin/qutebrowser
+export BROWSER="/usr/bin/qutebrowser"
 
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
 

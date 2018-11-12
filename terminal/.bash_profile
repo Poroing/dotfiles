@@ -7,6 +7,6 @@
 # OPAM configuration
 . /home/jean/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-export PATH="$PATH:~/.local/bin"
+export PATH="~/.local/bin/:$PATH"
 
 startx

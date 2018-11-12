@@ -46,3 +46,4 @@ xsel #X clipboard interaction
 vim-airline #Nice priting of information of the current buffer in vim
 rofi #Application launching
 i3ipc #i3wm interaction
+urlscan #Url interaction in mutt
