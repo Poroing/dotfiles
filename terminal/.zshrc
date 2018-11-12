@@ -18,6 +18,8 @@ bindkey -v
 
 alias ls='ls --color=auto'
 alias la='ls --color=auto -a'
+alias cp='advcp -g'
+alias mv='advmv -g'
 alias info='info --vi-keys'
 alias desmume='primusrun desmume'
 alias winejap='LC_ALL="ja_JP.utf8" wine'
