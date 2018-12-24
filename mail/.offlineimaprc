@@ -36,9 +36,9 @@ localfolders = ~/.mail/ens
 type = IMAP
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 folderfilter = lambda f: f not in ['INBOX/Sent', 'INBOX/Trash', 'INBOX/Drafts']
-remotehost = reda.ens-rennes.fr
+remotehost = partage.ens-rennes.fr
 remoteport = 993
-remoteuser = jjouv422
+remoteuser = jean.jouve@ens-rennes.fr
 remotepass = 7p67UgsP
 
 [Repository Main-Remote]
