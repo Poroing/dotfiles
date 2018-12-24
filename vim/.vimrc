@@ -63,6 +63,17 @@ function! <SID>SynStack()
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 
+"=============================
+" Clang Format
+"=============================
+
+let g:clang_format#code_style = 'mozilla'
+
+let g:clang_format#style_options = {
+            \ 'BreakConstructorInitializers' : 'BeforeColon',
+            \ 'BreakBeforeBraces' : 'Allman'
+            \ }
+
 "============================
 "Mapping
 "============================
