@@ -1,2 +1,4 @@
 #Vim files
 *.swp
+#Alias file to avoid spam for these emails
+aliasrc

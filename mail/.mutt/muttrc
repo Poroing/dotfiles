@@ -35,27 +35,8 @@ color signature color0 color7
 color tilde color8 default
 color quoted color2 default
 
-alias dylan_bellier Dylan Bellier <Dylan.Bellier@ens-rennes.fr>
-alias guillaume_mescoff Guillaume Mescoff <Guillaume.Mescoff@ens-rennes.fr>
-alias joseph_cabrita Joseph Cabrita <Joseph.Cabrita@ens-rennes.fr>
-alias thibault_seve Thibault Seve-Minnaert <Thibault.Seve-Minnaert@ens-rennes.fr>
-alias romain_ferrand Romain Ferrand <Romain.Ferrand@ens-rennes.fr>
-alias morgane_caradec CARADEC Morgane <noracaradec@gmail.com>
-alias anne-cecile.orgerie Anne-Cecile Orgerie <anne-cecile.orgerie@irisa.fr>
-alias mamie Francoise Casier <francoise.casier@wanadoo.fr>
-alias Jean-michel.Gorius Gorius Jean-michel <Jean-michel.Gorius@ens-rennes.fr>
-alias gurvan.cabon Gurvan Cabon <gurvan.cabon@inria.fr>
-alias elodie.lequoc Elodie Lequoc <elodie.lequoc@ens-rennes.fr>
-alias alan.schmitt Alan Schmitt <alan.schmitt@inria.fr>
-alias jean-michel Gorius Jean-michel <Jean-michel.Gorius@ens-rennes.fr>
-alias david.cachera David Cachera <David.Cachera@ens-rennes.fr>
-alias khalil.ghorbal Khalil Ghorbal <khalil.ghorbal@inria.fr>
-alias olivier.ridoux Olivier Ridoux <olivier.ridoux@irisa.fr>
-alias arnaud.lequen Arnaud Lequen <arnaud.lequen@ens-rennes.fr>
-alias isabelle.puaut \"isabelle.puaut@univ-rennes1.fr\" <isabelle.puaut@univ-rennes1.fr>
-alias Florence.Descoubes Florence Bertails-Descoubes <Florence.Descoubes@inria.fr>
-alias mickael.ly Mickael Ly <mickael.ly@inria.fr>
-alias laurence.jouve Laurence Jouve <ljouve7@gmail.com>
+set alias_file = ~/.mutt/aliasrc
+source ~/.mutt/aliasrc
 
 set pgp_default_key = Jean
 set pgp_use_gpg_agent = yes 
