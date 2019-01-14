@@ -56,3 +56,9 @@ alias isabelle.puaut \"isabelle.puaut@univ-rennes1.fr\" <isabelle.puaut@univ-ren
 alias Florence.Descoubes Florence Bertails-Descoubes <Florence.Descoubes@inria.fr>
 alias mickael.ly Mickael Ly <mickael.ly@inria.fr>
 alias laurence.jouve Laurence Jouve <ljouve7@gmail.com>
+
+set pgp_default_key = Jean
+set pgp_use_gpg_agent = yes 
+set crypt_autosign = yes
+set crypt_opportunistic_encrypt = yes
+source ~/.mutt/gpg.rc
