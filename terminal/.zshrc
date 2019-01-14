@@ -32,3 +32,7 @@ export BROWSER="/usr/bin/qutebrowser"
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#GPG
+GPG_TTY=$(tty)
+export GPG_TTY
