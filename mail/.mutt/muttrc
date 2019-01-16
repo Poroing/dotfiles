@@ -4,6 +4,17 @@ set editor = "vim"
 set move = yes
 source ~/.mutt/mailboxes
 
+#We don't want to forget the CC.
+set askcc = yes
+
+#I almost always want to resend to the same CC and From
+set fast_reply = yes
+
+#I alway's want to include the original message in my replies
+set include = yes
+
+set mailcap_path = ~/.mailcap
+
 source "~/.mutt/main"
 folder-hook $folder "source ~/.mutt/main"
 
