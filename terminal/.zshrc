@@ -26,8 +26,11 @@ alias winejap='LC_ALL="ja_JP.utf8" wine'
 alias cb='xsel | xsel -b'
 alias discord='PATH="" /usr/bin/discord'
 alias glances='glances --theme-white -1'
+alias maxima='rlwrap maxima'
+alias emacs='emacs -nw'
 
 export BROWSER="/usr/bin/qutebrowser"
+export EDITOR="vim"
 
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
 
