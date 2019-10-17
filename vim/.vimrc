@@ -9,11 +9,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'hsanson/vim-android'
 Plugin 'rhysd/vim-grammarous'
-Plugin 'the-lambda-church/coquille'
 Plugin 'let-def/vimbufsync'
-Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
 Plugin 'adimit/prolog.vim'
 
