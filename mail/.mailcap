@@ -3,5 +3,6 @@
 text/html; links -codepage utf-8 -dump %s; copiousoutput
 image/gif; feh %s
 image/jpg; feh %s
+image/jpeg; feh %s
 image/png; feh %s
-application/pdf; llpp %s
+application/pdf; zathura %s
