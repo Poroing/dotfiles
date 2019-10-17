@@ -18,7 +18,7 @@ CPU_ICON=""
 BACKGROUND_COLOR=$white
 FOREGROUND_COLOR=$dark_grey
 FONT1="xos4 Terminus:pixelsize=13:antialias=false"
-FONT2="Wuncon Siji:pixelsize=12"
+FONT2="Siji:pixelsize=12"
 HEIGHT="23"
 
 clock () {
@@ -64,7 +64,7 @@ ram() {
 }
 
 volume() {
-    echo -n $($VOLUME_SCRIPT)
+    echo -n "$($VOLUME_SCRIPT)"
 }
 
 RIGHT_SEPARATOR="%{F$SEPARATOR_COLOR}%{T3}$RIGHT_SEPARATOR%{T-}%{F-}"
