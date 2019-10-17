@@ -57,6 +57,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec urxvt
+bindsym $mod+Shift+Return exec urxvt -cd "`xcwd`"
 
 # kill focused window
 bindsym $mod+Shift+A kill
@@ -64,6 +65,7 @@ bindsym $mod+Shift+A kill
 # start the program launcher
 
 bindsym $mod+d exec rofi -show run
+bindsym $mod+z exec rofi -show window
 
 set $left h
 set $right l
@@ -78,10 +80,10 @@ bindsym $mod+$up focus up
 bindsym $mod+$right focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+$left move left
@@ -90,10 +92,10 @@ bindsym $mod+Shift+$up move up
 bindsym $mod+Shift+$right move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+#bindsym $mod+Shift+Left move left
+#bindsym $mod+Shift+Down move down
+#bindsym $mod+Shift+Up move up
+#bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+b split h
@@ -105,8 +107,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+z layout tabbed
+#bindsym $mod+s layout stacking
 bindsym $mod+e layout toggle split
 
 #toggle sticky window
@@ -117,12 +118,6 @@ bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
-
-# focus the parent container
-bindsym $mod+q focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
 
 # switch to workspace
 bindsym $mod+ampersand workspace 1
@@ -218,6 +213,7 @@ bindsym $mpd+x exec $mpc prev
 bindsym $mpd+Left exec $mpc volume -2
 bindsym $mpd+Right exec $mpc volume +2
 bindsym $mpd+l exec /home/jean/.local/bin/toggle_lyrics.sh
+bindsym $mpd+s exec /home/jean/.local/bin/show_mpd_notification.sh
 
 
 #Keyboard
@@ -226,8 +222,8 @@ set $keyboard Mod1+Shift
 bindsym $keyboard+Tab exec ~/Programation/Scripts/toggle_keymap.sh
 
 #Backligh
-bindsym $mod+F12 exec xbacklight -inc 2
-bindsym $mod+F11 exec xbacklight -dec 2
+bindsym $mod+F12 exec light -A 2
+bindsym $mod+F11 exec light -U 2
 
 #Sound
 bindsym $mod+F3 exec amixer set Master 2%+
