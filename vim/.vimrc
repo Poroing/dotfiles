@@ -15,6 +15,7 @@ Plugin 'the-lambda-church/coquille'
 Plugin 'let-def/vimbufsync'
 Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
+Plugin 'adimit/prolog.vim'
 
 call vundle#end()
 filetype plugin on
@@ -24,6 +25,7 @@ filetype plugin on
 "========================
 
 let g:ycm_confirm_extra_conf = 0
+let g:ycm_max_diagnostics_to_display = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:EclimCompletionMethod = 'omnifunc'
@@ -67,12 +69,14 @@ endfunc
 " Clang Format
 "=============================
 
-let g:clang_format#code_style = 'mozilla'
-
-let g:clang_format#style_options = {
-            \ 'BreakConstructorInitializers' : 'BeforeColon',
-            \ 'BreakBeforeBraces' : 'Allman'
-            \ }
+ let g:clang_format#code_style = 'mozilla'
+ 
+ let g:clang_format#style_options = {
+             \ 'BreakConstructorInitializers' : 'BeforeColon',
+             \ 'BreakBeforeBraces' : 'Allman',
+             \ 'ColumnLimit': 100,
+             \ 'AccessModifierOffset': -2,
+             \ }
 
 "============================
 "Mapping
@@ -90,6 +94,7 @@ vmap <Leader>c <Esc>`>a<CR><Esc>`<i<CR><Esc>V!xsel -b<CR>kJJ
 
 nmap <Leader>gd :YcmCompleter GoTo<CR>
 nmap <Leader>gr :YcmCompleter GoToReferences<CR>
+nmap <Leader>gi :YcmCompleter GoToInclude<CR>
 nmap <Leader>d :YcmCompleter GetDoc<CR>
 
 nmap <Leader>cn :cn<CR>
@@ -119,9 +124,9 @@ au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%
 " Coquille
 "===============
 
-hi CheckedByCoq ctermbg=7
-hi SendToCoq ctermbg=12
-let g:coquille_auto_move = 'true'
+" hi CheckedByCoq ctermbg=7
+" hi SendToCoq ctermbg=12
+" let g:coquille_auto_move = 'true'
 
 "=========================
 "Syntastic confiuration (Not installed)
@@ -151,7 +156,8 @@ syntax on
 set background=light
 set t_co=256
 set encoding=utf-8
-let &colorcolumn="80"
+let &colorcolumn="100"
+set tw=100
 
 set ttimeoutlen=50
 set nowrap
