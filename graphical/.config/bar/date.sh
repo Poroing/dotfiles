@@ -1,9 +1,8 @@
 #!/usr/bin/bash
 
-source $HOME/.config/colors.sh
-
-DATE_COLOR=$dark_grey
-TIME_COLOR=$dark_grey
+COLOR_SCRIPT=$HOME/.config/colors.sh
+DATE_COLOR=$($COLOR_SCRIPT dark_grey)
+TIME_COLOR=$($COLOR_SCRIPT dark_grey)
 
 time_text="%{F$TIME_COLOR}$(date '+%H:%M')%{F-}"
 date_text="%{F$DATE_COLOR}$(date '+%A %d %B %Y')%{F-}"

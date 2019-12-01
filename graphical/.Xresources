@@ -4,43 +4,43 @@ URxvt.font: xft:xos4 Terminus:size=10:antialias=false, \
 URxvt.scrollBar: false
 !URxvt.internalBorder:10
 URxvt.perl-ext-common: resize-font
-URxvt.transparent: true
-URxvt.tintColor: #ddf3f7
-URxvt.shading: 190
+!URxvt.transparent: true
+!URxvt.tintColor: #ddf3f7
+!URxvt.shading: 190
 URxvt.blurRadius: 0
 
 
-*background:    #ddf3f7
-*foreground:    #47645b
-
-! Black
-*color0:    #2c2e37
-*color8:    #47645b
-
-! Red
-*color1:    #a65f54
-*color9:    #c48c7d
-
-! Red-Yellow
-*color3:    #bd8072
-*color11:   #cb9f92
-
-! Green
-*color2:    #508451
-*color10:   #75b27b
-
-! Blue
-*color4:    #0a6fd4
-*color12:   #2b85d9
-
-! Light Violet
-*color5:    #338ada
-*color13:   #c6e5ed
-
-! Cyan
-*color6:    #388edb
-*color14:   #55a1dc
-
-! White
-*color7:    #bddee4
-*color15:   #ddf3f7
+!*background:    #ddf3f7
+!*foreground:    #47645b
+!
+!! Black
+!*color0:    #2c2e37
+!*color8:    #47645b
+!
+!! Red
+!*color1:    #a65f54
+!*color9:    #c48c7d
+!
+!! Red-Yellow
+!*color3:    #bd8072
+!*color11:   #cb9f92
+!
+!! Green
+!*color2:    #508451
+!*color10:   #75b27b
+!
+!! Blue
+!*color4:    #0a6fd4
+!*color12:   #2b85d9
+!
+!! Light Violet
+!*color5:    #338ada
+!*color13:   #c6e5ed
+!
+!! Cyan
+!*color6:    #388edb
+!*color14:   #55a1dc
+!
+!! White
+!*color7:    #bddee4
+!*color15:   #ddf3f7

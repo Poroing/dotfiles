@@ -34,15 +34,15 @@ macro attach,compose \cb '<pipe-entry> urlscan<Enter>'
 alternative_order text/plain text/html
 auto_view text/html
 
-color normal color8 default
-color prompt color8 default
-color message color8 default
-color status color15 color9
+color normal default default
+color prompt default default
+color message default default
+color status color0 color4
 color error color8 default
-color header color0 color7 ""
+color header color0 color1 ""
 color body color8 default ""
-color attachment color0 color7
-color signature color0 color7
+color attachment color7 color8
+color signature color7 color8
 color tilde color8 default
 color quoted color2 default
 

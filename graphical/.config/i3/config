@@ -8,30 +8,6 @@
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-set $black "#2c2e37"
-set $dark_grey "#47645b"
-
-set $red "#a65f54"
-set $light_red "#c48c7d"
-
-set $red_yellow "#bd8072"
-set $light_red_yellow "#cb9f92"
- 
-set $green "#508451a"
-set $light_green "#75b27b"
- 
-set $blue "#0a6fd4"
-set $light_blue "#2b85d9"
- 
-set $light_violet "#338ada"
-set $very_light_violet "#c6e5ed"
- 
-set $cyan "#8ec9e9"
-set $light_cyan "#bddee4"
- 
-set $light_grey "#bddee4"
-set $white "#ddf3f7"
-
 set $mod Mod4
 
 client.focused $red $white $dark_grey $light_cyan $light_blue
@@ -66,6 +42,8 @@ bindsym $mod+Shift+A kill
 
 bindsym $mod+d exec rofi -show run
 bindsym $mod+z exec rofi -show window
+bindsym $mod+s exec rofi -show file-browser
+bindsym $mod+p exec bwmenu
 
 set $left h
 set $right l
@@ -203,6 +181,17 @@ mode "floating" {
 
 bindsym $mod+Shift+f mode "floating"
 
+#Wallpaper
+bindsym $mod+w mode "wallpaper"
+
+mode "wallpaper" {
+    bindsym $mod+m exec wpg -m
+    bindsym $mod+b exec "wpg --brt $(wpg -c) +8 && wpg -s $(wpg -c)"
+    bindsym $mod+n exec "wpg --brt $(wpg -c) -8 && wpg -s $(wpg -c)"
+    bindsym Escape mode "default"
+}
+
+
 #MPD
 set $mpd Mod1
 set $mpc mpc -h 127.0.0.1
@@ -216,11 +205,6 @@ bindsym $mpd+l exec /home/jean/.local/bin/toggle_lyrics.sh
 bindsym $mpd+s exec /home/jean/.local/bin/show_mpd_notification.sh
 
 
-#Keyboard
-set $keyboard Mod1+Shift
-
-bindsym $keyboard+Tab exec ~/Programation/Scripts/toggle_keymap.sh
-
 #Backligh
 bindsym $mod+F12 exec light -A 2
 bindsym $mod+F11 exec light -U 2
@@ -229,9 +213,6 @@ bindsym $mod+F11 exec light -U 2
 bindsym $mod+F3 exec amixer set Master 2%+
 bindsym $mod+F2 exec amixer set Master 2%-
 bindsym $mod+F1 exec amixer set Master toggle
-
-#Launch mpv with clipboard
-bindsym $mod+y exec mpv $(xsel)
 
 #Lock
 bindsym $mod+o exec i3lock -i ~/Media/Pictures/Wallpaper/Country.png
@@ -249,7 +230,7 @@ for_window [title="Alert"] floating enable
 gaps inner 15
 gaps outer 15
 
-exec ~/.fehbg
-exec compton -b
+exec ~/.config/wpg/wp_init.sh
+exec picom -b -c
 exec ~/.config/bar/lemonbar.sh
 exec redshift

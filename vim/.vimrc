@@ -13,6 +13,7 @@ Plugin 'rhysd/vim-grammarous'
 Plugin 'let-def/vimbufsync'
 Plugin 'tpope/vim-speeddating'
 Plugin 'adimit/prolog.vim'
+Plugin 'deviantfero/wpgtk.vim'
 
 call vundle#end()
 filetype plugin on
@@ -164,6 +165,12 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 filetype indent on
+
+colorscheme wpgtkAlt
+
+"Prolog
+au FileType prolog setlocal tabstop=2
+au FileType prolog setlocal shiftwidth=2
 
 "Ocaml
 au FileType ocaml setlocal tabstop=2

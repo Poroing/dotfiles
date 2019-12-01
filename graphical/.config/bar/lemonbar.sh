@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-source $HOME/.config/colors.sh
+COLOR_SCRIPT=$HOME/.config/colors.sh
 
 BATTERY_STATUS_SCRIPT_PATH=$HOME/.config/bar/batteryStatus.sh
 DATE_PATH=$HOME/.config/bar/date.sh
@@ -15,8 +15,8 @@ MAIL_ICON=""
 LAYOUT_ICON=""
 RAM_ICON=""
 CPU_ICON=""
-BACKGROUND_COLOR=$white
-FOREGROUND_COLOR=$dark_grey
+BACKGROUND_COLOR=$($COLOR_SCRIPT white)
+FOREGROUND_COLOR=$($COLOR_SCRIPT black)
 FONT1="xos4 Terminus:pixelsize=13:antialias=false"
 FONT2="Siji:pixelsize=12"
 HEIGHT="23"
@@ -72,7 +72,7 @@ LEFT_SEPARATOR="%{F$SEPARATOR_COLOR}%{T3}$LEFT_SEPARATOR%{T-}%{F-}"
 
 while true; do
     echo "\
-%{l}%{O20}$(current_workspace)%{O10}\
+    %{B$($COLOR_SCRIPT white)}%{l}%{O20}$(current_workspace)%{O10}\
 $(volume)\
 %{c}$(clock)\
 %{r}$(trasmission)%{O10}\
@@ -86,7 +86,7 @@ $(battery)%{O40}"
     sleep 1
 done |
 lemonbar \
--g "x$HEIGHT" \
--f "$FONT1" -f "$FONT2" -f "$SEPARATOR_FONT" \
--p \
--B "$BACKGROUND_COLOR" -F "$FOREGROUND_COLOR"
+    -g "x$HEIGHT" \
+    -f "$FONT1" -f "$FONT2" -f "$SEPARATOR_FONT" \
+    -p \
+    -F "$FOREGROUND_COLOR"
