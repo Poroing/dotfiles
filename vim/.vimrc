@@ -12,8 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'let-def/vimbufsync'
 Plugin 'tpope/vim-speeddating'
-Plugin 'adimit/prolog.vim'
 Plugin 'deviantfero/wpgtk.vim'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 filetype plugin on
@@ -74,6 +74,7 @@ endfunc
              \ 'BreakBeforeBraces' : 'Allman',
              \ 'ColumnLimit': 100,
              \ 'AccessModifierOffset': -2,
+             \ 'BreakBeforeBinaryOperators' : 'NonAssignment'
              \ }
 
 "============================
@@ -151,7 +152,7 @@ au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%
 
 syntax enable
 syntax on
-set background=light
+set background=dark
 set t_co=256
 set encoding=utf-8
 let &colorcolumn="100"
@@ -166,7 +167,7 @@ set shiftwidth=4
 set expandtab
 filetype indent on
 
-colorscheme wpgtkAlt
+"colorscheme wpgtkAlt
 
 "Prolog
 au FileType prolog setlocal tabstop=2
@@ -197,6 +198,7 @@ au FileType markdown setlocal noexpandtab
 au BufNewFile,BufRead *.tex setlocal filetype=tex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
 au FileType tex nmap <Leader>m :w<CR> :!latexmk -pdf %<CR>
+let g:tex_comment_nospell = 1
 
 "Coq
 au FileType coq nmap <C-j> :CoqNext<CR>

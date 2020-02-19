@@ -49,8 +49,8 @@ color quoted color2 default
 set alias_file = ~/.mutt/aliasrc
 source ~/.mutt/aliasrc
 
-set pgp_default_key = Jean
-set pgp_use_gpg_agent = yes 
-set crypt_autosign = yes
-set crypt_opportunistic_encrypt = yes
-source ~/.mutt/gpg.rc
+#set pgp_default_key = Jean
+#set pgp_use_gpg_agent = yes 
+#set crypt_autosign = yes
+#set crypt_opportunistic_encrypt = yes
+#source ~/.mutt/gpg.rc

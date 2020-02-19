@@ -28,13 +28,16 @@ alias discord='PATH="" /usr/bin/discord'
 alias glances='glances --theme-white -1'
 alias maxima='rlwrap maxima'
 alias emacs='emacs -nw'
+alias qutebrowser='qutebrowser --qt-flag single-process'
 
-export BROWSER="/usr/bin/qutebrowser"
+export BROWSER="/usr/bin/qutebrowser --qt-flag single-process"
 export EDITOR="vim"
 
 [[ $- = *i* ]] && source /usr/bin/liquidprompt
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 #GPG
 GPG_TTY=$(tty)
