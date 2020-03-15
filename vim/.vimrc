@@ -10,9 +10,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'rhysd/vim-grammarous'
-Plugin 'let-def/vimbufsync'
 Plugin 'tpope/vim-speeddating'
-Plugin 'deviantfero/wpgtk.vim'
 Plugin 'lervag/vimtex'
 
 call vundle#end()
@@ -108,8 +106,8 @@ nmap <Leader>f :ClangFormat<CR>
 
 set laststatus=2
 
-let g:airline_left_sep='▓▒░'
-let g:airline_right_sep='░▒▓'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 let g:airline_theme='road'
 
@@ -167,7 +165,11 @@ set shiftwidth=4
 set expandtab
 filetype indent on
 
-"colorscheme wpgtkAlt
+" Keyboard witout < and > for the french layout
+noremap ² <
+inoremap ² <
+inoremap ¬ >
+noremap ¬ >
 
 "Prolog
 au FileType prolog setlocal tabstop=2
@@ -184,6 +186,7 @@ au FileType xml setlocal shiftwidth=2
 "HTML
 au FileType html setlocal tabstop=2
 au FileType html setlocal shiftwidth=2
+au FileType html nmap <Leader>ws :BlogSave<CR>
 
 au FileType php setlocal tabstop=2
 au FileType php setlocal shiftwidth=2
@@ -195,16 +198,33 @@ au FileType make setlocal noexpandtab
 au FileType markdown setlocal noexpandtab
 
 "Latex
-au BufNewFile,BufRead *.tex setlocal filetype=tex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
-au FileType tex nmap <Leader>m :w<CR> :!latexmk -pdf %<CR>
 let g:tex_comment_nospell = 1
+let g:vimtex_compiler_latexmk = {
+    \ 'backend' : 'process',
+    \ 'background' : 1,
+    \ 'build_dir' : '',
+    \ 'callback' : 1,
+    \ 'continuous' : 1,
+    \ 'executable' : 'latexmk',
+    \ 'hooks' : [],
+    \ 'options' : [
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \   '-shell-escape',
+    \ ],
+    \}
 
 "Coq
 au FileType coq nmap <C-j> :CoqNext<CR>
 au FileType coq nmap <C-k> :CoqUndo<CR>
 au FileType coq nmap <C-L> :CoqToCursor<CR>
 
+" Prelab
+au FileType cmake setlocal tabstop=2
+au FileType cmake setlocal shiftwidth=2
 
 "See the difference between saved file and buffer
 "command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis
