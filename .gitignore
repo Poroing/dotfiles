@@ -8,6 +8,7 @@ aliasrc
 graphical/.config/wpg/.current
 graphical/.config/wpg/samples/
 graphical/.config/wpg/schemes/
+graphical/.config/wpg/sequences
 graphical/.config/wpg/wallpapers/
 graphical/.config/wpg/wp_init.sh
 # Systemd auto generated files
