@@ -1,0 +1,2 @@
+/usr/bin/mpv %u
+  ^https?://(www.)?twitch.tv/videos/
