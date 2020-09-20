@@ -1,0 +1,14 @@
+# vim: ft=muttrc
+
+set folder = "~/.mail/proton"
+set mbox = "+Archive"
+
+mbox-hook +INBOX "+Archive"
+
+set spoolfile = "+INBOX"
+set postponed = "+INBOX.Drafts"
+set record = "+INBOX.Sent"
+
+set sendmail = "/usr/bin/msmtp -a protonmail"
+set realname = "Jouve Jean"
+set from = "jean.jouve@protonmail.com"
