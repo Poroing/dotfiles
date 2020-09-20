@@ -1,0 +1,7 @@
+directory: ~/Media/Music/
+library: ~/Media/Music/musiclibrary.db
+plugins: fetchart lastgenre mpdstats mpdupdate convert
+convert:
+  format: ogg
+  auto: yes
+  copy_album_art: yes
