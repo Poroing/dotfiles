@@ -234,3 +234,4 @@ exec ~/.config/wpg/wp_init.sh
 exec picom -b -c
 exec ~/.config/bar/lemonbar.sh
 exec redshift
+exec protonmail-bridge --no-window
