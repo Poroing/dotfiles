@@ -7,13 +7,13 @@ filetype off                  " Needed for Vundle
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'tpope/vim-speeddating'
 Plugin 'lervag/vimtex'
-
+Plugin 'goerz/jupytext.vim'
 call vundle#end()
+
 filetype plugin on
 
 "=========================
@@ -25,6 +25,8 @@ let g:ycm_max_diagnostics_to_display = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:EclimCompletionMethod = 'omnifunc'
+let g:ycm_use_clang = 1
+let g:ycm_clangd_binary_path = '/usr/bin/clangd'
 
 "===========================
 " UltiSnips (Not installed)
@@ -117,6 +119,18 @@ let g:airline_section_z='%p%% %l/%L : %c'
 
 au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%L : %c'
 
+"==============
+" Pandoc
+"==============
+
+let g:pandoc#modules#disabled = [ 'folding' ]
+
+"===============
+" Jupytext
+"===============
+
+let g:jupytext_fmt = 'py:percent'
+
 "===============
 " Coquille
 "===============
@@ -153,8 +167,8 @@ syntax on
 set background=dark
 set t_co=256
 set encoding=utf-8
-let &colorcolumn="100"
-set tw=100
+let &colorcolumn="80"
+set tw=80
 
 set ttimeoutlen=50
 set nowrap
@@ -164,6 +178,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 filetype indent on
+
+" Unicode characters
+inoremap ,< «
+inoremap ,> »
 
 " Keyboard witout < and > for the french layout
 noremap ² <
@@ -200,6 +218,7 @@ au FileType markdown setlocal noexpandtab
 "Latex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
 let g:tex_comment_nospell = 1
+let g:tex_flavor = 'latex'
 let g:vimtex_compiler_latexmk = {
     \ 'backend' : 'process',
     \ 'background' : 1,
