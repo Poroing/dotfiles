@@ -1,4 +1,3 @@
-w
 ##### directories ######
 ##
 ## Directory for storing ncmpcpp related files.
@@ -332,7 +331,7 @@ user_interface = alternative
 #
 ## Available values: artist, album_artist, date, genre, composer, performer.
 ##
-#media_library_primary_tag = artist
+media_library_primary_tag = album_artist
 #
 ## Available values: wrapped, normal.
 ##
