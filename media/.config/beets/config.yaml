@@ -1,6 +1,6 @@
 directory: ~/Media/Music/
 library: ~/Media/Music/musiclibrary.db
-plugins: fetchart lastgenre mpdstats mpdupdate convert
+plugins: fetchart lastgenre mpdstats mpdupdate convert fromfilename bandcamp
 convert:
   format: ogg
   auto: yes
