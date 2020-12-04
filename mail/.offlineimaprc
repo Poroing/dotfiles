@@ -1,0 +1,67 @@
+[general]
+accounts = Ens,Proton,Inria
+maxsyncaccounts = 3
+pythonfile = ~/.offlineimap.py
+
+[Account Ens]
+
+localrepository = Ens-Local
+remoterepository = Ens-Remote
+
+[Repository Ens-Local]
+
+type = Maildir
+localfolders = ~/.mail/ens
+
+[Repository Ens-Remote]
+
+type = IMAP
+remotehost = partage.ens-rennes.fr
+remoteuser = jean.jouve@ens-rennes.fr
+remotepasseval = getEnsPassword()
+ssl = yes
+maxconnections = 1
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda folder: folder in ['INBOX', 'Archive']
+
+[Account Proton]
+
+localrepository = Proton-Local
+remoterepository = Proton-Remote
+
+[Repository Proton-Local]
+
+type = Maildir
+localfolders = ~/.mail/proton
+
+[Repository Proton-Remote]
+
+type = IMAP
+remotehost = 127.0.0.1
+remoteuser = jean.jouve@protonmail.com
+remotepasseval = getProtonPassword()
+remoteport = 1143
+ssl = no
+starttls = yes
+folderfilter = lambda folder: folder in [ 'INBOX', 'Archive' ]
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Account Inria]
+
+localrepository = Inria-Local
+remoterepository = Inria-Remote
+
+[Repository Inria-Local]
+
+type = Maildir
+localfolders = ~/.mail/inria
+
+[Repository Inria-Remote]
+
+type = IMAP
+remotehost = zimbra.inria.fr
+remoteuser = jean.a.jouve@inria.fr
+remotepasseval = getInriaPassword()
+ssl = yes
+folderfilter = lambda folder: folder in [ 'INBOX', 'Archive' ]
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt

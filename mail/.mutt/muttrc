@@ -18,6 +18,9 @@ set mailcap_path = ~/.mailcap
 source "~/.mutt/proton"
 folder-hook $folder "source ~/.mutt/proton"
 
+source "~/.mutt/inria"
+folder-hook $folder "source ~/.mutt/inria"
+
 source "~/.mutt/ens"
 folder-hook $folder "source ~/.mutt/ens"
 
@@ -26,6 +29,7 @@ macro index,pager A '<sync-mailbox><change-folder>><enter>'
 
 #Go to another mailbox
 macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/proton<enter><change-folder>!<enter>'
+macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/inria<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><change-folder>!<enter>'
 
 macro index,pager \cb '<pipe-message> urlscan<Enter>'
