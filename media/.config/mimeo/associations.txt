@@ -1,2 +1,6 @@
 /usr/bin/mpv %u
   ^https?://(www.)?twitch.tv/videos/
+
+/usr/bin/mpv %u
+  ^https?://(www.)?youtu.be/
+  ^https?://(www.)?youtube.com/watch
