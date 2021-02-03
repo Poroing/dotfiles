@@ -17,7 +17,7 @@ RAM_ICON=""
 CPU_ICON=""
 BACKGROUND_COLOR=$($COLOR_SCRIPT white)
 FOREGROUND_COLOR=$($COLOR_SCRIPT black)
-FONT1="xos4 Terminus:pixelsize=13:antialias=false"
+FONT1="Terminus:pixelsize=14:antialias=false"
 FONT2="Siji:pixelsize=12"
 HEIGHT="23"
 
@@ -37,7 +37,7 @@ thermal () {
     echo -n "$THERMAL_ICON$(acpi -t | awk '/Thermal 0/ { print $4 }') °C, $(acpi -t | awk '/Thermal 1/ { print $4 }') °C"
 }
 
-trasmission () {
+transmission () {
     echo -n $($TORRENT_STATUS_SCRIPT)
 }
 
@@ -75,7 +75,7 @@ while true; do
     %{B$($COLOR_SCRIPT white)}%{l}%{O20}$(current_workspace)%{O10}\
 $(volume)\
 %{c}$(clock)\
-%{r}$(trasmission)%{O10}\
+%{r}$(transmission)%{O10}\
 $(ram)%{O10}\
 $(mails)%{O10}\
 $(current_wifi)%{O10}\

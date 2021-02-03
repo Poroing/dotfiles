@@ -1,4 +1,4 @@
-URxvt.font: xft:xos4 Terminus:size=10:antialias=false, \
+URxvt.font: xft:Terminus:pixelsize=9:antialias=false, \
             xft:Material Icons:antialias=false, \
             xft:Code2000:antialias=false
 URxvt.scrollBar: false
