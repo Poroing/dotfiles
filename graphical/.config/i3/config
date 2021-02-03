@@ -42,8 +42,18 @@ bindsym $mod+Shift+A kill
 
 bindsym $mod+d exec rofi -show run
 bindsym $mod+z exec rofi -show window
-bindsym $mod+s exec rofi -show file-browser
 bindsym $mod+p exec bwmenu
+
+bindsym $mod+s mode "file"
+mode "file" {
+    bindsym $mod+p exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/IRL/Cours/BIBL/Papers/; mode "default"
+    bindsym $mod+d exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/mnt/home/jean/Media/Books/Documentation/Latex/; mode "default"
+    bindsym Escape mode "default"
+} 
+
+bindsym $mod+i exec scrot '/home/jean/Media/Pictures/Screenshots/screenshot-%F-%T.png'
+# --release to relase the pointer before executing the command.
+bindsym --release $mod+Shift+i exec scrot -s '/home/jean/Media/Pictures/Screenshots/screenshot-%F-%T.png'
 
 set $left h
 set $right l
@@ -81,12 +91,14 @@ bindsym $mod+b split h
 # split in vertical orientation
 bindsym $mod+v split v
 
-# enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+t layout toggle tabbed split
 
 # change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+s layout stacking
-bindsym $mod+e layout toggle split
+#bindsym $mod+e layout toggle split
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
 
 #toggle sticky window
 bindsym $mod+a sticky toggle
@@ -220,7 +232,6 @@ bindsym $mod+o exec i3lock -i ~/Media/Pictures/Wallpaper/Country.png
 popup_during_fullscreen leave_fullscreen
 
 
-#Remove window title bar
 for_window [class="^.*"] border pixel 0
 
 for_window [title="Alert"] border pixel 0
