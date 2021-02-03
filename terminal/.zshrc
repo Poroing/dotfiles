@@ -27,15 +27,9 @@ alias ls='ls --color=auto'
 alias la='ls --color=auto -a'
 alias cp='advcp -g'
 alias mv='advmv -g'
-alias info='info --vi-keys'
-alias desmume='primusrun desmume'
-alias winejap='LC_ALL="ja_JP.utf8" wine'
 alias cb='xsel | xsel -b'
-alias discord='PATH="" /usr/bin/discord'
-alias glances='glances --theme-white -1'
 alias maxima='rlwrap maxima'
-alias emacs='emacs -nw'
-alias qutebrowser='qutebrowser --qt-flag single-process'
+alias open='xdg-open'
 
 export BROWSER="/usr/bin/qutebrowser --qt-flag single-process"
 export EDITOR="vim"
