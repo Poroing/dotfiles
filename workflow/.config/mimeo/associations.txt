@@ -1,2 +1,0 @@
-mpv %U
-  ^https?://(www.)?youtube.com/watch.*
