@@ -7,14 +7,19 @@ filetype off                  " Needed for Vundle
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'rhysd/vim-grammarous'
 Plugin 'tpope/vim-speeddating'
 Plugin 'lervag/vimtex'
-Plugin 'goerz/jupytext.vim'
+Plugin 'ron89/thesaurus_query.vim'
 call vundle#end()
 
 filetype plugin on
+
+"=========================
+" thesaurus_query.vim
+"=========================
+
+let g:tq_enabled_backends = [ 'openoffice_en', 'datamuse_com' ]
 
 "=========================
 " YouCompleteMe
@@ -164,7 +169,7 @@ let g:jupytext_fmt = 'py:percent'
 
 syntax enable
 syntax on
-set background=dark
+set background=light
 set t_co=256
 set encoding=utf-8
 let &colorcolumn="80"
