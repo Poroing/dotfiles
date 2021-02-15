@@ -1,0 +1,18 @@
+[general]
+status_path = "~/.config/vdirsyncer/status"
+
+[storage inria_calendar_remote]
+type = "caldav"
+url = "https://zimbra.inria.fr/dav/jjouve/Calendar"
+username.fetch = [ "command", "~/.config/vdirsyncer/username.sh" ]
+password.fetch = [ "command", "~/.config/vdirsyncer/password.sh" ]
+
+[storage inria_calendar_local]
+type = "filesystem"
+path = "~/.inria_calendar/"
+fileext = ".ics"
+
+[pair inria_calendar]
+a = "inria_calendar_local"
+b = "inria_calendar_remote"
+collections = [ "from a", "from b" ]
