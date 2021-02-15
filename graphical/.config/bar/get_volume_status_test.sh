@@ -16,4 +16,4 @@ else
     icon=$LOUD_ICON;
 fi
 
-echo "$icon$volume%"
+echo "$icon$volume%%"
