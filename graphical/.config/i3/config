@@ -46,8 +46,8 @@ bindsym $mod+p exec bwmenu
 
 bindsym $mod+s mode "file"
 mode "file" {
-    bindsym $mod+p exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/IRL/Cours/BIBL/Papers/; mode "default"
-    bindsym $mod+d exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/mnt/home/jean/Media/Books/Documentation/Latex/; mode "default"
+    bindsym $mod+p exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/Media/Papers/; mode "default"
+    bindsym $mod+d exec rofi -modi file-browser-extended -show file-browser-extended -file-browser-dir /home/jean/Media/Documentation/Latex/; mode "default"
     bindsym Escape mode "default"
 } 
 
