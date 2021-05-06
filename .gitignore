@@ -2,17 +2,12 @@
 *.swp
 vim/.vim/bundle/
 vim/.vim/.netrwhist
+vim/.vim/spell/
 # Alias file to avoid spam for these emails
 aliasrc
-# Wpg auto generated files
-graphical/.config/wpg/.current
-graphical/.config/wpg/samples/
-graphical/.config/wpg/schemes/
-graphical/.config/wpg/sequences
-graphical/.config/wpg/wallpapers/
-graphical/.config/wpg/wp_init.sh
 # Systemd auto generated files
 mail/.config/systemd/user/default.target.wants/
+workflow/.config/systemd/user/default.target.wants/
 # Mpd auto generated files
 media/.config/mpd/database
 media/.config/mpd/log
@@ -21,3 +16,10 @@ media/.config/mpd/state
 media/.config/mpd/sticker.sql
 # Ncmpcpp auto generated files
 media/.config/ncmpcpp/error.log
+# Beets files
+media/.config/beets/library.db
+media/.config/beets/state.pickle
+# Mpv files
+media/.config/mpv/watch_later/
+# vdirsyncer
+calendar/.config/vdirsyncer/status/inria_calendar/Calendar.items
