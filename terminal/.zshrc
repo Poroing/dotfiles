@@ -28,23 +28,20 @@ alias la='ls --color=auto -a'
 alias cp='advcp -g'
 alias mv='advmv -g'
 alias cb='xsel | xsel -b'
-alias maxima='rlwrap maxima'
+alias maxima='rlwrap rmaxima'
 alias open='xdg-open'
 
 export BROWSER="/usr/bin/qutebrowser --qt-flag single-process"
 export EDITOR="vim"
 
-# [[ $- = *i* ]] && source /usr/bin/liquidprompt
-#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
-#GPG
-GPG_TTY=$(tty)
-export GPG_TTY
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#Load pywal theme
+(cat ~/.cache/wal/sequences &)

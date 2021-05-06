@@ -1,9 +1,6 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-# OPAM configuration
-. /home/jean/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
-
-export PATH="~/.local/bin:$PATH"
+export PATH="/home/jean/.local/bin:$PATH"
 
 startx
 
