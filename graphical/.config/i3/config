@@ -52,8 +52,10 @@ mode "file" {
 } 
 
 bindsym $mod+i exec scrot '/home/jean/Media/Pictures/Screenshots/screenshot-%F-%T.png'
-# --release to relase the pointer before executing the command.
+# --release to release the pointer before executing the command.
 bindsym --release $mod+Shift+i exec scrot -s '/home/jean/Media/Pictures/Screenshots/screenshot-%F-%T.png'
+bindsym $mod+Shift+m exec start_video_capture.sh
+bindsym $mod+m exec stop_video_capture.sh
 
 set $left h
 set $right l
@@ -133,8 +135,25 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+ccedilla move container to workspace 9
 bindsym $mod+Shift+agrave move container to workspace 10
 
-bindsym $mod+Control+h workspace prev
-bindsym $mod+Control+l workspace next
+bindsym $mod+Control+h workspace prev_on_output
+bindsym $mod+Control+l workspace next_on_output
+
+bindsym $mod+c workspace chats
+assign [class="Mattermost"] chats
+
+workspace_auto_back_and_forth yes
+
+workspace chats output LVDS1
+workspace 1 output LVDS1
+workspace 2 output HDMI1
+workspace 3 output HDMI1
+workspace 4 output HDMI1
+workspace 5 output HDMI1
+workspace 6 output HDMI1
+workspace 7 output HDMI1
+workspace 8 output HDMI1
+workspace 9 output HDMI1
+workspace 10 output HDMI1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -197,9 +216,7 @@ bindsym $mod+Shift+f mode "floating"
 bindsym $mod+w mode "wallpaper"
 
 mode "wallpaper" {
-    bindsym $mod+m exec wpg -m
-    bindsym $mod+b exec "wpg --brt $(wpg -c) +8 && wpg -s $(wpg -c)"
-    bindsym $mod+n exec "wpg --brt $(wpg -c) -8 && wpg -s $(wpg -c)"
+    bindsym $mod+m exec "wal -l -i $(find ~/Media/Pictures/Wallpapers -name '*.jpg' | shuf -n 1) -o ~/.local/bin/post_background_set.sh"; mode "default"
     bindsym Escape mode "default"
 }
 
@@ -241,7 +258,8 @@ for_window [title="Alert"] floating enable
 gaps inner 15
 gaps outer 15
 
-exec ~/.config/wpg/wp_init.sh
+#exec ~/.config/wpg/wp_init.sh
+exec wal -R
 exec picom -b -c
 exec ~/.config/bar/lemonbar.sh
 exec redshift
