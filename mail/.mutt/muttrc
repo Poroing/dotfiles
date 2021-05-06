@@ -32,8 +32,13 @@ macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/proton<enter
 macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/inria<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/ens<enter><change-folder>!<enter>'
 
+# Follow url in mails
 macro index,pager \cb '<pipe-message> urlscan<Enter>'
 macro attach,compose \cb '<pipe-entry> urlscan<Enter>'
+
+macro attach A '<pipe-message>vcalendar_filter.pl | mutt2khal.awk<enter>'
+
+
 
 alternative_order text/plain text/html
 auto_view text/html
