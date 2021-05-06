@@ -60,7 +60,7 @@ localfolders = ~/.mail/inria
 
 type = IMAP
 remotehost = zimbra.inria.fr
-remoteuser = jean.a.jouve@inria.fr
+remoteuser = jean.jouve@inria.fr
 remotepasseval = getInriaPassword()
 ssl = yes
 folderfilter = lambda folder: folder in [ 'INBOX', 'Archive' ]

@@ -11,4 +11,6 @@ set record = "+INBOX.Sent"
 
 set sendmail = "/usr/bin/msmtp -a inria"
 set realname = "Jean Jouve"
-set from = "jean.a.jouve@inria.fr"
+set from = "jean.jouve@inria.fr"
+
+macro attach A '<pipe-message>vcalendar_filter.pl | mutt2khal.awk calendar=Calendar<enter>'

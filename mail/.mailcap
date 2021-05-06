@@ -6,3 +6,4 @@ image/jpg; feh %s
 image/jpeg; feh %s
 image/png; feh %s
 application/pdf; zathura %s
+text/calendar; vcalendar_filter.pl < %s; copiousoutput 
