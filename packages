@@ -1,49 +1,79 @@
-zsh
-zsh-syntax-highlighting
-stone-soup (game)
-lemonbar (graphical)
-vdirsyncer (calendar)
-khal (calendar)
-startx (graphical)
-acpi (graphical/bar)
-awk (graphical)
-date (graphical/bar)
-amixer (graphical/bar)
-grep
+advcp
+beets
+beets-bandcamp
+biber
+bitwarden-rofi
+dhcpcd
+discord
+dunst
+feh
+fd
+fzf
+gnome-keyring
+i3-gaps
+htop
+iwd
+khal
+lemonbar-xft-git
+light
+links
+lyvi-git
+mimeo
+mpc
+mpd
+mpd-notification-time-git
+mpv
+msmtp
+mutt
+mythes-en
+ncmpcpp
+ncpamixer
+offlineimap
+picom
+pikaur
+protonmail-bridge
+pulseaudio
+pulseaudio-alsa
+python-adblock
+python-i3ipc
+qutebrowser
+redshift
+rofi
+rsync
+rxvt-unicode
+scrot
+signal-desktop
+stow
+sudo
+telegram-desktop
 terminus-font
-siji-git (unicode bitmapfont) #Provide icon for the bar.
-mpd (media)
-mpc (media)
-xorg-setxjbmap (graphical)
-findutils (graphical)
-procps-ng (graphical) #Ram retrieving via the command free
-transmission-cli (torrent)
-compton (graphical)
-redshift (graphical)
-fd #Easy search
-coreutils #Stdout manipulation with printf
-urxvt (terminal)
-mutt (mail)
-python-html2text (mail) #Used for mail printing
-libnotify #For notifications.
-inotify-tools #For notifications
-links (mail) #Reading html written mails
-feh #Reading pictures
-llpp #Reading pdf
-msmtp #Sending mails 
-offlineimap #Retrieving mails
-dunst #Notification displaying
-ncmpcpp #Mpd interface
-mpv #Video reading
-mpd-notification #Notification on change of music
-lyvi #Lyrics of the current music displaying
-liquidprompt #Terminal prompt line
+terminus-font-ttf
+tmux
+transmission-cli
+ttf-code2000
+urlscan
+urxvt-resize-font-git
+vdirsyncer
+vim
+vim-airline
+vim-clang-format-git
+vim-fugitive
+vim-grammalecte
+vim-spell-en
+vim-spell-fr
+vim-tagbar
+vim-youcompleteme-git
+vundle
+xcwd-git
+xdg-utils-mimeo
+xorg-server
+xorg-xinit
+xorg-xrandr
+xsel
+youtube-dl
+zathura
+zathura-pdf-poppler
+zsh
+zsh-completions
 zsh-syntax-highlighting
-vim-youcompleteme-git #Autocompletion in Vim
-vim-tagbar #Tag information in vim
-vim-clang-format-git #Formating of files using clang
-xsel #X clipboard interaction
-vim-airline #Nice priting of information of the current buffer in vim
-rofi #Application launching
-i3ipc #i3wm interaction
-urlscan #Url interaction in mutt
+zsh-theme-powerlevel10k
