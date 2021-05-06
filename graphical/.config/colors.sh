@@ -1,1 +1,0 @@
-/home/jean/.config/wpg/templates/colors.sh
