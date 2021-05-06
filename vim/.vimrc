@@ -11,6 +11,7 @@ Plugin 'rhysd/vim-grammarous'
 Plugin 'tpope/vim-speeddating'
 Plugin 'lervag/vimtex'
 Plugin 'ron89/thesaurus_query.vim'
+Plugin 'dylanaraps/wal.vim'
 call vundle#end()
 
 filetype plugin on
@@ -29,9 +30,18 @@ let g:ycm_confirm_extra_conf = 0
 let g:ycm_max_diagnostics_to_display = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
-let g:EclimCompletionMethod = 'omnifunc'
 let g:ycm_use_clang = 1
 let g:ycm_clangd_binary_path = '/usr/bin/clangd'
+let g:ycm_filetype_blacklist = {}
+
+let mapleader = ','
+let maplocalleader = ','
+
+nmap <Leader>gg :YcmCompleter GoTo<CR>
+nmap <Leader>gd :YcmCompleter GoToDeclaration<CR>
+nmap <Leader>gr :YcmCompleter GoToReferences<CR>
+nmap <Leader>d :YcmCompleter GetDoc<CR>
+nmap <Leader>gt :tab split<CR> :YcmCompleter GoTo<CR>
 
 "===========================
 " UltiSnips (Not installed)
@@ -73,11 +83,12 @@ endfunc
 "=============================
 
  let g:clang_format#code_style = 'mozilla'
- 
+ let g:clang_format#detect_style_file = 1
+ let g:clang_format#auto_format_on_insert_leave = 1
  let g:clang_format#style_options = {
              \ 'BreakConstructorInitializers' : 'BeforeColon',
              \ 'BreakBeforeBraces' : 'Allman',
-             \ 'ColumnLimit': 100,
+             \ 'ColumnLimit': 80,
              \ 'AccessModifierOffset': -2,
              \ 'BreakBeforeBinaryOperators' : 'NonAssignment'
              \ }
@@ -96,11 +107,6 @@ map <Leader>t :TagbarToggle<CR>
 "Copy selected in clipboard
 vmap <Leader>c <Esc>`>a<CR><Esc>`<i<CR><Esc>V!xsel -b<CR>kJJ
 
-nmap <Leader>gd :YcmCompleter GoTo<CR>
-nmap <Leader>gr :YcmCompleter GoToReferences<CR>
-nmap <Leader>gi :YcmCompleter GoToInclude<CR>
-nmap <Leader>d :YcmCompleter GetDoc<CR>
-
 nmap <Leader>cn :cn<CR>
 nmap <Leader>cp :cp<CR>
 nmap <Leader>cr :cdo normal .<CR>
@@ -115,8 +121,6 @@ set laststatus=2
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-
-let g:airline_theme='road'
 
 let g:airline_section_c='%t'
 let g:airline_section_y=''
@@ -144,25 +148,6 @@ let g:jupytext_fmt = 'py:percent'
 " hi SendToCoq ctermbg=12
 " let g:coquille_auto_move = 'true'
 
-"=========================
-"Syntastic confiuration (Not installed)
-"========================
-
-"let g:syntastic_cpp_compiler = 'clang++'
-"let g:syntastic_cpp_checkers = [ 'gcc' ]
-
-
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 0
-"let g:syntastic_check_on_wq = 0
-
-"let g:syntastic_tex_checkers = []
-
 "=============================
 "Personal configuration
 "=============================
@@ -174,6 +159,7 @@ set t_co=256
 set encoding=utf-8
 let &colorcolumn="80"
 set tw=80
+colorscheme wal
 
 set ttimeoutlen=50
 set nowrap
@@ -208,6 +194,10 @@ au FileType ocaml setlocal shiftwidth=2
 "XML
 au FileType xml setlocal tabstop=2
 au FileType xml setlocal shiftwidth=2
+"
+"XML
+au FileType c,cpp setlocal tabstop=2
+au FileType c,cpp setlocal shiftwidth=2
 
 "HTML
 au FileType html setlocal tabstop=2
@@ -252,6 +242,10 @@ au FileType coq nmap <C-L> :CoqToCursor<CR>
 " Prelab
 au FileType cmake setlocal tabstop=2
 au FileType cmake setlocal shiftwidth=2
+
+" Python
+" autoread for better interaction with jupytext
+au FileType python setlocal autoread 
 
 "See the difference between saved file and buffer
 "command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis
