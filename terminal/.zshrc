@@ -28,20 +28,17 @@ alias la='ls --color=auto -a'
 alias cp='advcp -g'
 alias mv='advmv -g'
 alias cb='xsel | xsel -b'
-alias maxima='rlwrap rmaxima'
-alias open='xdg-open'
+alias maxima='rlwrap maxima'
+alias menyoki-record='menyoki record --cancel-keys LAlt-D --action-keys LAlt-Enter -c 0 save tmp.gif'
+alias tasks='task +work'
 
 export BROWSER="/usr/bin/qutebrowser --qt-flag single-process"
 export EDITOR="vim"
 
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/.local/share/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
-
+source ~/Downloads/Sources/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-#Load pywal theme
-(cat ~/.cache/wal/sequences &)

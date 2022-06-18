@@ -1,6 +1,4 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 export PATH="/home/jean/.local/bin:$PATH"
-
-startx
-
+export PKG_CONFIG_PATH="/home/jjouve/.local/lib/pkgconfig:$PKG_CONFIG_PATH"

@@ -11,7 +11,15 @@ Plugin 'rhysd/vim-grammarous'
 Plugin 'tpope/vim-speeddating'
 Plugin 'lervag/vimtex'
 Plugin 'ron89/thesaurus_query.vim'
-Plugin 'dylanaraps/wal.vim'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'rhysd/vim-clang-format'
+Plugin 'tpope/vim-surround'
+Plugin 'preservim/tagbar'
+Plugin 'dpelle/vim-Grammalecte'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'godlygeek/tabular'
+Plugin 'fladson/vim-kitty'
+Plugin 'sainnhe/gruvbox-material'
 call vundle#end()
 
 filetype plugin on
@@ -21,6 +29,8 @@ filetype plugin on
 "=========================
 
 let g:tq_enabled_backends = [ 'openoffice_en', 'datamuse_com' ]
+let g:tq_mthesaur_file = '~/.vim/thesaurus/words.txt'
+let g:tq_openoffice_en_file = '~/.vim/thesaurus/MyThes-1.0/th_en_US_new'
 
 "=========================
 " YouCompleteMe
@@ -31,8 +41,12 @@ let g:ycm_max_diagnostics_to_display = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:ycm_use_clang = 1
-let g:ycm_clangd_binary_path = '/usr/bin/clangd'
+let g:ycm_clangd_uses_ycmd_caching = 1
+let g:ycm_clangd_binary_path = '/home/jjouve/.local/bin/clangd'
 let g:ycm_filetype_blacklist = {}
+" We don't want the preview window to bother us while we're moving around the
+" windows.
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 let mapleader = ','
 let maplocalleader = ','
@@ -42,29 +56,6 @@ nmap <Leader>gd :YcmCompleter GoToDeclaration<CR>
 nmap <Leader>gr :YcmCompleter GoToReferences<CR>
 nmap <Leader>d :YcmCompleter GetDoc<CR>
 nmap <Leader>gt :tab split<CR> :YcmCompleter GoTo<CR>
-
-"===========================
-" UltiSnips (Not installed)
-"===========================
-
-"let g:UltiSnipsUsePythonVersion = 3
-"let g:UltiSnipsListSnippets = '<C-l>'
-"let g:UltiSnipsExpandTrigger = '<C-l>'
-"let g:UltiSnipsJumpForwardTrigger = '<C-j>'
-"let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
-
-"=============================
-" Eclim
-"============================
-
-let g:EclimProjectRefreshFiles = 0
-
-"============================
-" Rainbow (Not installed)
-"===========================
-
-" let g:rainbow_active = 1
-" let g:rainbow_ctermfgs = ['blue', 'red', 'green', 'yellow']
 
 "============================
 "Functions
@@ -82,16 +73,23 @@ endfunc
 " Clang Format
 "=============================
 
- let g:clang_format#code_style = 'mozilla'
- let g:clang_format#detect_style_file = 1
- let g:clang_format#auto_format_on_insert_leave = 1
- let g:clang_format#style_options = {
-             \ 'BreakConstructorInitializers' : 'BeforeColon',
-             \ 'BreakBeforeBraces' : 'Allman',
-             \ 'ColumnLimit': 80,
-             \ 'AccessModifierOffset': -2,
-             \ 'BreakBeforeBinaryOperators' : 'NonAssignment'
-             \ }
+let g:clang_format#command = 'clang-format-12'
+let g:clang_format#code_style = 'mozilla'
+let g:clang_format#detect_style_file = 1
+let g:clang_format#auto_format_on_insert_leave = 1
+let g:clang_format#style_options = {
+            \ 'BreakConstructorInitializers' : 'BeforeColon',
+            \ 'BreakBeforeBraces' : 'Allman',
+            \ 'ColumnLimit': 80,
+            \ 'AccessModifierOffset': -2,
+            \ 'BreakBeforeBinaryOperators' : 'NonAssignment'
+            \ }
+
+" =====================
+" Grammalecte
+" =====================
+
+let g:grammalecte_cli_py = '$HOME/.local/bin/grammalecte-cli.py'
 
 "============================
 "Mapping
@@ -133,33 +131,42 @@ au FileType tex let g:airline_section_z='%{wordcount()["words"]} words %p%% %l/%
 "==============
 
 let g:pandoc#modules#disabled = [ 'folding' ]
+let g:pandoc#modules#enabled = [ 'keyboard' ]
+let g:pandoc#hypertext#editable_alternates_extensions = ''
 
-"===============
-" Jupytext
-"===============
+"================
+" Markdown
+"================
 
-let g:jupytext_fmt = 'py:percent'
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_follow_anchor = 1
+let g:vim_markdown_no_extensions_in_markdown = 1
 
-"===============
-" Coquille
-"===============
-
-" hi CheckedByCoq ctermbg=7
-" hi SendToCoq ctermbg=12
-" let g:coquille_auto_move = 'true'
 
 "=============================
 "Personal configuration
 "=============================
 
-syntax enable
-syntax on
-set background=light
-set t_co=256
 set encoding=utf-8
 let &colorcolumn="80"
 set tw=80
-colorscheme wal
+
+" Syntax Highlighting
+syntax enable
+syntax on
+set background=light
+if has('termguicolors')
+    set termguicolors
+endif
+let g:gruvbox_material_background = 'soft'
+let g:gruvbox_material_better_performance = 1
+let g:airline_theme = 'gruvbox_material'
+let g:gruvbox_material_enable_bold = 1
+let g:gruvbox_material_enable_italic = 1
+let g:gruvbox_material_transparent_background = 1
+let g:gruvbox_material_diagnostic_line_highlight = 1
+colorscheme gruvbox-material
+
 
 set ttimeoutlen=50
 set nowrap
@@ -169,19 +176,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 filetype indent on
+
 " Show tabulations
 set list
-set listchars=tab:>-
-
-" Unicode characters
-inoremap ,< «
-inoremap ,> »
-
-" Keyboard witout < and > for the french layout
-noremap ² <
-inoremap ² <
-inoremap ¬ >
-noremap ¬ >
+set listchars=tab:>-,trail:_,nbsp:%
 
 "Prolog
 au FileType prolog setlocal tabstop=2
@@ -211,7 +209,7 @@ au FileType php setlocal shiftwidth=2
 au FileType make setlocal noexpandtab
 
 "Markdown
-au FileType markdown setlocal noexpandtab
+au FileType markdown setlocal spell spelllang=fr
 
 "Latex
 au FileType tex setlocal tabstop=2 shiftwidth=2 spell spelllang=fr
@@ -233,19 +231,15 @@ let g:vimtex_compiler_latexmk = {
     \   '-shell-escape',
     \ ],
     \}
-
-"Coq
-au FileType coq nmap <C-j> :CoqNext<CR>
-au FileType coq nmap <C-k> :CoqUndo<CR>
-au FileType coq nmap <C-L> :CoqToCursor<CR>
+nmap <Leader>z :VimtexCompile<CR>
 
 " Prelab
 au FileType cmake setlocal tabstop=2
 au FileType cmake setlocal shiftwidth=2
 
 " Python
-" autoread for better interaction with jupytext
-au FileType python setlocal autoread 
+" We don't want to break lines in python files.
+au FileType python setlocal tw=0
 
 "See the difference between saved file and buffer
 "command DiffOrig vert new | set bt=nofile | r ++edit # |0d_ | diffthis | wincmd p | diffthis

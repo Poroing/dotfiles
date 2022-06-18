@@ -1,1 +1,5 @@
-/home/jean/.cache/wal/colors-rofi-dark.rasi
+configuration {
+    font: "Terminus (TTF) 12";
+}
+
+@import "gruvbox_light_soft.rasi"
